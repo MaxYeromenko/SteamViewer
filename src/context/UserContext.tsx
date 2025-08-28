@@ -6,9 +6,10 @@ type User = {
     avatar: string;
     profileUrl: string;
     lastlogoff: number;
+    realName?: string;
     onlineStatus: number;
-    country: string;
-    timeCreated: number;
+    country?: string;
+    timeCreated?: number;
 };
 
 export const UserContext = createContext<{ user: User | null }>({ user: null });

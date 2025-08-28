@@ -1,0 +1,20 @@
+@use "/src/scss/patterns" as *;
+
+.button {
+    @extend %centered-flex, %rounded-all-edges;
+    padding: 10px;
+    border: 0;
+    background-color: var(--thirdly-color);
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--thirdly-color);
+        background-color: var(--quaternary-color);
+        box-shadow: 0px 0px 10px var(--thirdly-color);
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+}

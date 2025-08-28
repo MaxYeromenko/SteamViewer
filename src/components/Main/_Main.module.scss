@@ -1,4 +1,7 @@
+@use "/src/scss/patterns" as *;
+
 .main {
-    min-height: 80vh;
-    background-color: var(--primary-color);
+    @extend %centered-flex;
+    height: 80vh;
+    background-color: var(--quaternary-color);
 }

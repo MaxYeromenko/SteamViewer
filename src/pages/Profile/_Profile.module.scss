@@ -1,0 +1,46 @@
+@use "/src/scss/patterns" as *;
+
+.profilePage {
+    @extend %centered-flex;
+    align-items: flex-start;
+    height: 100%;
+    width: 80%;
+    padding: 2%;
+    background-color: var(--primary-color);
+
+    .profileHeader {
+        @extend %centered-flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .avatar {
+            border: 0.125em solid var(--thirdly-color);
+            aspect-ratio: 1/1;
+            width: 18%;
+        }
+
+        .profileInfo {
+            padding: 1% 2%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 36%;
+            min-height: 200px;
+            border-left: 0.125em solid var(--text-color);
+
+            h1 {
+                .flag {
+                    cursor: pointer;
+                }
+            }
+
+            a {
+                margin-top: 15px;
+
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

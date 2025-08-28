@@ -1,12 +1,15 @@
 body {
     background-color: var(--primary-color);
 
+    * {
+        color: var(--text-color);
+    }
+
     a {
         cursor: pointer;
     }
 
     header,
-    main,
     footer {
         padding: 1%;
     }

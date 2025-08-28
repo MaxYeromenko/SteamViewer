@@ -2,11 +2,22 @@
 
 .header {
     padding: 1% 2%;
-    box-shadow: 0 5px 10px 0 red;
 
     a {
         color: var(--text-color);
         text-decoration: none;
+
+        &:hover {
+            color: var(--thirdly-color);
+        }
+
+        &:focus {
+            text-decoration: underline;
+        }
+
+        &:active {
+            color: var(--primary-color);
+        }
     }
 
     nav {
@@ -19,31 +30,27 @@
             @extend %centered-flex;
             font-size: 1.75em;
             font-weight: 500;
-
-            a:hover {
-                color: var(--thirdly-color);
-            }
         }
 
         ul {
             @extend %centered-flex;
             height: 100%;
-            gap: 15px;
+            gap: 25px;
             list-style-type: none;
 
             li {
                 @extend %centered-flex, %rounded-all-edges;
-                height: 100%;
-                padding: 0.5% 2.5%;
-                text-transform: uppercase;
-                background-color: var(--primary-color);
+                min-height: 50%;
+                min-width: 100px;
+                padding: 2%;
+                background-color: var(--quaternary-color);
 
                 .profileLink {
                     @extend %centered-flex;
                     gap: 5px;
 
                     img {
-                        width: 30px;
+                        width: 20px;
                         aspect-ratio: 1/1;
                         border: 1px solid var(--thirdly-color);
                     }

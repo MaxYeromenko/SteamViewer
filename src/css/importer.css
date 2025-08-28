@@ -24,6 +24,10 @@ section {
   min-height: 10vh;
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   --primary-color: #1B2838;
   --secondary-color: #171A21;
@@ -38,11 +42,13 @@ section {
 body {
   background-color: var(--primary-color);
 }
+body * {
+  color: var(--text-color);
+}
 body a {
   cursor: pointer;
 }
 body header,
-body main,
 body footer {
   padding: 1%;
 }
