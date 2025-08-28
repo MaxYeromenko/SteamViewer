@@ -19,6 +19,8 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
             .then((data) => setUser(data));
     }, []);
 
+    console.log(user);
+
     return (
         <UserContext.Provider value={{ user }}>{children}</UserContext.Provider>
     );
