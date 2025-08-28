@@ -18,24 +18,29 @@ import Profile from "./pages/Profile/Profile";
 import Games from "./pages/Games/Games";
 import Inventory from "./pages/Inventory/Inventory";
 
+// Contexts
+import { UserProvider } from "./context/UserContext";
+
 export default function App() {
     return (
-        <Router>
-            <Header />
-            <Main>
-                <Routes>
-                    <Route
-                        path="/"
-                        element={<Navigate to="/home" replace />}
-                    />
-                    <Route path="/home" element={<Home />} />
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/profile" element={<Profile />} />
-                    <Route path="/games" element={<Games />} />
-                    <Route path="/inventory" element={<Inventory />} />
-                </Routes>
-            </Main>
-            <Footer />
-        </Router>
+        <UserProvider>
+            <Router>
+                <Header />
+                <Main>
+                    <Routes>
+                        <Route
+                            path="/"
+                            element={<Navigate to="/home" replace />}
+                        />
+                        <Route path="/home" element={<Home />} />
+                        <Route path="/login" element={<Login />} />
+                        <Route path="/profile" element={<Profile />} />
+                        <Route path="/games" element={<Games />} />
+                        <Route path="/inventory" element={<Inventory />} />
+                    </Routes>
+                </Main>
+                <Footer />
+            </Router>
+        </UserProvider>
     );
 }
