@@ -1,0 +1,42 @@
+@use "/src/scss/patterns" as *;
+
+.header {
+    padding: 1% 2%;
+    box-shadow: 0 5px 10px 0 red;
+
+    a {
+        color: var(--text-color);
+        text-decoration: none;
+    }
+
+    nav {
+        @extend %centered-flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+
+        .logoContainer {
+            @extend %centered-flex;
+            font-size: 1.75em;
+            font-weight: 500;
+
+            a:hover {
+                color: var(--thirdly-color);
+            }
+        }
+
+        ul {
+            @extend %centered-flex;
+            gap: 15px;
+            list-style-type: none;
+
+            li {
+                text-transform: uppercase;
+
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: var(--primary-color);
+
+    a {
+        cursor: pointer;
+    }
+
+    header,
+    main,
+    footer {
+        padding: 1%;
+    }
+
+    header,
+    footer {
+        height: 10vh;
+        background-color: var(--secondary-color);
+    }
+}
