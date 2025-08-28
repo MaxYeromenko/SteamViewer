@@ -9,6 +9,8 @@ const BASE_URL = process.env.BASE_URL!;
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
     const { pathname, query } = parse(req.url || "", true);
+    console.log("req.url", req.url);
+    console.log("pathname", pathname);
 
     if (pathname === "/api/auth/steam") {
         const returnTo = `${BASE_URL}/api/auth/steam/callback`;
