@@ -33,7 +33,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         steamid: player.steamid,
         displayName: player.personaname,
         avatar: player.avatarfull,
+        profileUrl: player.profileurl,
+        realName: player.realname,
+        onlineStatus: player.personastate,
+        country: player.loccountrycode,
+        timeCreated: player.timecreated
     };
+
 
     res.setHeader(
         "Set-Cookie",

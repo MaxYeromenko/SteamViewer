@@ -27,11 +27,27 @@
 
         ul {
             @extend %centered-flex;
+            height: 100%;
             gap: 15px;
             list-style-type: none;
 
             li {
+                @extend %centered-flex, %rounded-all-edges;
+                height: 100%;
+                padding: 0.5% 2.5%;
                 text-transform: uppercase;
+                background-color: var(--primary-color);
+
+                .profileLink {
+                    @extend %centered-flex;
+                    gap: 5px;
+
+                    img {
+                        width: 30px;
+                        aspect-ratio: 1/1;
+                        border: 1px solid var(--thirdly-color);
+                    }
+                }
 
                 a:hover {
                     text-decoration: underline;

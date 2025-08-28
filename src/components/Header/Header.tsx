@@ -20,16 +20,11 @@ export default function Header() {
                     )}
                     {user && (
                         <>
-                            <div>
-                                <img
-                                    src={user.avatar}
-                                    alt="avatar"
-                                    width={40}
-                                />
-                                <span>{user.displayName}</span>
-                            </div>
                             <li>
-                                <Link to="/profile">Profile</Link>
+                                <Link to="/profile" className={classes.profileLink}>
+                                    <img src={user.avatar} alt="avatar" />
+                                    {user.displayName}
+                                </Link>
                             </li>
                             <li>
                                 <Link to="/games">Games</Link>
