@@ -4,7 +4,6 @@ import * as querystring from "querystring";
 import { serialize } from "cookie";
 
 const STEAM_API_KEY = process.env.STEAM_API_KEY!;
-const BASE_URL = process.env.BASE_URL!;
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
     const body = querystring.stringify(req.query as any);

@@ -20,6 +20,14 @@ export default function Header() {
                     )}
                     {user && (
                         <>
+                            <div>
+                                <img
+                                    src={user.avatar}
+                                    alt="avatar"
+                                    width={40}
+                                />
+                                <span>{user.displayName}</span>
+                            </div>
                             <li>
                                 <Link to="/profile">Profile</Link>
                             </li>
