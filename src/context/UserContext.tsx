@@ -5,10 +5,10 @@ type User = {
     displayName: string;
     avatar: string;
     profileUrl: string;
-    realName: string;
+    lastlogoff: number;
     onlineStatus: number;
     country: string;
-    timeCreated: string;
+    timeCreated: number;
 };
 
 export const UserContext = createContext<{ user: User | null }>({ user: null });
@@ -22,16 +22,7 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
         })
             .then((res) => res.json())
             .then((data) => setUser(data));
-        // setUser({
-        //     steamid: "76561199447872275",
-        //     displayName: "Babaka",
-        //     avatar: "https://avatars.steamstatic.com/669ba94a7cc1ebc74fadbf447bfaca007cf4b636_full.jpg",
-        //     profileUrl: string,
-        //     realName: string,
-        //     onlineStatus: number,
-        //     country: string,
-        //     timeCreated: string,
-        // });
+        // setUser();
     }, []);
 
     console.log(user);

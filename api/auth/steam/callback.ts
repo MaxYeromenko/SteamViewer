@@ -34,7 +34,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         displayName: player.personaname,
         avatar: player.avatarfull,
         profileUrl: player.profileurl,
-        realName: player.realname,
+        lastlogoff: player.lastlogoff,
         onlineStatus: player.personastate,
         country: player.loccountrycode,
         timeCreated: player.timecreated
