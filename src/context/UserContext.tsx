@@ -12,7 +12,7 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
     const [user, setUser] = useState<User | null>(null);
 
     useEffect(() => {
-        fetch("https://mybackend.onrender.com/auth/user", {
+        fetch("/api/user", {
             credentials: "include",
         })
             .then((res) => res.json())
