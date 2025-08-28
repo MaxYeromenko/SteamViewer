@@ -1,9 +1,22 @@
+import { useContext } from "react";
+import { UserContext } from "../../context/UserContext";
+
 export default function Login() {
+    const { user } = useContext(UserContext);
+
+    if (user) {
+        return (
+            <div>
+                <img src={user.avatar} alt="avatar" width={40} />
+                <span>{user.displayName}</span>
+            </div>
+        );
+    }
+
     return (
         <div>
-            <h1>Login via Steam</h1>
-            <a href="https://mybackend.onrender.com/auth/steam">
-                Login with Steam
+            <a href="/api/auth/steam">
+                <button>Login with Steam</button>
             </a>
         </div>
     );
