@@ -43,6 +43,8 @@ export async function fetchSteamUserData(steamid: string) {
         logoUrl: g.img_logo_url,
     })) || [];
 
+    console.log(games);
+
     return {
         steamid: player.steamid,
         displayName: player.personaname,
