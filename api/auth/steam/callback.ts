@@ -64,22 +64,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         logoUrl: g.img_logo_url,
     })) || [];
 
-    const badgesRes = await fetch(
-        `https://api.steampowered.com/IPlayerService/GetBadges/v1/?key=${STEAM_API_KEY}&steamid=${steamid}`
-    );
-    const badgesData = await badgesRes.json();
-
-    const badges = badgesData.response.badges?.map((b: any) => ({
-        badgeId: b.badgeid,
-        level: b.level,
-        xp: b.xp,
-        appId: b.appid,
-        communityItemId: b.communityitemid,
-        borderColor: b.border_color,
-        completionTime: b.completion_time,
-        scarcity: b.scarcity,
-    })) || [];
-
     const user = {
         steamid: player.steamid,
         displayName: player.personaname,
@@ -92,7 +76,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         timeCreated: player.timecreated,
         friends,
         games,
-        badges
     };
 
 
