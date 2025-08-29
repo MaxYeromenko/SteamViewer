@@ -1,14 +1,6 @@
 @use "/src/scss/patterns" as *;
 
 .profilePage {
-    @extend %centered-flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 100%;
-    width: 80%;
-    padding: 2%;
-    background-color: var(--primary-color);
-
     .profileHeader {
         @extend %centered-flex;
         justify-content: space-between;

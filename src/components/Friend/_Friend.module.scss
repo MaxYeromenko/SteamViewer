@@ -2,9 +2,10 @@
 
 .friendContainer {
     @extend %centered-flex;
+    flex-grow: 1;
     padding: 1%;
+    width: 480px;
     max-height: 150px;
-    width: 48%;
     background-color: var(--quaternary-color);
     border: 0.125em solid var(--thirdly-color);
 

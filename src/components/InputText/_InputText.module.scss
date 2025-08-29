@@ -1,0 +1,16 @@
+@use "/src/scss/patterns" as *;
+
+.input {
+    @extend %rounded-all-edges;
+    padding: 7px 10px;
+    background-color: var(--quaternary-color);
+    border: 0.125em solid var(--thirdly-color);
+    max-width: 80%;
+    width: 100%;
+    flex-shrink: 1px;
+
+    &::placeholder {
+        color: var(--text-color);
+        opacity: 0.7;
+    }
+}

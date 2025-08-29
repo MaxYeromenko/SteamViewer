@@ -107,7 +107,7 @@ export default function Profile() {
                 </div>
                 <div className={classes.profileInfo}>
                     <span>
-                        Last active: {grtFullTimeString(user.lastlogoff)}
+                        Last log off: {grtFullTimeString(user.lastlogoff)}
                     </span>
                     {user.timeCreated && (
                         <span>
