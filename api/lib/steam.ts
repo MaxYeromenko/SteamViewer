@@ -37,14 +37,11 @@ export async function fetchSteamUserData(steamid: string) {
 
     const games = gamesData.response.games?.map((g: any) => ({
         appid: g.appid,
-        name: g.name ?? null,
-        playtimeForever: g.playtime_forever ?? 0,
+        name: g.name,
+        playtimeForever: g.playtime_forever,
         playtime2Weeks: g.playtime_2weeks ?? 0,
-        iconUrl: g.img_icon_url ?? null,
-        logoUrl: g.img_logo_url ?? null,
+        iconUrl: g.img_icon_url,
     })) || [];
-
-    console.log(games);
 
     return {
         steamid: player.steamid,

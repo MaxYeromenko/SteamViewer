@@ -30,7 +30,6 @@ type Game = {
     playtimeForever: number;
     playtime2Weeks: number;
     iconUrl: string;
-    logoUrl: string;
 };
 
 // type Badge = {
