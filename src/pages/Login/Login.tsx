@@ -1,7 +1,19 @@
+import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button/Button";
 import classes from "./_Login.module.scss";
+import { useContext, useEffect } from "react";
+import { UserContext } from "../../context/UserContext";
 
 export default function Login() {
+    const navigate = useNavigate();
+    const { user } = useContext(UserContext);
+
+    useEffect(() => {
+        if (user) {
+            navigate("/profile");
+        }
+    }, [user, navigate]);
+
     return (
         <section className={classes.loginPage}>
             <h1>Log in with your steam account to use the functionality</h1>

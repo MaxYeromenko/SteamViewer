@@ -1,6 +1,12 @@
-import type { PropsWithChildren } from "react";
+import type { ButtonHTMLAttributes, PropsWithChildren } from "react";
 import classes from "./_Button.module.scss";
 
-export default function Button({ children }: PropsWithChildren) {
-    return <button className={classes.button}>{children}</button>;
+type ButtonProps = PropsWithChildren<ButtonHTMLAttributes<HTMLButtonElement>>;
+
+export default function Button({ children, ...props }: ButtonProps) {
+    return (
+        <button className={classes.button} {...props}>
+            {children}
+        </button>
+    );
 }

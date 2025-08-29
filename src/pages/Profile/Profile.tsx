@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { UserContext } from "../../context/UserContext";
 import Button from "../../components/Button/Button";
 import Friend from "../../components/Friend/Friend";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export function getUserStatus(status: number) {
     switch (status) {
@@ -27,11 +27,11 @@ export function getUserStatus(status: number) {
 }
 
 export default function Profile() {
-    const { user } = useContext(UserContext);
+    const navigate = useNavigate();
+    const { user, logout } = useContext(UserContext);
     if (!user) {
         return <div>You need to log in firstly!</div>;
     }
-
     const userStatus = getUserStatus(user.onlineStatus);
 
     function grtFullTimeString(timestamp: number): string {
@@ -80,22 +80,37 @@ export default function Profile() {
                     alt="avatar"
                 />
                 <div className={classes.profileInfo}>
-                    <h1>
-                        {user.displayName}&nbsp;
-                        {user.country && (
-                            <img
-                                className={classes.flag}
-                                src={`https://community.akamai.steamstatic.com/public/images/countryflags/${user.country.toLowerCase()}.gif`}
-                                alt="flag"
-                                title={user.country}
-                            />
+                    <div className={classes.textInfo}>
+                        <h1>
+                            {user.displayName}&nbsp;
+                            {user.country && (
+                                <img
+                                    className={classes.flag}
+                                    src={`https://community.akamai.steamstatic.com/public/images/countryflags/${user.country.toLowerCase()}.gif`}
+                                    alt="flag"
+                                    title={user.country}
+                                />
+                            )}
+                        </h1>
+                        <span>
+                            {user.realName && `Real name: ${user.realName}`}
+                        </span>
+                        <span>Status: {userStatus}</span>
+                        <span>ID: {user.steamid}</span>
+                    </div>
+                    <div className={classes.textInfo}>
+                        <span>
+                            Last log off: {grtFullTimeString(user.lastlogoff)}
+                        </span>
+                        {user.timeCreated && (
+                            <span>
+                                Registered:{" "}
+                                {grtFullTimeString(user.timeCreated)}
+                            </span>
                         )}
-                    </h1>
-                    <span>
-                        {user.realName && `Real name: ${user.realName}`}
-                    </span>
-                    <span>Status: {userStatus}</span>
-                    <span>ID: {user.steamid}</span>
+                    </div>
+                </div>
+                <div className={classes.profileInfo}>
                     <a
                         href={user.profileUrl}
                         target="_blank"
@@ -104,16 +119,14 @@ export default function Profile() {
                     >
                         <Button>View on Steam &#8599;</Button>
                     </a>
-                </div>
-                <div className={classes.profileInfo}>
-                    <span>
-                        Last log off: {grtFullTimeString(user.lastlogoff)}
-                    </span>
-                    {user.timeCreated && (
-                        <span>
-                            Registered: {grtFullTimeString(user.timeCreated)}
-                        </span>
-                    )}
+                    <Button
+                        onClick={() => {
+                            logout();
+                            navigate("/login");
+                        }}
+                    >
+                        Log out
+                    </Button>
                 </div>
             </div>
             <hr />

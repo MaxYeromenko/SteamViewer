@@ -13,26 +13,30 @@
         }
 
         .profileInfo {
-            padding: 1% 2%;
-            display: flex;
+            @extend %centered-flex;
             flex-direction: column;
-            gap: 10px;
+            align-items: flex-start;
+            padding: 1% 2%;
             width: 36%;
             min-height: 200px;
             border-left: 0.125em solid var(--text-color);
 
-            h1 {
-                .flag {
-                    cursor: pointer;
+            .textInfo {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                flex-grow: 1;
+
+                h1 {
+                    .flag {
+                        cursor: pointer;
+                    }
                 }
             }
 
-            a {
-                margin-top: 15px;
-
-                button {
-                    width: 100%;
-                }
+            a,
+            button {
+                width: 100%;
             }
         }
     }
@@ -57,7 +61,7 @@
             }
 
             &:active {
-                color: var(--primary-color);
+                color: var(--quaternary-color);
             }
         }
     }
