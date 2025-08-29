@@ -50,20 +50,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         }));
     }
 
-    const gamesRes = await fetch(
-        `https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=${STEAM_API_KEY}&steamid=${steamid}&include_appinfo=1&include_played_free_games=1`
-    );
-    const gamesData = await gamesRes.json();
-
-    const games = gamesData.response.games?.map((g: any) => ({
-        appid: g.appid,
-        name: g.name,
-        playtimeForever: g.playtime_forever,
-        playtime2Weeks: g.playtime_2weeks,
-        iconUrl: g.img_icon_url,
-        logoUrl: g.img_logo_url,
-    })) || [];
-
     const user = {
         steamid: player.steamid,
         displayName: player.personaname,
@@ -75,7 +61,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         country: player.loccountrycode,
         timeCreated: player.timecreated,
         friends,
-        games,
     };
 
 
