@@ -30,7 +30,9 @@ export async function fetchSteamUserData(steamid: string) {
         }));
     }
 
-    const gamesRes = await fetch("https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=${STEAM_API_KEY}&steamid=${steamid}&include_appinfo=1&include_played_free_games=1 ");
+    const gamesRes = await fetch(
+        `https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=${STEAM_API_KEY}&steamid=${steamid}&include_appinfo=1&include_played_free_games=1`
+    );
     const gamesData = await gamesRes.json();
     const games = gamesData.response.games?.map((g: any) => ({
         appid: g.appid,
