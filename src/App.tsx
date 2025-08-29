@@ -17,6 +17,7 @@ import Login from "./pages/Login/Login";
 import Profile from "./pages/Profile/Profile";
 import Games from "./pages/Games/Games";
 import Inventory from "./pages/Inventory/Inventory";
+import Friends from "./pages/Friends/Friends";
 
 // Contexts
 import { UserProvider } from "./context/UserContext";
@@ -37,6 +38,7 @@ export default function App() {
                         <Route path="/profile" element={<Profile />} />
                         <Route path="/games" element={<Games />} />
                         <Route path="/inventory" element={<Inventory />} />
+                        <Route path="/friends" element={<Friends />} />
                     </Routes>
                 </Main>
                 <Footer />

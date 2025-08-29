@@ -2,7 +2,8 @@
 
 .profilePage {
     @extend %centered-flex;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
     height: 100%;
     width: 80%;
     padding: 2%;
@@ -42,5 +43,37 @@
                 }
             }
         }
+    }
+
+    hr {
+        margin: 20px;
+        width: 100%;
+        border: 0.125em solid var(--text-color);
+    }
+
+    h2 {
+        a {
+            color: var(--text-color);
+            text-decoration: none;
+
+            &:hover {
+                color: var(--thirdly-color);
+            }
+
+            &:focus {
+                text-decoration: underline;
+            }
+
+            &:active {
+                color: var(--primary-color);
+            }
+        }
+    }
+
+    .friendsSection {
+        @extend %centered-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
     }
 }

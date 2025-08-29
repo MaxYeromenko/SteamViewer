@@ -14,6 +14,10 @@
         box-shadow: 0px 0px 10px var(--thirdly-color);
     }
 
+    &:focus{
+        outline: 0.125em solid var(--text-color);
+    }
+
     &:disabled {
         cursor: not-allowed;
     }

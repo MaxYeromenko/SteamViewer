@@ -2,6 +2,29 @@ import classes from "./_Profile.module.scss";
 import { useContext } from "react";
 import { UserContext } from "../../context/UserContext";
 import Button from "../../components/Button/Button";
+import Friend from "../../components/Friend/Friend";
+import { Link } from "react-router-dom";
+
+export function getUserStatus(status: number) {
+    switch (status) {
+        case 0:
+            return "Offline";
+        case 1:
+            return "Online";
+        case 2:
+            return "Busy";
+        case 3:
+            return "Away";
+        case 4:
+            return "Snooze";
+        case 5:
+            return "Looking to trade";
+        case 6:
+            return "Looking to play";
+        default:
+            return "Unknown";
+    }
+}
 
 export default function Profile() {
     const { user } = useContext(UserContext);
@@ -10,27 +33,6 @@ export default function Profile() {
     }
 
     const userStatus = getUserStatus(user.onlineStatus);
-
-    function getUserStatus(status: number) {
-        switch (status) {
-            case 0:
-                return "Offline";
-            case 1:
-                return "Online";
-            case 2:
-                return "Busy";
-            case 3:
-                return "Away";
-            case 4:
-                return "Snooze";
-            case 5:
-                return "Looking to trade";
-            case 6:
-                return "Looking to play";
-            default:
-                return "Unknown";
-        }
-    }
 
     function grtFullTimeString(timestamp: number): string {
         if (!timestamp) return "Unknown";
@@ -98,8 +100,9 @@ export default function Profile() {
                         href={user.profileUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        tabIndex={-1}
                     >
-                        <Button>View on Steam</Button>
+                        <Button>View on Steam &#8599;</Button>
                     </a>
                 </div>
                 <div className={classes.profileInfo}>
@@ -112,6 +115,15 @@ export default function Profile() {
                         </span>
                     )}
                 </div>
+            </div>
+            <hr />
+            <h2>
+                <Link to="/friends">Friends ({user.friends.length})</Link>
+            </h2>
+            <div className={classes.friendsSection}>
+                {user.friends.slice(0, 8).map((friend) => (
+                    <Friend key={friend.steamid} {...friend} />
+                ))}
             </div>
         </section>
     );

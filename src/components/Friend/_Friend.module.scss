@@ -1,0 +1,44 @@
+@use "/src/scss/patterns" as *;
+
+.friendContainer {
+    @extend %centered-flex;
+    padding: 1%;
+    max-height: 150px;
+    width: 48%;
+    background-color: var(--quaternary-color);
+    border: 0.125em solid var(--thirdly-color);
+
+    .avatar {
+        width: 50px;
+        aspect-ratio: 1/1;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+        &:last-of-type {
+            align-items: center;
+        }
+
+        .id {
+            font-size: smaller;
+        }
+
+        .profileLink {
+            @extend %centered-flex, %rounded-all-edges;
+            justify-content: flex-start;
+            text-decoration: underline dotted;
+
+            &:hover,
+            &:focus {
+                color: var(--thirdly-color);
+            }
+        }
+    }
+}
