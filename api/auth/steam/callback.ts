@@ -2,7 +2,6 @@ import type { VercelRequest, VercelResponse } from "@vercel/node";
 import fetch from "node-fetch";
 import * as querystring from "querystring";
 import { serialize } from "cookie";
-import { fetchSteamUserData } from "../../lib/steam";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
     const body = querystring.stringify(req.query as any);
@@ -26,11 +25,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         return;
     }
 
-    const user = await fetchSteamUserData(steamid);
-
     res.setHeader(
         "Set-Cookie",
-        serialize("steam_user", JSON.stringify(user), {
+        serialize("steam_user", steamid, {
             httpOnly: false,
             secure: true,
             sameSite: "lax",
