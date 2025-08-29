@@ -33,16 +33,16 @@ type Game = {
     logoUrl: string;
 };
 
-type Badge = {
-    badgeId: number;
-    level: number;
-    xp: number;
-    appId: number;
-    communityItemId: string;
-    borderColor: number;
-    completionTime: number;
-    scarcity: number;
-};
+// type Badge = {
+//     badgeId: number;
+//     level: number;
+//     xp: number;
+//     appId: number;
+//     communityItemId: string;
+//     borderColor: number;
+//     completionTime: number;
+//     scarcity: number;
+// };
 
 export const UserContext = createContext<{
     user: User | null;
