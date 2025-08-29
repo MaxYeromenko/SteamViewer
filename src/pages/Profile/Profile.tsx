@@ -91,10 +91,13 @@ export default function Profile() {
                                     title={user.country}
                                 />
                             )}
+                            {user.userLevel && (
+                                <span>({user.userLevel} level)</span>
+                            )}
                         </h1>
-                        <span>
-                            {user.realName && `Real name: ${user.realName}`}
-                        </span>
+                        {user.realName && (
+                            <span>Real name: ${user.realName}</span>
+                        )}
                         <span>Status: {userStatus}</span>
                         <span>ID: {user.steamid}</span>
                     </div>
