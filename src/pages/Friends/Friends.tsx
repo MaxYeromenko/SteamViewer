@@ -11,6 +11,10 @@ export default function Friends() {
         return <div>You need to log in firstly!</div>;
     }
 
+    if (user.friends.length === 0) {
+        return <div>You have no friends to display!</div>;
+    }
+
     return (
         <section className={classes.friendsPage}>
             <div className={classes.searchString}>

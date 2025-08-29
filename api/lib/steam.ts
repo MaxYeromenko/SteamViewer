@@ -40,7 +40,9 @@ export async function fetchSteamUserData(steamid: string) {
         name: g.name,
         playtimeForever: g.playtime_forever,
         playtime2Weeks: g.playtime_2weeks ?? 0,
-        iconUrl: g.img_icon_url,
+        iconUrl: g.img_icon_url
+            ? `https://media.steampowered.com/steamcommunity/public/images/apps/${g.appid}/${g.img_icon_url}.jpg`
+            : null,
     })) || [];
 
     return {
