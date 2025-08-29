@@ -2,8 +2,7 @@ import type { VercelRequest, VercelResponse } from "@vercel/node";
 import fetch from "node-fetch";
 import * as querystring from "querystring";
 import { serialize } from "cookie";
-
-const STEAM_API_KEY = process.env.STEAM_API_KEY!;
+import { fetchSteamUserData } from "../../lib/steam";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
     const body = querystring.stringify(req.query as any);
@@ -22,47 +21,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     const claimedId = (req.query["openid.claimed_id"] as string) || "";
     const steamid = claimedId.split("/").pop();
-
-    const playerRes = await fetch(
-        `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${STEAM_API_KEY}&steamids=${steamid}`
-    );
-    const playerData = await playerRes.json();
-    const player = playerData.response.players[0];
-
-    const friendsRes = await fetch(
-        `https://api.steampowered.com/ISteamUser/GetFriendList/v1/?key=${STEAM_API_KEY}&steamid=${steamid}&relationship=friend`
-    );
-    const friendsData = await friendsRes.json();
-
-    let friends: any[] = [];
-    if (friendsData.friendslist?.friends?.length) {
-        const friendIds = friendsData.friendslist.friends.map((f: any) => f.steamid).join(",");
-        const friendSummariesRes = await fetch(
-            `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${STEAM_API_KEY}&steamids=${friendIds}`
-        );
-        const friendSummariesData = await friendSummariesRes.json();
-        friends = friendSummariesData.response.players.map((f: any) => ({
-            steamid: f.steamid,
-            displayName: f.personaname,
-            avatar: f.avatarfull,
-            profileUrl: f.profileurl,
-            onlineStatus: f.personastate
-        }));
+    if (!steamid) {
+        res.status(400).send("SteamID not found");
+        return;
     }
 
-    const user = {
-        steamid: player.steamid,
-        displayName: player.personaname,
-        avatar: player.avatarfull,
-        profileUrl: player.profileurl,
-        lastlogoff: player.lastlogoff,
-        realName: player.realName,
-        onlineStatus: player.personastate,
-        country: player.loccountrycode,
-        timeCreated: player.timecreated,
-        friends,
-    };
-
+    const user = await fetchSteamUserData(steamid);
 
     res.setHeader(
         "Set-Cookie",
