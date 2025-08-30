@@ -1,24 +1,80 @@
 import type { Game } from "../../context/UserContext";
+import { grtFullTimeString } from "../../pages/Profile/Profile";
+import Button from "../Button/Button";
 import classes from "./_Game.module.scss";
 
 export default function Game({
     appid,
     name,
     playtimeForever,
+    playtimeWindowsForever,
+    playtimeMacForever,
+    playtimeLinuxForever,
+    playtimeDeckForever,
+    playtimeOffline,
+    lastTimePlayed,
     playtime2Weeks,
 }: Game) {
+    const GAME_URL = "https://store.steampowered.com/app/";
+
+    const transferIntoHours = (minutes: number) => Math.round(minutes / 60);
+
     return (
         <div className={classes.gameContainer}>
-            <div className={classes.icon}>
+            <div className={classes.iconName}>
                 <img
+                    className={classes.icon}
                     src={`https://cdn.akamai.steamstatic.com/steam/apps/${appid}/capsule_184x69.jpg`}
                     alt="icon"
                 />
+                <h3 className={classes.name}>{name}</h3>
             </div>
-            <div style={{ display: "flex", flexDirection: "column" }}>
-                <span>{name}</span>
-                <span>Playtime forever: {playtimeForever}</span>
-                <span>Playtime 2 weeks: {playtime2Weeks}</span>
+            <div className={classes.textInfo}>
+                <div className={classes.infoColumn}>
+                    <span>
+                        Total playtime:&nbsp;
+                        {transferIntoHours(playtimeForever)}
+                    </span>
+                    <span>
+                        Playtime&nbsp;
+                        <i className="fa-brands fa-windows" />
+                        &nbsp;:&nbsp;{transferIntoHours(playtimeWindowsForever)}
+                    </span>
+                    <span>
+                        Playtime&nbsp;
+                        <i className="fa-brands fa-apple" />
+                        &nbsp;:&nbsp;{transferIntoHours(playtimeMacForever)}
+                    </span>
+                    <span>
+                        Playtime&nbsp;
+                        <i className="fa-brands fa-linux" />
+                        &nbsp;:&nbsp;{transferIntoHours(playtimeLinuxForever)}
+                    </span>
+                    <span>
+                        Playtime&nbsp;
+                        <i className="fa-brands fa-steam-symbol" />
+                        &nbsp;:&nbsp;{transferIntoHours(playtimeDeckForever)}
+                    </span>
+                </div>
+                <div className={classes.infoColumn}>
+                    <span>
+                        Playtime offline: {transferIntoHours(playtimeOffline)}
+                    </span>
+                    <span>
+                        Playtime in 2 weeks: {transferIntoHours(playtime2Weeks)}
+                    </span>
+                    <span>
+                        Last time played: {grtFullTimeString(lastTimePlayed)}
+                    </span>
+                    <a
+                        href={GAME_URL.concat(appid.toString())}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        tabIndex={-1}
+                    >
+                        <Button>View on Steam &#8599;</Button>
+                    </a>
+                </div>
             </div>
         </div>
     );

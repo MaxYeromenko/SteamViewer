@@ -28,7 +28,8 @@ export default function Friend({
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Profile &#8599;
+                    <span>Profile</span>
+                    <i className="fa-solid fa-arrow-up-right-from-square" />
                 </a>
             </div>
         </div>

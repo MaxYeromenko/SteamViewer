@@ -34,11 +34,16 @@
         .profileLink {
             @extend %centered-flex, %rounded-all-edges;
             justify-content: flex-start;
-            text-decoration: underline dotted;
+
+            span {
+                text-decoration: underline dotted !important;
+            }
 
             &:hover,
             &:focus {
-                color: var(--thirdly-color);
+                * {
+                    color: var(--thirdly-color);
+                }
             }
         }
     }

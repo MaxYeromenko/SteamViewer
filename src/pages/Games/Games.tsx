@@ -15,6 +15,16 @@ export default function Games() {
         return <div>You have no games to display!</div>;
     }
 
+    function checkResultsNumber() {
+        const games = user!.games.filter((element) =>
+            element.name.toLowerCase().includes(searchString.toLowerCase())
+        );
+
+        if (games.length === 0) {
+            return <span>No matches!</span>;
+        } else return games.map((game) => <Game key={game.appid} {...game} />);
+    }
+
     return (
         <section className={classes.gamesPage}>
             <div className={classes.searchString}>
@@ -25,17 +35,7 @@ export default function Games() {
                     onChange={(e) => setSearchString(e.target.value)}
                 />
             </div>
-            <div className={classes.gameList}>
-                {user.games
-                    .filter((element) =>
-                        element.name
-                            .toLowerCase()
-                            .includes(searchString.toLowerCase())
-                    )
-                    .map((game) => (
-                        <Game key={game.appid} {...game} />
-                    ))}
-            </div>
+            <div className={classes.gameList}>{checkResultsNumber()}</div>
         </section>
     );
 }

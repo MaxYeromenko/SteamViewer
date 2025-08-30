@@ -15,6 +15,21 @@ export default function Friends() {
         return <div>You have no friends to display!</div>;
     }
 
+    function checkResultsNumber() {
+        const friends = user!.friends.filter((element) =>
+            element.displayName
+                .toLowerCase()
+                .includes(searchString.toLowerCase())
+        );
+
+        if (friends.length === 0) {
+            return <span>No matches!</span>;
+        } else
+            return friends.map((friend) => (
+                <Friend key={friend.steamid} {...friend} />
+            ));
+    }
+
     return (
         <section className={classes.friendsPage}>
             <div className={classes.searchString}>
@@ -25,17 +40,7 @@ export default function Friends() {
                     onChange={(e) => setSearchString(e.target.value)}
                 />
             </div>
-            <div className={classes.friendList}>
-                {user.friends
-                    .filter((element) =>
-                        element.displayName
-                            .toLowerCase()
-                            .includes(searchString.toLowerCase())
-                    )
-                    .map((friend) => (
-                        <Friend key={friend.steamid} {...friend} />
-                    ))}
-            </div>
+            <div className={classes.friendList}>{checkResultsNumber()}</div>
         </section>
     );
 }
