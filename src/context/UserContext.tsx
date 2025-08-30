@@ -28,6 +28,12 @@ export type Game = {
     appid: number;
     name: string;
     playtimeForever: number;
+    playtimeWindowsForever: number;
+    playtimeMacForever: number;
+    playtimeLinuxForever: number;
+    playtimeDeckForever: number;
+    playtimeOffline: number;
+    lastTimePlayed: number;
     playtime2Weeks: number;
     iconUrl: string;
 };
@@ -724,7 +730,7 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
         setUser(null);
     };
 
-    // console.log(user);
+    console.log(user);
 
     return (
         <UserContext.Provider value={{ user, logout }}>

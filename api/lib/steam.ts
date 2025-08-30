@@ -39,6 +39,12 @@ export async function fetchSteamUserData(steamid: string) {
         appid: g.appid,
         name: g.name,
         playtimeForever: g.playtime_forever,
+        playtimeWindowsForever: g.playtime_windows_forever,
+        playtimeMacForever: g.playtime_mac_forever,
+        playtimeLinuxForever: g.playtime_linux_forever,
+        playtimeDeckForever: g.playtime_deck_forever,
+        playtimeOffline: g.playtime_disconnected,
+        lastTimePlayed: g.rtime_last_played,
         playtime2Weeks: g.playtime_2weeks ?? 0,
         iconUrl: g.img_icon_url
             ? `https://media.steampowered.com/steamcommunity/public/images/apps/${g.appid}/${g.img_icon_url}.jpg`
