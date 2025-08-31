@@ -1,6 +1,14 @@
 import fetch from "node-fetch";
+import { type Item } from "../../src/ts/types";
 
 const STEAM_API_KEY = process.env.STEAM_API_KEY!;
+
+const GAMES_WITH_INVENTORY = [
+    { appid: 730, name: "CS:GO", contextid: 2 },
+    { appid: 570, name: "Dota 2", contextid: 2 },
+    { appid: 440, name: "Team Fortress 2", contextid: 2 },
+    { appid: 753, name: "Steam Community Items", contextid: 6 },
+];
 
 export async function fetchSteamUserData(steamid: string) {
     const playerRes = await fetch(
@@ -57,38 +65,45 @@ export async function fetchSteamUserData(steamid: string) {
     const playerLevelData = await playerLevel.json();
     const level = playerLevelData.response.player_level ?? 0;
 
-    const inventoryRes = await fetch(
-        `https://steamcommunity.com/inventory/${steamid}/730/2`
-    );
-    const inventoryData = await inventoryRes.json();
-    console.log(inventoryData);
+    const inventories: Record<number, Item[]> = {};
 
-    const items = (inventoryData.assets || []).map((asset: any) => {
-        const desc = inventoryData.descriptions?.find(
-            (d: any) => d.classid === asset.classid && d.instanceid === asset.instanceid
-        );
+    for (const game of GAMES_WITH_INVENTORY) {
+        try {
+            const res = await fetch(
+                `https://steamcommunity.com/inventory/${steamid}/${game.appid}/${game.contextid}`
+            );
+            const data = await res.json();
 
-        if (!desc) return null;
+            if (!data?.assets?.length) continue;
 
-        const { classid, instanceid, market_hash_name, name, type, tradable, marketable, commodity, icon_url, ...extra } = desc;
+            const items = (data.assets || []).map((asset: any) => {
+                const desc = data.descriptions?.find(
+                    (d: any) => d.classid === asset.classid && d.instanceid === asset.instanceid
+                );
+                if (!desc) return null;
 
-        return {
-            classid: asset.classid,
-            instanceid: asset.instanceid,
-            marketHashName: market_hash_name ?? "",
-            name: name ?? "",
-            type: type ?? "",
-            tradable: tradable === 1,
-            marketable: marketable === 1,
-            commodity: commodity === 1,
-            iconUrl: icon_url ? `https://steamcommunity-a.akamaihd.net/economy/image/${icon_url}` : null,
-            marketUrl: market_hash_name
-                ? `https://steamcommunity.com/market/listings/730/${encodeURIComponent(market_hash_name)}`
-                : null,
-            extra,
-        };
-    }).filter(Boolean);
+                const { classid, instanceid, market_hash_name, name, type, tradable, marketable, commodity, icon_url, ...extra } = desc;
 
+                return {
+                    classid: asset.classid,
+                    instanceid: asset.instanceid,
+                    marketHashName: market_hash_name ?? "",
+                    name: name ?? "",
+                    type: type ?? "",
+                    tradable: tradable === 1,
+                    marketable: marketable === 1,
+                    commodity: commodity === 1,
+                    iconUrl: icon_url ? `https://steamcommunity-a.akamaihd.net/economy/image/${icon_url}` : null,
+                    marketUrl: market_hash_name ? `https://steamcommunity.com/market/listings/${game.appid}/${encodeURIComponent(market_hash_name)}` : null,
+                    extra,
+                };
+            }).filter(Boolean);
+
+            if (items.length) inventories[game.appid] = items;
+        } catch (err) {
+            console.log(`Failed to fetch inventory for ${game.name} (${game.appid})`, err);
+        }
+    }
 
     return {
         steamid: player.steamid,
@@ -103,6 +118,6 @@ export async function fetchSteamUserData(steamid: string) {
         timeCreated: player.timecreated,
         friends,
         games,
-        items
+        inventories
     };
 }

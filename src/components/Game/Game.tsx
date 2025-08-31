@@ -1,4 +1,4 @@
-import type { Game } from "../../context/UserContext";
+import { type Game } from "../../ts/types";
 import { grtFullTimeString } from "../../pages/Profile/Profile";
 import Button from "../Button/Button";
 import classes from "./_Game.module.scss";

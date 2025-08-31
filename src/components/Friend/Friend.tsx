@@ -1,6 +1,6 @@
-import type { Friend } from "../../context/UserContext";
 import { getUserStatus } from "../../pages/Profile/Profile";
 import classes from "./_Friend.module.scss";
+import { type Friend } from "../../ts/types";
 
 export default function Friend({
     steamid,
