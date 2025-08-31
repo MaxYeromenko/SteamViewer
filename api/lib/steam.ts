@@ -58,19 +58,19 @@ export async function fetchSteamUserData(steamid: string) {
     const level = playerLevelData.response.player_level ?? 0;
 
     const inventoryRes = await fetch(
-        `https://steamcommunity.com/profiles/${steamid}/inventory/json/730/2`
+        `https://steamcommunity.com/inventory/${steamid}/730/2?l=english&count=5000`
     );
     const inventoryData = await inventoryRes.json();
-
     console.log(inventoryData);
 
-    const items = Object.values(inventoryData.rgInventory || {}).map((invItem: any) => {
-        const key = `${invItem.classid}_${invItem.instanceid}`;
-        const desc = inventoryData.rgDescriptions?.[key];
+    const items = (inventoryData.assets || []).map((asset: any) => {
+        const desc = inventoryData.descriptions?.find(
+            (d: any) => d.classid === asset.classid && d.instanceid === asset.instanceid
+        );
 
         return {
-            classid: invItem.classid,
-            instanceid: invItem.instanceid,
+            classid: asset.classid,
+            instanceid: asset.instanceid,
             marketHashName: desc?.market_hash_name ?? "",
             name: desc?.name ?? "",
             type: desc?.type ?? "",
