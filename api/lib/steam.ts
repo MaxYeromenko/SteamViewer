@@ -58,30 +58,31 @@ export async function fetchSteamUserData(steamid: string) {
     const level = playerLevelData.response.player_level ?? 0;
 
     const inventoryRes = await fetch(
-        `https://steamcommunity.com/inventory/${steamid}/730/2?l=english&count=5000`
+        `https://steamcommunity.com/profiles/${steamid}/inventory/json/730/2`
     );
     const inventoryData = await inventoryRes.json();
-    console.log(inventoryData);
 
-    const items = inventoryData.descriptions?.map((item: any) => ({
-        classid: item.classid,
-        instanceid: item.instanceid,
-        marketHashName: item.market_hash_name,
-        name: item.name,
-        type: item.type,
-        tradable: item.tradable === 1,
-        marketable: item.marketable === 1,
-        commodity: item.commodity === 1,
-        iconUrl: item.icon_url
-            ? `https://steamcommunity-a.akamaihd.net/economy/image/${item.icon_url}`
-            : null,
-        marketUrl: item.market_hash_name
-            ? `https://steamcommunity.com/market/listings/730/${encodeURIComponent(
-                item.market_hash_name
-            )}`
-            : null,
-    })) || [];
+    const items = Object.values(inventoryData.rgInventory || {}).map((invItem: any) => {
+        const key = `${invItem.classid}_${invItem.instanceid}`;
+        const desc = inventoryData.rgDescriptions?.[key];
 
+        return {
+            classid: invItem.classid,
+            instanceid: invItem.instanceid,
+            marketHashName: desc?.market_hash_name ?? "",
+            name: desc?.name ?? "",
+            type: desc?.type ?? "",
+            tradable: desc?.tradable === 1,
+            marketable: desc?.marketable === 1,
+            commodity: desc?.commodity === 1,
+            iconUrl: desc?.icon_url
+                ? `https://steamcommunity-a.akamaihd.net/economy/image/${desc.icon_url}`
+                : null,
+            marketUrl: desc?.market_hash_name
+                ? `https://steamcommunity.com/market/listings/730/${encodeURIComponent(desc.market_hash_name)}`
+                : null,
+        };
+    }) || [];
 
     return {
         steamid: player.steamid,
