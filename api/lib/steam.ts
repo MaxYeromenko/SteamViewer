@@ -58,7 +58,7 @@ export async function fetchSteamUserData(steamid: string) {
     const level = playerLevelData.response.player_level ?? 0;
 
     const inventoryRes = await fetch(
-        `https://steamcommunity.com/inventory/${steamid}/730/2?l=english&count=5000`
+        `https://steamcommunity.com/inventory/${steamid}/730/2`
     );
     const inventoryData = await inventoryRes.json();
     console.log(inventoryData);
