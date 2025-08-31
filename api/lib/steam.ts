@@ -57,6 +57,31 @@ export async function fetchSteamUserData(steamid: string) {
     const playerLevelData = await playerLevel.json();
     const level = playerLevelData.response.player_level ?? 0;
 
+    const inventoryRes = await fetch(
+        `https://steamcommunity.com/inventory/${steamid}/730/2?l=english&count=5000`
+    );
+    const inventoryData = await inventoryRes.json();
+
+    const items = inventoryData.descriptions?.map((item: any) => ({
+        classid: item.classid,
+        instanceid: item.instanceid,
+        marketHashName: item.market_hash_name,
+        name: item.name,
+        type: item.type,
+        tradable: item.tradable === 1,
+        marketable: item.marketable === 1,
+        commodity: item.commodity === 1,
+        iconUrl: item.icon_url
+            ? `https://steamcommunity-a.akamaihd.net/economy/image/${item.icon_url}`
+            : null,
+        marketUrl: item.market_hash_name
+            ? `https://steamcommunity.com/market/listings/730/${encodeURIComponent(
+                item.market_hash_name
+            )}`
+            : null,
+    })) || [];
+
+
     return {
         steamid: player.steamid,
         displayName: player.personaname,
@@ -70,5 +95,6 @@ export async function fetchSteamUserData(steamid: string) {
         timeCreated: player.timecreated,
         friends,
         games,
+        items
     };
 }
