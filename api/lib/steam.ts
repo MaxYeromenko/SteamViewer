@@ -8,6 +8,9 @@ const GAMES_WITH_INVENTORY = [
     { appid: 570, name: "Dota 2", contextid: 2 },
     { appid: 440, name: "Team Fortress 2", contextid: 2 },
     { appid: 753, name: "Steam Community Items", contextid: 6 },
+    { appid: 578080, name: "PUBG: BATTLEGROUNDS", contextid: 2 },
+    { appid: 620, name: "Portal 2", contextid: 2 },
+    { appid: 252490, name: "Rust", contextid: 2 },
 ];
 
 export async function fetchSteamUserData(steamid: string) {
