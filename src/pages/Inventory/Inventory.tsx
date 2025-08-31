@@ -7,6 +7,7 @@ import InventoryItem from "../../components/InventoryItem/InventoryItem";
 
 export default function Inventory() {
     const [currentApp, setCurrentApp] = useState(0);
+    const [items, setItems] = useState<Item[]>([]);
     const { user } = useContext(UserContext);
 
     const games = [
@@ -31,6 +32,12 @@ export default function Inventory() {
         }
     }, [user]);
 
+    useEffect(() => {
+        if (user && user.inventories) {
+            setItems(user.inventories[currentApp] || []);
+        }
+    }, [currentApp, user]);
+
     if (!user) {
         return <div>You need to log in firstly!</div>;
     }
@@ -40,10 +47,10 @@ export default function Inventory() {
     }
 
     const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-        setCurrentApp(Number(event.target.value));
+        const newAppId = Number(event.target.value);
+        setCurrentApp(newAppId);
+        setItems([]);
     };
-
-    const items = user.inventories[currentApp] || [];
 
     return (
         <section className={classes.inventoryPage}>
