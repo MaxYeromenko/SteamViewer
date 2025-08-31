@@ -19,9 +19,9 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
         setUser(null);
     };
 
-    useEffect(() => {
-        setUser(testUser);
-    }, []);
+    // useEffect(() => {
+    //     setUser(testUser);
+    // }, []);
 
     console.log(user?.inventories);
 
