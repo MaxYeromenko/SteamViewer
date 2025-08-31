@@ -62,6 +62,8 @@ export async function fetchSteamUserData(steamid: string) {
     );
     const inventoryData = await inventoryRes.json();
 
+    console.log(inventoryData);
+
     const items = Object.values(inventoryData.rgInventory || {}).map((invItem: any) => {
         const key = `${invItem.classid}_${invItem.instanceid}`;
         const desc = inventoryData.rgDescriptions?.[key];
