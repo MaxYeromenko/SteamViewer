@@ -61,6 +61,7 @@ export async function fetchSteamUserData(steamid: string) {
         `https://steamcommunity.com/inventory/${steamid}/730/2?l=english&count=5000`
     );
     const inventoryData = await inventoryRes.json();
+    console.log(inventoryData);
 
     const items = inventoryData.descriptions?.map((item: any) => ({
         classid: item.classid,
