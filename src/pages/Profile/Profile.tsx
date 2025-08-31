@@ -91,9 +91,7 @@ export default function Profile() {
                                     title={user.country}
                                 />
                             )}
-                            {user.userLevel && (
-                                <span>({user.userLevel} level)</span>
-                            )}
+                            {user.level && <span>({user.level} level)</span>}
                         </h1>
                         {user.realName && (
                             <span>Real name: ${user.realName}</span>

@@ -51,9 +51,16 @@ export async function fetchSteamUserData(steamid: string) {
             : null,
     })) || [];
 
+    const playerLevel = await fetch(
+        `https://api.steampowered.com/IPlayerService/GetSteamLevel/v1/?key=${STEAM_API_KEY}&steamids=${steamid}`
+    );
+    const playerLevelData = await playerLevel.json();
+    const level = playerLevelData.response.player_level ?? 0;
+
     return {
         steamid: player.steamid,
         displayName: player.personaname,
+        level: level,
         avatar: player.avatarfull,
         profileUrl: player.profileurl,
         lastlogoff: player.lastlogoff,

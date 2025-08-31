@@ -3,6 +3,7 @@ import { createContext, useState, useEffect, type ReactNode } from "react";
 type User = {
     steamid: string;
     displayName: string;
+    level: number;
     avatar: string;
     profileUrl: string;
     lastlogoff: number;
@@ -10,7 +11,6 @@ type User = {
     onlineStatus: number;
     country?: string;
     timeCreated?: number;
-    userLevel?: number;
     friends: Friend[];
     games: Game[];
     // badges: Badge[];
@@ -74,7 +74,7 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
         setUser(null);
     };
 
-    // console.log(user);
+    console.log(user);
 
     return (
         <UserContext.Provider value={{ user, logout }}>
