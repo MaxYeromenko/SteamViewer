@@ -1,6 +1,6 @@
 @use "/src/scss/patterns" as *;
 
-.input {
+.select {
     @extend %rounded-all-edges;
     padding: 7px 10px;
     background-color: var(--quaternary-color);

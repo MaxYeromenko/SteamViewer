@@ -11,7 +11,7 @@ export type User = {
     timeCreated?: number;
     friends: Friend[];
     games: Game[];
-    items: Item[];
+    inventories: Record<string, any>;
 };
 
 export type Friend = {

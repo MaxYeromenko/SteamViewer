@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import classes from "./_Friends.module.scss";
-import { UserContext } from "../../context/UserContext";
+import { UserContext } from "../../pages/utils";
 import Friend from "../../components/Friend/Friend";
 import InputText from "../../components/InputText/InputText";
 

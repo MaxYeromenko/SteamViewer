@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import classes from "./_Header.module.scss";
 import { useContext } from "react";
-import { UserContext } from "../../context/UserContext";
+import { UserContext } from "../../pages/utils";
 
 export default function Header() {
     const { user } = useContext(UserContext);
@@ -21,7 +21,10 @@ export default function Header() {
                     {user && (
                         <>
                             <li>
-                                <Link to="/profile" className={classes.profileLink}>
+                                <Link
+                                    to="/profile"
+                                    className={classes.profileLink}
+                                >
                                     <img src={user.avatar} alt="avatar" />
                                     {user.displayName}
                                 </Link>

@@ -1,4 +1,4 @@
-import { getUserStatus } from "../../pages/Profile/Profile";
+import { getUserStatus } from "../../pages/utils";
 import classes from "./_Friend.module.scss";
 import { type Friend } from "../../ts/types";
 
@@ -12,7 +12,7 @@ export default function Friend({
     return (
         <div className={classes.friendContainer}>
             <div className={classes.avatar}>
-                <img src={avatar} alt="avatar" />
+                <img src={avatar} alt="avatar" loading="lazy" />
             </div>
             <div className={classes.container}>
                 <span className={classes.className}>{displayName}</span>

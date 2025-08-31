@@ -1,13 +1,7 @@
-import { createContext, useState, useEffect, type ReactNode } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 import type { User } from "../ts/types";
-
-export const UserContext = createContext<{
-    user: User | null;
-    logout: () => void;
-}>({
-    user: null,
-    logout: () => {},
-});
+import { UserContext } from "../pages/utils";
+import { testUser } from "./test";
 
 export const UserProvider = ({ children }: { children: ReactNode }) => {
     const [user, setUser] = useState<User | null>(null);
@@ -25,7 +19,11 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
         setUser(null);
     };
 
-    console.log(user);
+    useEffect(() => {
+        setUser(testUser);
+    }, []);
+
+    console.log(user?.inventories);
 
     return (
         <UserContext.Provider value={{ user, logout }}>

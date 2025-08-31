@@ -1,6 +1,6 @@
 import classes from "./_Games.module.scss";
 import { useContext, useState } from "react";
-import { UserContext } from "../../context/UserContext";
+import { UserContext } from "../../pages/utils";
 import InputText from "../../components/InputText/InputText";
 import Game from "../../components/Game/Game";
 

@@ -1,5 +1,5 @@
 import { type Game } from "../../ts/types";
-import { grtFullTimeString } from "../../pages/Profile/Profile";
+import { grtFullTimeString } from "../../pages/utils";
 import Button from "../Button/Button";
 import classes from "./_Game.module.scss";
 
@@ -26,6 +26,7 @@ export default function Game({
                     className={classes.icon}
                     src={`https://cdn.akamai.steamstatic.com/steam/apps/${appid}/capsule_184x69.jpg`}
                     alt="icon"
+                    loading="lazy"
                 />
                 <h3 className={classes.name}>{name}</h3>
             </div>

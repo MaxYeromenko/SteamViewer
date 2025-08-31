@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button/Button";
 import classes from "./_Login.module.scss";
 import { useContext, useEffect } from "react";
-import { UserContext } from "../../context/UserContext";
+import { UserContext } from "../../pages/utils";
 
 export default function Login() {
     const navigate = useNavigate();

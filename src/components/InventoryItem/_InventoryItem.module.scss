@@ -1,0 +1,73 @@
+@use "/src/scss/patterns" as *;
+
+.itemContainer {
+    @extend %centered-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 1%;
+    width: 100%;
+    min-height: 150px;
+    background-color: var(--quaternary-color);
+    border: 0.125em solid var(--thirdly-color);
+
+    .iconName {
+        @extend %centered-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 25%;
+
+        .iconContainer {
+            width: 100%;
+            border: 0.125em solid var(--thirdly-color);
+            aspect-ratio: 1/0.7;
+            overflow: hidden;
+            position: relative;
+
+            .icon {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .name {
+            max-width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+
+    .itemDescriptions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        text-align: justify;
+        white-space: pre-wrap;
+        width: 70%;
+    }
+
+    .inventoryItemInfo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+        line-height: 1;
+
+        .viewOnMarket {
+            color: var(--thirdly-color);
+            text-decoration: dotted underline;
+
+            &:hover,
+            &:focus {
+                color: var(--text-color);
+                text-decoration: solid underline;
+            }
+        }
+    }
+}
