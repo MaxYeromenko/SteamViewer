@@ -68,23 +68,27 @@ export async function fetchSteamUserData(steamid: string) {
             (d: any) => d.classid === asset.classid && d.instanceid === asset.instanceid
         );
 
+        if (!desc) return null;
+
+        const { classid, instanceid, market_hash_name, name, type, tradable, marketable, commodity, icon_url, ...extra } = desc;
+
         return {
             classid: asset.classid,
             instanceid: asset.instanceid,
-            marketHashName: desc?.market_hash_name ?? "",
-            name: desc?.name ?? "",
-            type: desc?.type ?? "",
-            tradable: desc?.tradable === 1,
-            marketable: desc?.marketable === 1,
-            commodity: desc?.commodity === 1,
-            iconUrl: desc?.icon_url
-                ? `https://steamcommunity-a.akamaihd.net/economy/image/${desc.icon_url}`
+            marketHashName: market_hash_name ?? "",
+            name: name ?? "",
+            type: type ?? "",
+            tradable: tradable === 1,
+            marketable: marketable === 1,
+            commodity: commodity === 1,
+            iconUrl: icon_url ? `https://steamcommunity-a.akamaihd.net/economy/image/${icon_url}` : null,
+            marketUrl: market_hash_name
+                ? `https://steamcommunity.com/market/listings/730/${encodeURIComponent(market_hash_name)}`
                 : null,
-            marketUrl: desc?.market_hash_name
-                ? `https://steamcommunity.com/market/listings/730/${encodeURIComponent(desc.market_hash_name)}`
-                : null,
+            extra,
         };
-    }) || [];
+    }).filter(Boolean);
+
 
     return {
         steamid: player.steamid,

@@ -50,6 +50,7 @@ type Item = {
     commodity: boolean;
     iconUrl: string;
     marketUrl: string;
+    extra?: Record<string, any>;
 };
 
 // type Badge = {
