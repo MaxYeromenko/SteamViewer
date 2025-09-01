@@ -32073,5 +32073,6 @@ export const testUser = {
                 }
             }
         ]
-    }
+    },
+    achievements: {}
 }

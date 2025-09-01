@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import { type Item } from "../../src/ts/types";
+import { Achievement, type Item } from "../../src/ts/types";
 
 const STEAM_API_KEY = process.env.STEAM_API_KEY!;
 
@@ -109,6 +109,41 @@ export async function fetchSteamUserData(steamid: string) {
         }
     }
 
+    const appids: number[] = games.map((g: { appid: number }) => g.appid);
+    const allAchievements: Record<number, Achievement[]> = {};
+
+    for (const appid of appids) {
+        try {
+            const achievementsRes = await fetch(
+                `https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v1/?key=${STEAM_API_KEY}&steamid=${steamid}&appid=${appid}`
+            );
+            const achievementsData = await achievementsRes.json();
+            const playerAchievements = achievementsData.playerstats?.achievements || [];
+
+            const schemaRes = await fetch(
+                `https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=${STEAM_API_KEY}&appid=${appid}`
+            );
+            const schemaData = await schemaRes.json();
+            const achievementSchema = schemaData.game?.availableGameStats?.achievements || [];
+
+            allAchievements[appid] = playerAchievements.map((a: any) => {
+                const meta = achievementSchema.find((s: any) => s.name === a.apiname);
+                return {
+                    apiname: a.apiname,
+                    achieved: a.achieved === 1,
+                    unlocktime: a.unlocktime,
+                    name: meta?.displayName ?? "",
+                    description: meta?.description ?? "",
+                    icon: meta?.icon ?? "",
+                    icongray: meta?.icongray ?? "",
+                };
+            });
+        } catch (err) {
+            console.error(`Ошибка при загрузке ачивок для appid=${appid}`, err);
+            allAchievements[appid] = [];
+        }
+    }
+
     return {
         steamid: player.steamid,
         displayName: player.personaname,
@@ -122,6 +157,7 @@ export async function fetchSteamUserData(steamid: string) {
         timeCreated: player.timecreated,
         friends,
         games,
-        inventories
+        inventories,
+        allAchievements
     };
 }

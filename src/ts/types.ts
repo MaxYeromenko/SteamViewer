@@ -11,7 +11,8 @@ export type User = {
     timeCreated?: number;
     friends: Friend[];
     games: Game[];
-    inventories: Record<string, any>;
+    inventories: Record<string, Item[]>;
+    achievements: Record<string, Achievement[]>;
 };
 
 export type Friend = {
@@ -51,13 +52,12 @@ export type Item = {
     extra?: Record<string, any>;
 };
 
-// type Badge = {
-//     badgeId: number;
-//     level: number;
-//     xp: number;
-//     appId: number;
-//     communityItemId: string;
-//     borderColor: number;
-//     completionTime: number;
-//     scarcity: number;
-// };
+export type Achievement = {
+    apiname: string;
+    achieved: number;
+    unlocktime: number;
+    name?: string;
+    description?: string;
+    icon?: string;
+    icongray?: string;
+};
