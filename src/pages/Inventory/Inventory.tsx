@@ -98,7 +98,7 @@ export default function Inventory() {
                 ) : (
                     currentItems.map((item: Item) => (
                         <InventoryItem
-                            key={item.classid}
+                            key={item.assetid}
                             inventoryItem={item}
                         />
                     ))

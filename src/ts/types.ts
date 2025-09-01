@@ -39,6 +39,7 @@ export type Game = {
 export type Item = {
     classid: string;
     instanceid: string;
+    assetid: string;
     marketHashName: string;
     name: string;
     type: string;

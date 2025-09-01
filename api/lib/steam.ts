@@ -90,6 +90,7 @@ export async function fetchSteamUserData(steamid: string) {
                 return {
                     classid: asset.classid,
                     instanceid: asset.instanceid,
+                    assetid: asset.assetid,
                     marketHashName: market_hash_name ?? "",
                     name: name ?? "",
                     type: type ?? "",

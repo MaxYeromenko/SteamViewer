@@ -1,15 +1,22 @@
 @use "/src/scss/patterns" as *;
 
 .inventoryPage {
-    .gameSelect {
+
+    .gameSelect,
+    .pagination,
+    .itemList {
         @extend %centered-flex;
         width: 100%;
+        padding: 1%;
+    }
+
+    .pagination {
+        button {
+            flex-grow: 1;
+        }
     }
 
     .itemList {
-        @extend %centered-flex;
         flex-wrap: wrap;
-        width: 100%;
-        padding: 1%;
     }
 }
