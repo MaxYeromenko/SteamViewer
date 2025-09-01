@@ -23,7 +23,7 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
     //     setUser(testUser);
     // }, []);
 
-    // console.log(user?.inventories);
+    console.log(user?.inventories);
 
     return (
         <UserContext.Provider value={{ user, logout }}>
