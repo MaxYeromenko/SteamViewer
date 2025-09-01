@@ -8,17 +8,18 @@
     font-weight: bold;
     cursor: pointer;
 
-    &:hover {
+    &:not(:disabled):hover {
         color: var(--thirdly-color);
         background-color: var(--quaternary-color);
         box-shadow: 0px 0px 10px var(--thirdly-color);
     }
 
-    &:focus{
+    &:not(:disabled):focus {
         outline: 0.125em solid var(--text-color);
     }
 
     &:disabled {
+        opacity: 0.6;
         cursor: not-allowed;
     }
 }

@@ -15,9 +15,11 @@
         flex-direction: column;
         align-items: flex-start;
         width: 25%;
+        min-height: 150px;
 
         .icon {
             width: 100%;
+            flex-grow: 1;
             border: 0.125em solid var(--thirdly-color);
         }
 

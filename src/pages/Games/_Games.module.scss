@@ -1,15 +1,22 @@
 @use "/src/scss/patterns" as *;
 
 .gamesPage {
-    .searchString {
+
+    .searchString,
+    .pagination,
+    .gameList {
         @extend %centered-flex;
         width: 100%;
+        padding: 1%;
+    }
+
+    .pagination {
+        button {
+            flex-grow: 1;
+        }
     }
 
     .gameList {
-        @extend %centered-flex;
         flex-wrap: wrap;
-        width: 100%;
-        padding: 1%;
     }
 }

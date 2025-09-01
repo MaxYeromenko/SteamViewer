@@ -1,9 +1,19 @@
 @use "/src/scss/patterns" as *;
 
 .friendsPage {
-    .searchString {
+
+    .searchString,
+    .pagination,
+    .friendList {
         @extend %centered-flex;
         width: 100%;
+        padding: 1%;
+    }
+
+    .pagination {
+        button {
+            flex-grow: 1;
+        }
     }
 
     .friendList {
