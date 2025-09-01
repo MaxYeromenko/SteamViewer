@@ -1,0 +1,15 @@
+@use "/src/scss/patterns" as *;
+
+.homePage {
+    @extend %centered-flex;
+
+    h3 {
+        margin-top: 20px
+    }
+
+    .section {
+        @extend %centered-flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

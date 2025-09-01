@@ -1,7 +1,7 @@
 import { useState, useEffect, type ReactNode } from "react";
 import type { User } from "../ts/types";
 import { UserContext } from "../pages/utils";
-// import { testUser } from "./test";
+// import { testUser } from "./test.min";
 
 export const UserProvider = ({ children }: { children: ReactNode }) => {
     const [user, setUser] = useState<User | null>(null);
@@ -23,7 +23,7 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
     //     setUser(testUser);
     // }, []);
 
-    console.log(user?.achievements);
+    console.log(user?.allAchievements);
 
     return (
         <UserContext.Provider value={{ user, logout }}>

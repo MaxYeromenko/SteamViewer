@@ -70,7 +70,7 @@ export default function Games() {
                     <span>No matches!</span>
                 ) : (
                     currentGames.map((game) => (
-                        <Game key={game.appid} {...game} />
+                        <Game key={game.appid} game={game} />
                     ))
                 )}
             </div>

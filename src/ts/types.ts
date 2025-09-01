@@ -12,7 +12,7 @@ export type User = {
     friends: Friend[];
     games: Game[];
     inventories: Record<string, Item[]>;
-    achievements: Record<string, Achievement[]>;
+    allAchievements: Record<string, Achievement[]>;
 };
 
 export type Friend = {
@@ -54,7 +54,7 @@ export type Item = {
 
 export type Achievement = {
     apiname: string;
-    achieved: number;
+    achieved: boolean;
     unlocktime: number;
     name?: string;
     description?: string;
