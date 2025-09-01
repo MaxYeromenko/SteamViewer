@@ -22,12 +22,14 @@ export default function Game({
     return (
         <div className={classes.gameContainer}>
             <div className={classes.iconName}>
-                <img
-                    className={classes.icon}
-                    src={`https://cdn.akamai.steamstatic.com/steam/apps/${appid}/capsule_184x69.jpg`}
-                    alt="icon"
-                    loading="lazy"
-                />
+                <div className={classes.iconContainer}>
+                    <img
+                        className={classes.icon}
+                        src={`https://cdn.akamai.steamstatic.com/steam/apps/${appid}/capsule_184x69.jpg`}
+                        alt="icon"
+                        loading="lazy"
+                    />
+                </div>
                 <h3 className={classes.name}>{name}</h3>
             </div>
             <div className={classes.textInfo}>

@@ -1443,6 +1443,7 @@ export const testUser = {
             {
                 "classid": "329943375",
                 "instanceid": "782509058",
+                "assetid": "32025507515",
                 "marketHashName": "Foreteller's Adorn",
                 "name": "Foreteller's Adorn",
                 "type": "Rare Skirt",
@@ -1557,6 +1558,7 @@ export const testUser = {
             {
                 "classid": "4672396955",
                 "instanceid": "1625510296",
+                "assetid": "31993652107",
                 "marketHashName": "Carnage of the Endless Hunt - Shoulders",
                 "name": "Carnage of the Endless Hunt - Shoulders",
                 "type": "Mythical armor",
@@ -1656,6 +1658,7 @@ export const testUser = {
             {
                 "classid": "4672396956",
                 "instanceid": "1625510296",
+                "assetid": "31993652099",
                 "marketHashName": "Carnage of the Endless Hunt - Weapon",
                 "name": "Carnage of the Endless Hunt - Weapon",
                 "type": "Mythical weapon",
@@ -1755,6 +1758,7 @@ export const testUser = {
             {
                 "classid": "4672396958",
                 "instanceid": "1625510296",
+                "assetid": "31993652091",
                 "marketHashName": "Carnage of the Endless Hunt - Belt",
                 "name": "Carnage of the Endless Hunt - Belt",
                 "type": "Mythical belt",
@@ -1854,6 +1858,7 @@ export const testUser = {
             {
                 "classid": "4672396985",
                 "instanceid": "1625510296",
+                "assetid": "31993652083",
                 "marketHashName": "Carnage of the Endless Hunt - Head",
                 "name": "Carnage of the Endless Hunt - Head",
                 "type": "Mythical head",
@@ -1953,6 +1958,7 @@ export const testUser = {
             {
                 "classid": "2917516977",
                 "instanceid": "3361756733",
+                "assetid": "31986558499",
                 "marketHashName": "Dota Plus Victory Shout",
                 "name": "Dota Plus Victory Shout",
                 "type": "Legendary All Hero Shout",
@@ -2028,6 +2034,7 @@ export const testUser = {
             {
                 "classid": "53974991",
                 "instanceid": "53974990",
+                "assetid": "40978881",
                 "marketHashName": "BIONIC BEANIE",
                 "name": "BIONIC BEANIE",
                 "type": "Level 1 Hat",
@@ -2068,6 +2075,7 @@ export const testUser = {
             {
                 "classid": "310776672",
                 "instanceid": "302028390",
+                "assetid": "45950230697",
                 "marketHashName": "SCAR-20 | Sand Mesh (Field-Tested)",
                 "name": "SCAR-20 | Sand Mesh",
                 "type": "Consumer Grade Sniper Rifle",
@@ -2174,6 +2182,7 @@ export const testUser = {
             {
                 "classid": "5710094579",
                 "instanceid": "302028390",
+                "assetid": "45950230696",
                 "marketHashName": "Kilowatt Case",
                 "name": "Kilowatt Case",
                 "type": "Base Grade Container",
@@ -2370,6 +2379,7 @@ export const testUser = {
             {
                 "classid": "1989294000",
                 "instanceid": "302028390",
+                "assetid": "45817487073",
                 "marketHashName": "Sealed Graffiti | X-Knives (Tracer Yellow)",
                 "name": "Sealed Graffiti | X-Knives (Tracer Yellow)",
                 "type": "Base Grade Graffiti",
@@ -2449,6 +2459,7 @@ export const testUser = {
             {
                 "classid": "5189384637",
                 "instanceid": "302028390",
+                "assetid": "45817487072",
                 "marketHashName": "Revolution Case",
                 "name": "Revolution Case",
                 "type": "Base Grade Container",
@@ -2645,6 +2656,7 @@ export const testUser = {
             {
                 "classid": "7104628411",
                 "instanceid": "143865972",
+                "assetid": "45772320795",
                 "marketHashName": "Austin 2025 Legends Autograph Capsule",
                 "name": "Austin 2025 Legends Autograph Capsule",
                 "type": "Base Grade Container",
@@ -2991,6 +3003,7 @@ export const testUser = {
             {
                 "classid": "7240971664",
                 "instanceid": "143865972",
+                "assetid": "45692857390",
                 "marketHashName": "Austin 2025 Champions Autograph Capsule",
                 "name": "Austin 2025 Champions Autograph Capsule",
                 "type": "Base Grade Container",
@@ -3127,6 +3140,7 @@ export const testUser = {
             {
                 "classid": "7240971664",
                 "instanceid": "143865972",
+                "assetid": "45692857389",
                 "marketHashName": "Austin 2025 Champions Autograph Capsule",
                 "name": "Austin 2025 Champions Autograph Capsule",
                 "type": "Base Grade Container",
@@ -3263,6 +3277,7 @@ export const testUser = {
             {
                 "classid": "7104628411",
                 "instanceid": "143865972",
+                "assetid": "45692854226",
                 "marketHashName": "Austin 2025 Legends Autograph Capsule",
                 "name": "Austin 2025 Legends Autograph Capsule",
                 "type": "Base Grade Container",
@@ -3609,6 +3624,7 @@ export const testUser = {
             {
                 "classid": "7104628411",
                 "instanceid": "143865972",
+                "assetid": "45692854225",
                 "marketHashName": "Austin 2025 Legends Autograph Capsule",
                 "name": "Austin 2025 Legends Autograph Capsule",
                 "type": "Base Grade Container",
@@ -3955,6 +3971,7 @@ export const testUser = {
             {
                 "classid": "7104628405",
                 "instanceid": "143865972",
+                "assetid": "45692850774",
                 "marketHashName": "Austin 2025 Legends Sticker Capsule",
                 "name": "Austin 2025 Legends Sticker Capsule",
                 "type": "Base Grade Container",
@@ -4115,6 +4132,7 @@ export const testUser = {
             {
                 "classid": "7104628405",
                 "instanceid": "143865972",
+                "assetid": "45692850773",
                 "marketHashName": "Austin 2025 Legends Sticker Capsule",
                 "name": "Austin 2025 Legends Sticker Capsule",
                 "type": "Base Grade Container",
@@ -4275,6 +4293,7 @@ export const testUser = {
             {
                 "classid": "4717330486",
                 "instanceid": "302028390",
+                "assetid": "45648876340",
                 "marketHashName": "Dreams & Nightmares Case",
                 "name": "Dreams & Nightmares Case",
                 "type": "Base Grade Container",
@@ -4471,6 +4490,7 @@ export const testUser = {
             {
                 "classid": "6918198909",
                 "instanceid": "302028390",
+                "assetid": "45648868311",
                 "marketHashName": "Five-SeveN | Autumn Thicket (Minimal Wear)",
                 "name": "Five-SeveN | Autumn Thicket",
                 "type": "Consumer Grade Pistol",
@@ -4577,6 +4597,7 @@ export const testUser = {
             {
                 "classid": "4717330486",
                 "instanceid": "302028390",
+                "assetid": "45648868310",
                 "marketHashName": "Dreams & Nightmares Case",
                 "name": "Dreams & Nightmares Case",
                 "type": "Base Grade Container",
@@ -4773,6 +4794,7 @@ export const testUser = {
             {
                 "classid": "3955267658",
                 "instanceid": "188530139",
+                "assetid": "45534196805",
                 "marketHashName": "SG 553 | Ol' Rusty (Field-Tested)",
                 "name": "SG 553 | Ol' Rusty",
                 "type": "Mil-Spec Grade Rifle",
@@ -4879,6 +4901,7 @@ export const testUser = {
             {
                 "classid": "310777409",
                 "instanceid": "302028390",
+                "assetid": "45441668119",
                 "marketHashName": "G3SG1 | Desert Storm (Minimal Wear)",
                 "name": "G3SG1 | Desert Storm",
                 "type": "Consumer Grade Sniper Rifle",
@@ -4985,6 +5008,7 @@ export const testUser = {
             {
                 "classid": "5189384637",
                 "instanceid": "302028390",
+                "assetid": "45441668118",
                 "marketHashName": "Revolution Case",
                 "name": "Revolution Case",
                 "type": "Base Grade Container",
@@ -5181,6 +5205,7 @@ export const testUser = {
             {
                 "classid": "3955267117",
                 "instanceid": "188531838",
+                "assetid": "45336436399",
                 "marketHashName": "StatTrak™ P2000 | Gnarled (Field-Tested)",
                 "name": "StatTrak™ P2000 | Gnarled",
                 "type": "StatTrak™ Mil-Spec Grade Pistol",
@@ -5316,6 +5341,7 @@ export const testUser = {
             {
                 "classid": "6918205703",
                 "instanceid": "302028390",
+                "assetid": "45335058980",
                 "marketHashName": "Negev | Raw Ceramic (Minimal Wear)",
                 "name": "Negev | Raw Ceramic",
                 "type": "Consumer Grade Machinegun",
@@ -5422,6 +5448,7 @@ export const testUser = {
             {
                 "classid": "4901046679",
                 "instanceid": "302028390",
+                "assetid": "45335058979",
                 "marketHashName": "Recoil Case",
                 "name": "Recoil Case",
                 "type": "Base Grade Container",
@@ -5618,6 +5645,7 @@ export const testUser = {
             {
                 "classid": "6918197184",
                 "instanceid": "302028390",
+                "assetid": "44940333956",
                 "marketHashName": "SSG 08 | Grey Smoke (Field-Tested)",
                 "name": "SSG 08 | Grey Smoke",
                 "type": "Consumer Grade Sniper Rifle",
@@ -5724,6 +5752,7 @@ export const testUser = {
             {
                 "classid": "3035570102",
                 "instanceid": "302028390",
+                "assetid": "44799027677",
                 "marketHashName": "MP7 | Motherboard (Field-Tested)",
                 "name": "MP7 | Motherboard",
                 "type": "Industrial Grade SMG",
@@ -5830,6 +5859,7 @@ export const testUser = {
             {
                 "classid": "5189384637",
                 "instanceid": "302028390",
+                "assetid": "44799027676",
                 "marketHashName": "Revolution Case",
                 "name": "Revolution Case",
                 "type": "Base Grade Container",
@@ -6026,6 +6056,7 @@ export const testUser = {
             {
                 "classid": "6498789714",
                 "instanceid": "7208208432",
+                "assetid": "44734909818",
                 "marketHashName": "2025 Service Medal",
                 "name": "2025 Service Medal",
                 "type": "Extraordinary Collectible",
@@ -6109,6 +6140,7 @@ export const testUser = {
             {
                 "classid": "6918299937",
                 "instanceid": "302028390",
+                "assetid": "44703615577",
                 "marketHashName": "M4A1-S | Rose Hex (Factory New)",
                 "name": "M4A1-S | Rose Hex",
                 "type": "Mil-Spec Grade Rifle",
@@ -6215,6 +6247,7 @@ export const testUser = {
             {
                 "classid": "1989292003",
                 "instanceid": "302028390",
+                "assetid": "44592836562",
                 "marketHashName": "Sealed Graffiti | Quickdraw (Cash Green)",
                 "name": "Sealed Graffiti | Quickdraw (Cash Green)",
                 "type": "Base Grade Graffiti",
@@ -6294,6 +6327,7 @@ export const testUser = {
             {
                 "classid": "3946324730",
                 "instanceid": "302028390",
+                "assetid": "44592836561",
                 "marketHashName": "Fracture Case",
                 "name": "Fracture Case",
                 "type": "Base Grade Container",
@@ -6490,6 +6524,7 @@ export const testUser = {
             {
                 "classid": "3035568523",
                 "instanceid": "302028390",
+                "assetid": "44468363676",
                 "marketHashName": "Glock-18 | High Beam (Factory New)",
                 "name": "Glock-18 | High Beam",
                 "type": "Industrial Grade Pistol",
@@ -6596,6 +6631,7 @@ export const testUser = {
             {
                 "classid": "3035569050",
                 "instanceid": "302028390",
+                "assetid": "44273921810",
                 "marketHashName": "Five-SeveN | Coolant (Factory New)",
                 "name": "Five-SeveN | Coolant",
                 "type": "Consumer Grade Pistol",
@@ -6702,6 +6738,7 @@ export const testUser = {
             {
                 "classid": "6195246388",
                 "instanceid": "302028390",
+                "assetid": "44164655657",
                 "marketHashName": "Charm Detachment Pack",
                 "name": "Charm Detachment Pack",
                 "type": "Base Grade Tool",
@@ -6796,6 +6833,7 @@ export const testUser = {
             {
                 "classid": "5721066805",
                 "instanceid": "188530139",
+                "assetid": "43911789979",
                 "marketHashName": "Tec-9 | Slag (Well-Worn)",
                 "name": "Tec-9 | Slag",
                 "type": "Mil-Spec Grade Pistol",
@@ -6902,6 +6940,7 @@ export const testUser = {
             {
                 "classid": "6918200843",
                 "instanceid": "302028390",
+                "assetid": "43897174960",
                 "marketHashName": "UMP-45 | Green Swirl (Minimal Wear)",
                 "name": "UMP-45 | Green Swirl",
                 "type": "Consumer Grade SMG",
@@ -7008,6 +7047,7 @@ export const testUser = {
             {
                 "classid": "6918197361",
                 "instanceid": "302028390",
+                "assetid": "43777352451",
                 "marketHashName": "SG 553 | Night Camo (Field-Tested)",
                 "name": "SG 553 | Night Camo",
                 "type": "Consumer Grade Rifle",
@@ -7114,6 +7154,7 @@ export const testUser = {
             {
                 "classid": "6918246064",
                 "instanceid": "302028390",
+                "assetid": "43650880033",
                 "marketHashName": "Dual Berettas | Polished Malachite (Field-Tested)",
                 "name": "Dual Berettas | Polished Malachite",
                 "type": "Industrial Grade Pistol",
@@ -7220,6 +7261,7 @@ export const testUser = {
             {
                 "classid": "6918203233",
                 "instanceid": "302028390",
+                "assetid": "43579613651",
                 "marketHashName": "Zeus x27 | Swamp DDPAT (Factory New)",
                 "name": "Zeus x27 | Swamp DDPAT",
                 "type": "Consumer Grade Equipment",
@@ -7326,6 +7368,7 @@ export const testUser = {
             {
                 "classid": "6918197323",
                 "instanceid": "302028390",
+                "assetid": "43479084150",
                 "marketHashName": "CZ75-Auto | Pink Pearl (Field-Tested)",
                 "name": "CZ75-Auto | Pink Pearl",
                 "type": "Consumer Grade Pistol",
@@ -7432,6 +7475,7 @@ export const testUser = {
             {
                 "classid": "6360288654",
                 "instanceid": "143865972",
+                "assetid": "43400361842",
                 "marketHashName": "Shanghai 2024 Legends Autograph Capsule",
                 "name": "Shanghai 2024 Legends Autograph Capsule",
                 "type": "Base Grade Container",
@@ -7778,6 +7822,7 @@ export const testUser = {
             {
                 "classid": "6360288654",
                 "instanceid": "143865972",
+                "assetid": "43400361841",
                 "marketHashName": "Shanghai 2024 Legends Autograph Capsule",
                 "name": "Shanghai 2024 Legends Autograph Capsule",
                 "type": "Base Grade Container",
@@ -8124,6 +8169,7 @@ export const testUser = {
             {
                 "classid": "6360288654",
                 "instanceid": "143865972",
+                "assetid": "43400361840",
                 "marketHashName": "Shanghai 2024 Legends Autograph Capsule",
                 "name": "Shanghai 2024 Legends Autograph Capsule",
                 "type": "Base Grade Container",
@@ -8470,6 +8516,7 @@ export const testUser = {
             {
                 "classid": "6360288654",
                 "instanceid": "143865972",
+                "assetid": "43400361839",
                 "marketHashName": "Shanghai 2024 Legends Autograph Capsule",
                 "name": "Shanghai 2024 Legends Autograph Capsule",
                 "type": "Base Grade Container",
@@ -8816,6 +8863,7 @@ export const testUser = {
             {
                 "classid": "3035580890",
                 "instanceid": "302028390",
+                "assetid": "43319252711",
                 "marketHashName": "MAC-10 | Calf Skin (Well-Worn)",
                 "name": "MAC-10 | Calf Skin",
                 "type": "Industrial Grade SMG",
@@ -8922,6 +8970,7 @@ export const testUser = {
             {
                 "classid": "6360288651",
                 "instanceid": "143865972",
+                "assetid": "43293016162",
                 "marketHashName": "Shanghai 2024 Legends Sticker Capsule",
                 "name": "Shanghai 2024 Legends Sticker Capsule",
                 "type": "Base Grade Container",
@@ -9082,6 +9131,7 @@ export const testUser = {
             {
                 "classid": "6360288651",
                 "instanceid": "143865972",
+                "assetid": "43293016161",
                 "marketHashName": "Shanghai 2024 Legends Sticker Capsule",
                 "name": "Shanghai 2024 Legends Sticker Capsule",
                 "type": "Base Grade Container",
@@ -9242,6 +9292,7 @@ export const testUser = {
             {
                 "classid": "6360288651",
                 "instanceid": "143865972",
+                "assetid": "43293016160",
                 "marketHashName": "Shanghai 2024 Legends Sticker Capsule",
                 "name": "Shanghai 2024 Legends Sticker Capsule",
                 "type": "Base Grade Container",
@@ -9402,6 +9453,7 @@ export const testUser = {
             {
                 "classid": "6360288651",
                 "instanceid": "143865972",
+                "assetid": "43293016159",
                 "marketHashName": "Shanghai 2024 Legends Sticker Capsule",
                 "name": "Shanghai 2024 Legends Sticker Capsule",
                 "type": "Base Grade Container",
@@ -9562,6 +9614,7 @@ export const testUser = {
             {
                 "classid": "6195246388",
                 "instanceid": "302028390",
+                "assetid": "43192752243",
                 "marketHashName": "Charm Detachment Pack",
                 "name": "Charm Detachment Pack",
                 "type": "Base Grade Tool",
@@ -9656,6 +9709,7 @@ export const testUser = {
             {
                 "classid": "6918201251",
                 "instanceid": "302028390",
+                "assetid": "43012647686",
                 "marketHashName": "MAC-10 | Bronzer (Field-Tested)",
                 "name": "MAC-10 | Bronzer",
                 "type": "Consumer Grade SMG",
@@ -9762,6 +9816,7 @@ export const testUser = {
             {
                 "classid": "3955271207",
                 "instanceid": "188530139",
+                "assetid": "42868405977",
                 "marketHashName": "PP-Bizon | Runic (Field-Tested)",
                 "name": "PP-Bizon | Runic",
                 "type": "Mil-Spec Grade SMG",
@@ -9868,6 +9923,7 @@ export const testUser = {
             {
                 "classid": "3955279330",
                 "instanceid": "188530139",
+                "assetid": "42868367913",
                 "marketHashName": "MAG-7 | Monster Call (Factory New)",
                 "name": "MAG-7 | Monster Call",
                 "type": "Restricted Shotgun",
@@ -9974,6 +10030,7 @@ export const testUser = {
             {
                 "classid": "469448375",
                 "instanceid": "302028390",
+                "assetid": "42834973560",
                 "marketHashName": "MP7 | Forest DDPAT (Field-Tested)",
                 "name": "MP7 | Forest DDPAT",
                 "type": "Consumer Grade SMG",
@@ -10080,6 +10137,7 @@ export const testUser = {
             {
                 "classid": "6195246388",
                 "instanceid": "302028390",
+                "assetid": "42769424893",
                 "marketHashName": "Charm Detachment Pack",
                 "name": "Charm Detachment Pack",
                 "type": "Base Grade Tool",
@@ -10174,6 +10232,7 @@ export const testUser = {
             {
                 "classid": "3035569823",
                 "instanceid": "302028390",
+                "assetid": "42219990963",
                 "marketHashName": "AUG | Sweeper (Factory New)",
                 "name": "AUG | Sweeper",
                 "type": "Consumer Grade Rifle",
@@ -10280,6 +10339,7 @@ export const testUser = {
             {
                 "classid": "6610970132",
                 "instanceid": "565664004",
+                "assetid": "41638870525",
                 "marketHashName": "Premier Season One Medal",
                 "name": "Premier Season One Medal",
                 "type": "Extraordinary Collectible",
@@ -10352,6 +10412,7 @@ export const testUser = {
             {
                 "classid": "3035569517",
                 "instanceid": "302028390",
+                "assetid": "41536533392",
                 "marketHashName": "MP9 | Slide (Field-Tested)",
                 "name": "MP9 | Slide",
                 "type": "Consumer Grade SMG",
@@ -10458,6 +10519,7 @@ export const testUser = {
             {
                 "classid": "6449444079",
                 "instanceid": "188530139",
+                "assetid": "41504072483",
                 "marketHashName": "Sticker | zont1x (Glitter, Champion) | Shanghai 2024",
                 "name": "Sticker | zont1x (Glitter, Champion) | Shanghai 2024",
                 "type": "Remarkable Sticker",
@@ -10582,6 +10644,7 @@ export const testUser = {
             {
                 "classid": "6449443077",
                 "instanceid": "188530139",
+                "assetid": "41504056820",
                 "marketHashName": "Sticker | zont1x (Champion) | Shanghai 2024",
                 "name": "Sticker | zont1x (Champion) | Shanghai 2024",
                 "type": "High Grade Sticker",
@@ -10706,6 +10769,7 @@ export const testUser = {
             {
                 "classid": "6449443441",
                 "instanceid": "188530139",
+                "assetid": "41504038435",
                 "marketHashName": "Sticker | magixx (Champion) | Shanghai 2024",
                 "name": "Sticker | magixx (Champion) | Shanghai 2024",
                 "type": "High Grade Sticker",
@@ -10830,6 +10894,7 @@ export const testUser = {
             {
                 "classid": "6449443077",
                 "instanceid": "188530139",
+                "assetid": "41504009620",
                 "marketHashName": "Sticker | zont1x (Champion) | Shanghai 2024",
                 "name": "Sticker | zont1x (Champion) | Shanghai 2024",
                 "type": "High Grade Sticker",
@@ -10954,6 +11019,7 @@ export const testUser = {
             {
                 "classid": "6449443157",
                 "instanceid": "188530139",
+                "assetid": "41503994930",
                 "marketHashName": "Sticker | donk (Champion) | Shanghai 2024",
                 "name": "Sticker | donk (Champion) | Shanghai 2024",
                 "type": "High Grade Sticker",
@@ -11078,6 +11144,7 @@ export const testUser = {
             {
                 "classid": "6449443969",
                 "instanceid": "188530139",
+                "assetid": "41503989441",
                 "marketHashName": "Sticker | magixx (Glitter, Champion) | Shanghai 2024",
                 "name": "Sticker | magixx (Glitter, Champion) | Shanghai 2024",
                 "type": "Remarkable Sticker",
@@ -11202,6 +11269,7 @@ export const testUser = {
             {
                 "classid": "6449444079",
                 "instanceid": "188530139",
+                "assetid": "41503948177",
                 "marketHashName": "Sticker | zont1x (Glitter, Champion) | Shanghai 2024",
                 "name": "Sticker | zont1x (Glitter, Champion) | Shanghai 2024",
                 "type": "Remarkable Sticker",
@@ -11326,6 +11394,7 @@ export const testUser = {
             {
                 "classid": "310777545",
                 "instanceid": "302028390",
+                "assetid": "41357152200",
                 "marketHashName": "SSG 08 | Blue Spruce (Minimal Wear)",
                 "name": "SSG 08 | Blue Spruce",
                 "type": "Consumer Grade Sniper Rifle",
@@ -11432,6 +11501,7 @@ export const testUser = {
             {
                 "classid": "469441962",
                 "instanceid": "302028390",
+                "assetid": "41288265805",
                 "marketHashName": "SG 553 | Army Sheen (Minimal Wear)",
                 "name": "SG 553 | Army Sheen",
                 "type": "Consumer Grade Rifle",
@@ -11538,6 +11608,7 @@ export const testUser = {
             {
                 "classid": "310779013",
                 "instanceid": "302028390",
+                "assetid": "41041016509",
                 "marketHashName": "XM1014 | CaliCamo (Field-Tested)",
                 "name": "XM1014 | CaliCamo",
                 "type": "Industrial Grade Shotgun",
@@ -11644,6 +11715,7 @@ export const testUser = {
             {
                 "classid": "3035567899",
                 "instanceid": "302028390",
+                "assetid": "40745573783",
                 "marketHashName": "UMP-45 | Mudder (Field-Tested)",
                 "name": "UMP-45 | Mudder",
                 "type": "Consumer Grade SMG",
@@ -11750,6 +11822,7 @@ export const testUser = {
             {
                 "classid": "310777271",
                 "instanceid": "302028390",
+                "assetid": "40640944912",
                 "marketHashName": "Tec-9 | Groundwater (Field-Tested)",
                 "name": "Tec-9 | Groundwater",
                 "type": "Consumer Grade Pistol",
@@ -11856,6 +11929,7 @@ export const testUser = {
             {
                 "classid": "310777340",
                 "instanceid": "302028390",
+                "assetid": "40539127921",
                 "marketHashName": "P90 | Sand Spray (Field-Tested)",
                 "name": "P90 | Sand Spray",
                 "type": "Consumer Grade SMG",
@@ -11962,6 +12036,7 @@ export const testUser = {
             {
                 "classid": "6195246388",
                 "instanceid": "302028390",
+                "assetid": "40243630916",
                 "marketHashName": "Charm Detachment Pack",
                 "name": "Charm Detachment Pack",
                 "type": "Base Grade Tool",
@@ -12056,6 +12131,7 @@ export const testUser = {
             {
                 "classid": "310776765",
                 "instanceid": "302028390",
+                "assetid": "40205775047",
                 "marketHashName": "PP-Bizon | Urban Dashed (Field-Tested)",
                 "name": "PP-Bizon | Urban Dashed",
                 "type": "Consumer Grade SMG",
@@ -12162,6 +12238,7 @@ export const testUser = {
             {
                 "classid": "6195246388",
                 "instanceid": "302028390",
+                "assetid": "40115965069",
                 "marketHashName": "Charm Detachment Pack",
                 "name": "Charm Detachment Pack",
                 "type": "Base Grade Tool",
@@ -12256,6 +12333,7 @@ export const testUser = {
             {
                 "classid": "310777340",
                 "instanceid": "302028390",
+                "assetid": "39879246866",
                 "marketHashName": "P90 | Sand Spray (Field-Tested)",
                 "name": "P90 | Sand Spray",
                 "type": "Consumer Grade SMG",
@@ -12362,6 +12440,7 @@ export const testUser = {
             {
                 "classid": "310776722",
                 "instanceid": "302028390",
+                "assetid": "39429142697",
                 "marketHashName": "P250 | Sand Dune (Well-Worn)",
                 "name": "P250 | Sand Dune",
                 "type": "Consumer Grade Pistol",
@@ -12468,6 +12547,7 @@ export const testUser = {
             {
                 "classid": "310776543",
                 "instanceid": "302028390",
+                "assetid": "39329108210",
                 "marketHashName": "Galil AR | Sage Spray (Field-Tested)",
                 "name": "Galil AR | Sage Spray",
                 "type": "Consumer Grade Rifle",
@@ -12574,6 +12654,7 @@ export const testUser = {
             {
                 "classid": "3035572347",
                 "instanceid": "302028390",
+                "assetid": "39237783353",
                 "marketHashName": "PP-Bizon | Facility Sketch (Factory New)",
                 "name": "PP-Bizon | Facility Sketch",
                 "type": "Consumer Grade SMG",
@@ -12680,6 +12761,7 @@ export const testUser = {
             {
                 "classid": "3035573504",
                 "instanceid": "302028390",
+                "assetid": "39197286681",
                 "marketHashName": "UMP-45 | Facility Dark (Minimal Wear)",
                 "name": "UMP-45 | Facility Dark",
                 "type": "Consumer Grade SMG",
@@ -12786,6 +12868,7 @@ export const testUser = {
             {
                 "classid": "3035567605",
                 "instanceid": "302028390",
+                "assetid": "39037629224",
                 "marketHashName": "P250 | Facility Draft (Minimal Wear)",
                 "name": "P250 | Facility Draft",
                 "type": "Consumer Grade Pistol",
@@ -12892,6 +12975,7 @@ export const testUser = {
             {
                 "classid": "310783201",
                 "instanceid": "480085569",
+                "assetid": "39010399526",
                 "marketHashName": "MAC-10 | Palm (Field-Tested)",
                 "name": "MAC-10 | Palm",
                 "type": "Industrial Grade SMG",
@@ -12998,6 +13082,7 @@ export const testUser = {
             {
                 "classid": "310776726",
                 "instanceid": "302028390",
+                "assetid": "39010347821",
                 "marketHashName": "M4A1-S | Boreal Forest (Field-Tested)",
                 "name": "M4A1-S | Boreal Forest",
                 "type": "Industrial Grade Rifle",
@@ -13104,6 +13189,7 @@ export const testUser = {
             {
                 "classid": "3035568810",
                 "instanceid": "302028390",
+                "assetid": "38822114268",
                 "marketHashName": "P250 | Facility Draft (Field-Tested)",
                 "name": "P250 | Facility Draft",
                 "type": "Consumer Grade Pistol",
@@ -13210,6 +13296,7 @@ export const testUser = {
             {
                 "classid": "5799820100",
                 "instanceid": "188530139",
+                "assetid": "38485653773",
                 "marketHashName": "Sticker | Natus Vincere | Copenhagen 2024",
                 "name": "Sticker | Natus Vincere | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -13318,6 +13405,7 @@ export const testUser = {
             {
                 "classid": "5799819834",
                 "instanceid": "188530139",
+                "assetid": "38316358600",
                 "marketHashName": "Sticker | FaZe Clan | Copenhagen 2024",
                 "name": "Sticker | FaZe Clan | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -13426,6 +13514,7 @@ export const testUser = {
             {
                 "classid": "5799819840",
                 "instanceid": "188530139",
+                "assetid": "38170179507",
                 "marketHashName": "Sticker | Team Spirit | Copenhagen 2024",
                 "name": "Sticker | Team Spirit | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -13534,6 +13623,7 @@ export const testUser = {
             {
                 "classid": "5799820101",
                 "instanceid": "188530139",
+                "assetid": "38080676053",
                 "marketHashName": "Sticker | Team Spirit (Glitter) | Copenhagen 2024",
                 "name": "Sticker | Team Spirit (Glitter) | Copenhagen 2024",
                 "type": "Remarkable Sticker",
@@ -13642,6 +13732,7 @@ export const testUser = {
             {
                 "classid": "5799819854",
                 "instanceid": "188530139",
+                "assetid": "37917663553",
                 "marketHashName": "Sticker | PGL | Copenhagen 2024",
                 "name": "Sticker | PGL | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -13756,6 +13847,7 @@ export const testUser = {
             {
                 "classid": "310776613",
                 "instanceid": "302028390",
+                "assetid": "37917643315",
                 "marketHashName": "MP7 | Army Recon (Minimal Wear)",
                 "name": "MP7 | Army Recon",
                 "type": "Consumer Grade SMG",
@@ -13862,6 +13954,7 @@ export const testUser = {
             {
                 "classid": "5799820144",
                 "instanceid": "188530139",
+                "assetid": "37799580429",
                 "marketHashName": "Sticker | Forester | Copenhagen 2024",
                 "name": "Sticker | Forester | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -13986,6 +14079,7 @@ export const testUser = {
             {
                 "classid": "5799819900",
                 "instanceid": "188530139",
+                "assetid": "37779446282",
                 "marketHashName": "Sticker | Nodios | Copenhagen 2024",
                 "name": "Sticker | Nodios | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -14110,6 +14204,7 @@ export const testUser = {
             {
                 "classid": "5799820122",
                 "instanceid": "188530139",
+                "assetid": "37779441679",
                 "marketHashName": "Sticker | bLitz (Glitter) | Copenhagen 2024",
                 "name": "Sticker | bLitz (Glitter) | Copenhagen 2024",
                 "type": "Remarkable Sticker",
@@ -14234,6 +14329,7 @@ export const testUser = {
             {
                 "classid": "5799819851",
                 "instanceid": "188530139",
+                "assetid": "37779437987",
                 "marketHashName": "Sticker | Starry | Copenhagen 2024",
                 "name": "Sticker | Starry | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -14358,6 +14454,7 @@ export const testUser = {
             {
                 "classid": "5799820140",
                 "instanceid": "188530139",
+                "assetid": "37779433578",
                 "marketHashName": "Sticker | felps | Copenhagen 2024",
                 "name": "Sticker | felps | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -14482,6 +14579,7 @@ export const testUser = {
             {
                 "classid": "5799820423",
                 "instanceid": "188530139",
+                "assetid": "37779420063",
                 "marketHashName": "Sticker | latto | Copenhagen 2024",
                 "name": "Sticker | latto | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -14606,6 +14704,7 @@ export const testUser = {
             {
                 "classid": "5799819898",
                 "instanceid": "188530139",
+                "assetid": "37751579993",
                 "marketHashName": "Sticker | mzinho | Copenhagen 2024",
                 "name": "Sticker | mzinho | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -14730,6 +14829,7 @@ export const testUser = {
             {
                 "classid": "5799820138",
                 "instanceid": "188530139",
+                "assetid": "37749530648",
                 "marketHashName": "Sticker | decenty | Copenhagen 2024",
                 "name": "Sticker | decenty | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -14854,6 +14954,7 @@ export const testUser = {
             {
                 "classid": "5799819820",
                 "instanceid": "188530139",
+                "assetid": "37749477039",
                 "marketHashName": "Sticker | westmelon | Copenhagen 2024",
                 "name": "Sticker | westmelon | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -14978,6 +15079,7 @@ export const testUser = {
             {
                 "classid": "5799819857",
                 "instanceid": "188530139",
+                "assetid": "37635263702",
                 "marketHashName": "Sticker | MOUZ | Copenhagen 2024",
                 "name": "Sticker | MOUZ | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -15086,6 +15188,7 @@ export const testUser = {
             {
                 "classid": "5799819834",
                 "instanceid": "188530139",
+                "assetid": "37635249726",
                 "marketHashName": "Sticker | FaZe Clan | Copenhagen 2024",
                 "name": "Sticker | FaZe Clan | Copenhagen 2024",
                 "type": "High Grade Sticker",
@@ -15194,6 +15297,7 @@ export const testUser = {
             {
                 "classid": "5799821413",
                 "instanceid": "188530139",
+                "assetid": "37635231268",
                 "marketHashName": "Sticker | G2 Esports (Holo) | Copenhagen 2024",
                 "name": "Sticker | G2 Esports (Holo) | Copenhagen 2024",
                 "type": "Exotic Sticker",
@@ -15302,6 +15406,7 @@ export const testUser = {
             {
                 "classid": "310777118",
                 "instanceid": "302028390",
+                "assetid": "37439903601",
                 "marketHashName": "Tec-9 | Army Mesh (Field-Tested)",
                 "name": "Tec-9 | Army Mesh",
                 "type": "Consumer Grade Pistol",
@@ -15408,6 +15513,7 @@ export const testUser = {
             {
                 "classid": "310779013",
                 "instanceid": "480085569",
+                "assetid": "37234529546",
                 "marketHashName": "XM1014 | CaliCamo (Field-Tested)",
                 "name": "XM1014 | CaliCamo",
                 "type": "Industrial Grade Shotgun",
@@ -15514,6 +15620,7 @@ export const testUser = {
             {
                 "classid": "3955278260",
                 "instanceid": "188530139",
+                "assetid": "37103931284",
                 "marketHashName": "SG 553 | Ol' Rusty (Minimal Wear)",
                 "name": "SG 553 | Ol' Rusty",
                 "type": "Mil-Spec Grade Rifle",
@@ -15620,6 +15727,7 @@ export const testUser = {
             {
                 "classid": "5672009126",
                 "instanceid": "6127703545",
+                "assetid": "36738509624",
                 "marketHashName": "2024 Service Medal",
                 "name": "2024 Service Medal",
                 "type": "Extraordinary Collectible",
@@ -15703,6 +15811,7 @@ export const testUser = {
             {
                 "classid": "3955287022",
                 "instanceid": "188530139",
+                "assetid": "36709056331",
                 "marketHashName": "P2000 | Gnarled (Battle-Scarred)",
                 "name": "P2000 | Gnarled",
                 "type": "Mil-Spec Grade Pistol",
@@ -15809,6 +15918,7 @@ export const testUser = {
             {
                 "classid": "4726068697",
                 "instanceid": "188530139",
+                "assetid": "36220956780",
                 "marketHashName": "SCAR-20 | Poultrygeist (Field-Tested)",
                 "name": "SCAR-20 | Poultrygeist",
                 "type": "Mil-Spec Grade Sniper Rifle",
@@ -15915,6 +16025,7 @@ export const testUser = {
             {
                 "classid": "310785249",
                 "instanceid": "302028390",
+                "assetid": "36193746587",
                 "marketHashName": "XM1014 | Blue Steel (Well-Worn)",
                 "name": "XM1014 | Blue Steel",
                 "type": "Industrial Grade Shotgun",
@@ -16021,6 +16132,7 @@ export const testUser = {
             {
                 "classid": "4726083606",
                 "instanceid": "188538769",
+                "assetid": "36193691555",
                 "marketHashName": "StatTrak™ MP5-SD | Necro Jr. (Field-Tested)",
                 "name": "StatTrak™ MP5-SD | Necro Jr.",
                 "type": "StatTrak™ Mil-Spec Grade SMG",
@@ -16156,6 +16268,7 @@ export const testUser = {
             {
                 "classid": "4726070135",
                 "instanceid": "188530139",
+                "assetid": "36061993380",
                 "marketHashName": "Sawed-Off | Spirit Board (Field-Tested)",
                 "name": "Sawed-Off | Spirit Board",
                 "type": "Mil-Spec Grade Shotgun",
@@ -16262,6 +16375,7 @@ export const testUser = {
             {
                 "classid": "310776773",
                 "instanceid": "302028390",
+                "assetid": "35983346077",
                 "marketHashName": "AUG | Condemned (Field-Tested)",
                 "name": "AUG | Condemned",
                 "type": "Industrial Grade Rifle",
@@ -16368,6 +16482,7 @@ export const testUser = {
             {
                 "classid": "1989280072",
                 "instanceid": "302028390",
+                "assetid": "35690331400",
                 "marketHashName": "Sealed Graffiti | X-Knives (Monarch Blue)",
                 "name": "Sealed Graffiti | X-Knives (Monarch Blue)",
                 "type": "Base Grade Graffiti",
@@ -16447,6 +16562,7 @@ export const testUser = {
             {
                 "classid": "1989313839",
                 "instanceid": "302028390",
+                "assetid": "35233891187",
                 "marketHashName": "Sealed Graffiti | Speechless (Monster Purple)",
                 "name": "Sealed Graffiti | Speechless (Monster Purple)",
                 "type": "Base Grade Graffiti",
@@ -16526,6 +16642,7 @@ export const testUser = {
             {
                 "classid": "1989287335",
                 "instanceid": "302028390",
+                "assetid": "34997831853",
                 "marketHashName": "Sealed Graffiti | Karambit (Blood Red)",
                 "name": "Sealed Graffiti | Karambit (Blood Red)",
                 "type": "Base Grade Graffiti",
@@ -16605,6 +16722,7 @@ export const testUser = {
             {
                 "classid": "3035601394",
                 "instanceid": "302028390",
+                "assetid": "34852888819",
                 "marketHashName": "PP-Bizon | Candy Apple (Field-Tested)",
                 "name": "PP-Bizon | Candy Apple",
                 "type": "Industrial Grade SMG",
@@ -16711,6 +16829,7 @@ export const testUser = {
             {
                 "classid": "1989363418",
                 "instanceid": "302028390",
+                "assetid": "34753166694",
                 "marketHashName": "Sealed Graffiti | Karambit (Cash Green)",
                 "name": "Sealed Graffiti | Karambit (Cash Green)",
                 "type": "Base Grade Graffiti",
@@ -16790,6 +16909,7 @@ export const testUser = {
             {
                 "classid": "1989277930",
                 "instanceid": "302028390",
+                "assetid": "34358252377",
                 "marketHashName": "Sealed Graffiti | QQ (Monster Purple)",
                 "name": "Sealed Graffiti | QQ (Monster Purple)",
                 "type": "Base Grade Graffiti",
@@ -16869,6 +16989,7 @@ export const testUser = {
             {
                 "classid": "1989384159",
                 "instanceid": "302028390",
+                "assetid": "34254773380",
                 "marketHashName": "Sealed Graffiti | Lambda (Monster Purple)",
                 "name": "Sealed Graffiti | Lambda (Monster Purple)",
                 "type": "Base Grade Graffiti",
@@ -16948,6 +17069,7 @@ export const testUser = {
             {
                 "classid": "5136977003",
                 "instanceid": "5593225593",
+                "assetid": "34242231002",
                 "marketHashName": "2023 Service Medal",
                 "name": "2023 Service Medal",
                 "type": "Extraordinary Collectible",
@@ -17031,6 +17153,7 @@ export const testUser = {
             {
                 "classid": "1989286480",
                 "instanceid": "302028390",
+                "assetid": "34105975742",
                 "marketHashName": "Sealed Graffiti | Take Flight (Wire Blue)",
                 "name": "Sealed Graffiti | Take Flight (Wire Blue)",
                 "type": "Base Grade Graffiti",
@@ -17110,6 +17233,7 @@ export const testUser = {
             {
                 "classid": "6276299085",
                 "instanceid": "6276304234",
+                "assetid": "34026280494",
                 "marketHashName": "Souvenir MAC-10 | Sienna Damask (Field-Tested)",
                 "name": "Souvenir MAC-10 | Sienna Damask",
                 "type": "Souvenir Consumer Grade SMG",
@@ -17262,6 +17386,7 @@ export const testUser = {
             {
                 "classid": "5537026493",
                 "instanceid": "0",
+                "assetid": "33571748983",
                 "marketHashName": "Music Kit | Valve, CS:GO",
                 "name": "Music Kit | Valve, CS:GO",
                 "type": "High Grade Music Kit",
@@ -17344,6 +17469,7 @@ export const testUser = {
             {
                 "classid": "5537026494",
                 "instanceid": "0",
+                "assetid": "33571748982",
                 "marketHashName": "Global Offensive Badge",
                 "name": "Global Offensive Badge",
                 "type": "Extraordinary Collectible",
@@ -17416,6 +17542,7 @@ export const testUser = {
             {
                 "classid": "1989280644",
                 "instanceid": "302028390",
+                "assetid": "33479809471",
                 "marketHashName": "Sealed Graffiti | X-Axes (Frog Green)",
                 "name": "Sealed Graffiti | X-Axes (Frog Green)",
                 "type": "Base Grade Graffiti",
@@ -17495,6 +17622,7 @@ export const testUser = {
             {
                 "classid": "1989287088",
                 "instanceid": "302028390",
+                "assetid": "33109501436",
                 "marketHashName": "Sealed Graffiti | Ninja (Bazooka Pink)",
                 "name": "Sealed Graffiti | Ninja (Bazooka Pink)",
                 "type": "Base Grade Graffiti",
@@ -17574,6 +17702,7 @@ export const testUser = {
             {
                 "classid": "1989298186",
                 "instanceid": "302028390",
+                "assetid": "32859674473",
                 "marketHashName": "Sealed Graffiti | Backstab (Dust Brown)",
                 "name": "Sealed Graffiti | Backstab (Dust Brown)",
                 "type": "Base Grade Graffiti",
@@ -17653,6 +17782,7 @@ export const testUser = {
             {
                 "classid": "5367597732",
                 "instanceid": "188530139",
+                "assetid": "32682991382",
                 "marketHashName": "Sticker | apEX (Champion) | Paris 2023",
                 "name": "Sticker | apEX (Champion) | Paris 2023",
                 "type": "High Grade Sticker",
@@ -17777,6 +17907,7 @@ export const testUser = {
             {
                 "classid": "5365665717",
                 "instanceid": "188530139",
+                "assetid": "32682987957",
                 "marketHashName": "Sticker | Magisk (Champion) | Paris 2023",
                 "name": "Sticker | Magisk (Champion) | Paris 2023",
                 "type": "High Grade Sticker",
@@ -17901,6 +18032,7 @@ export const testUser = {
             {
                 "classid": "5367597729",
                 "instanceid": "188530139",
+                "assetid": "32682978427",
                 "marketHashName": "Sticker | Spinx (Champion) | Paris 2023",
                 "name": "Sticker | Spinx (Champion) | Paris 2023",
                 "type": "High Grade Sticker",
@@ -18025,6 +18157,7 @@ export const testUser = {
             {
                 "classid": "5367597850",
                 "instanceid": "188530139",
+                "assetid": "32682975708",
                 "marketHashName": "Sticker | Magisk (Glitter, Champion) | Paris 2023",
                 "name": "Sticker | Magisk (Glitter, Champion) | Paris 2023",
                 "type": "Remarkable Sticker",
@@ -18149,6 +18282,7 @@ export const testUser = {
             {
                 "classid": "5367597734",
                 "instanceid": "188530139",
+                "assetid": "32682968191",
                 "marketHashName": "Sticker | ZywOo (Champion) | Paris 2023",
                 "name": "Sticker | ZywOo (Champion) | Paris 2023",
                 "type": "High Grade Sticker",
@@ -18273,6 +18407,7 @@ export const testUser = {
             {
                 "classid": "1989281766",
                 "instanceid": "302028390",
+                "assetid": "32546066608",
                 "marketHashName": "Sealed Graffiti | Lambda (Jungle Green)",
                 "name": "Sealed Graffiti | Lambda (Jungle Green)",
                 "type": "Base Grade Graffiti",
@@ -18352,6 +18487,7 @@ export const testUser = {
             {
                 "classid": "5327976138",
                 "instanceid": "188530139",
+                "assetid": "32125195275",
                 "marketHashName": "Sticker | npl | Paris 2023",
                 "name": "Sticker | npl | Paris 2023",
                 "type": "High Grade Sticker",
@@ -18476,6 +18612,7 @@ export const testUser = {
             {
                 "classid": "5327976138",
                 "instanceid": "188530139",
+                "assetid": "32125187061",
                 "marketHashName": "Sticker | npl | Paris 2023",
                 "name": "Sticker | npl | Paris 2023",
                 "type": "High Grade Sticker",
@@ -18600,6 +18737,7 @@ export const testUser = {
             {
                 "classid": "5327976121",
                 "instanceid": "188530139",
+                "assetid": "32125182751",
                 "marketHashName": "Sticker | Magisk | Paris 2023",
                 "name": "Sticker | Magisk | Paris 2023",
                 "type": "High Grade Sticker",
@@ -18724,6 +18862,7 @@ export const testUser = {
             {
                 "classid": "5367597734",
                 "instanceid": "188530139",
+                "assetid": "32125092854",
                 "marketHashName": "Sticker | ZywOo (Champion) | Paris 2023",
                 "name": "Sticker | ZywOo (Champion) | Paris 2023",
                 "type": "High Grade Sticker",
@@ -18848,6 +18987,7 @@ export const testUser = {
             {
                 "classid": "5367597729",
                 "instanceid": "188530139",
+                "assetid": "32125085398",
                 "marketHashName": "Sticker | Spinx (Champion) | Paris 2023",
                 "name": "Sticker | Spinx (Champion) | Paris 2023",
                 "type": "High Grade Sticker",
@@ -18972,6 +19112,7 @@ export const testUser = {
             {
                 "classid": "5367597733",
                 "instanceid": "188530139",
+                "assetid": "32125080168",
                 "marketHashName": "Sticker | dupreeh (Champion) | Paris 2023",
                 "name": "Sticker | dupreeh (Champion) | Paris 2023",
                 "type": "High Grade Sticker",
@@ -19096,6 +19237,7 @@ export const testUser = {
             {
                 "classid": "5367597732",
                 "instanceid": "188530139",
+                "assetid": "32125061386",
                 "marketHashName": "Sticker | apEX (Champion) | Paris 2023",
                 "name": "Sticker | apEX (Champion) | Paris 2023",
                 "type": "High Grade Sticker",
@@ -19220,6 +19362,7 @@ export const testUser = {
             {
                 "classid": "5367597839",
                 "instanceid": "188530139",
+                "assetid": "32125047985",
                 "marketHashName": "Sticker | apEX (Glitter, Champion) | Paris 2023",
                 "name": "Sticker | apEX (Glitter, Champion) | Paris 2023",
                 "type": "Remarkable Sticker",
@@ -19344,6 +19487,7 @@ export const testUser = {
             {
                 "classid": "5367597734",
                 "instanceid": "188530139",
+                "assetid": "32125040158",
                 "marketHashName": "Sticker | ZywOo (Champion) | Paris 2023",
                 "name": "Sticker | ZywOo (Champion) | Paris 2023",
                 "type": "High Grade Sticker",
@@ -19468,6 +19612,7 @@ export const testUser = {
             {
                 "classid": "5327976623",
                 "instanceid": "188530139",
+                "assetid": "31237625100",
                 "marketHashName": "Sticker | vexite | Paris 2023",
                 "name": "Sticker | vexite | Paris 2023",
                 "type": "High Grade Sticker",
@@ -19592,6 +19737,7 @@ export const testUser = {
             {
                 "classid": "4839651033",
                 "instanceid": "188530139",
+                "assetid": "31237625088",
                 "marketHashName": "Sticker | Norwi | Antwerp 2022",
                 "name": "Sticker | Norwi | Antwerp 2022",
                 "type": "High Grade Sticker",
@@ -19716,6 +19862,7 @@ export const testUser = {
             {
                 "classid": "1812818424",
                 "instanceid": "188530139",
+                "assetid": "31237625064",
                 "marketHashName": "Five-SeveN | Violent Daimyo (Field-Tested)",
                 "name": "Five-SeveN | Violent Daimyo",
                 "type": "Mil-Spec Grade Pistol",
@@ -19822,6 +19969,7 @@ export const testUser = {
             {
                 "classid": "3574239364",
                 "instanceid": "6339380300",
+                "assetid": "30785097004",
                 "marketHashName": "Glock-18 | Sacrifice (Well-Worn)",
                 "name": "Glock-18 | Sacrifice",
                 "type": "Mil-Spec Grade Pistol",
@@ -19963,6 +20111,7 @@ export const testUser = {
             {
                 "classid": "3106115862",
                 "instanceid": "6276300168",
+                "assetid": "30785097000",
                 "marketHashName": "Souvenir MP5-SD | Lab Rats (Minimal Wear)",
                 "name": "Souvenir MP5-SD | Lab Rats",
                 "type": "Souvenir Restricted SMG",
@@ -20086,6 +20235,7 @@ export const testUser = {
             {
                 "classid": "3770673472",
                 "instanceid": "6339380301",
+                "assetid": "30185462256",
                 "marketHashName": "SSG 08 | Fever Dream (Minimal Wear)",
                 "name": "SSG 08 | Fever Dream",
                 "type": "Restricted Sniper Rifle",
@@ -20197,6 +20347,7 @@ export const testUser = {
             {
                 "classid": "2076468896",
                 "instanceid": "481126232",
+                "assetid": "30091701487",
                 "marketHashName": "StatTrak™ Music Kit | Skog, III-Arena",
                 "name": "StatTrak™ Music Kit | Skog, III-Arena",
                 "type": "StatTrak™ High Grade Music Kit",
@@ -20305,6 +20456,7 @@ export const testUser = {
             {
                 "classid": "5659557100",
                 "instanceid": "3873495864",
+                "assetid": "32249324543",
                 "marketHashName": "2640280-Steam Winter Evening 2023",
                 "name": "Steam Winter Evening 2023",
                 "type": "Winter Sale 2023 Profile Modifier",
@@ -20359,6 +20511,7 @@ export const testUser = {
             {
                 "classid": "149754772",
                 "instanceid": "246376127",
+                "assetid": "34009137337",
                 "marketHashName": "730-FBI",
                 "name": "FBI",
                 "type": "Counter-Strike 2 Trading Card",
@@ -20413,6 +20566,7 @@ export const testUser = {
             {
                 "classid": "149750877",
                 "instanceid": "246376127",
+                "assetid": "35527537892",
                 "marketHashName": "730-IDF",
                 "name": "IDF",
                 "type": "Counter-Strike 2 Trading Card",
@@ -20467,6 +20621,7 @@ export const testUser = {
             {
                 "classid": "6058304215",
                 "instanceid": "246376127",
+                "assetid": "32405047495",
                 "marketHashName": "12360-Curtis Wolfe",
                 "name": "Curtis Wolfe",
                 "type": "FlatOut: Ultimate Carnage Collector's Edition Trading Card",
@@ -20521,6 +20676,7 @@ export const testUser = {
             {
                 "classid": "6058305308",
                 "instanceid": "246376127",
+                "assetid": "32420141732",
                 "marketHashName": "12360-Jill Richards",
                 "name": "Jill Richards",
                 "type": "FlatOut: Ultimate Carnage Collector's Edition Trading Card",
@@ -20575,6 +20731,7 @@ export const testUser = {
             {
                 "classid": "6058304173",
                 "instanceid": "246376127",
+                "assetid": "32417013444",
                 "marketHashName": "12360-Lewis Duran",
                 "name": "Lewis Duran",
                 "type": "FlatOut: Ultimate Carnage Collector's Edition Trading Card",
@@ -20629,6 +20786,7 @@ export const testUser = {
             {
                 "classid": "978652730",
                 "instanceid": "246376127",
+                "assetid": "25994874748",
                 "marketHashName": "292030-Dandelion (Trading Card)",
                 "name": "Dandelion (Trading Card)",
                 "type": "The Witcher 3: Wild Hunt Trading Card",
@@ -20683,6 +20841,7 @@ export const testUser = {
             {
                 "classid": "978654490",
                 "instanceid": "0",
+                "assetid": "26000492432",
                 "marketHashName": "292030-Eredin",
                 "name": "Eredin",
                 "type": "The Witcher 3: Wild Hunt Trading Card",
@@ -20737,6 +20896,7 @@ export const testUser = {
             {
                 "classid": "3582282022",
                 "instanceid": "0",
+                "assetid": "32326410470",
                 "marketHashName": "939400-Together",
                 "name": "Together",
                 "type": "LoveChoice Trading Card",
@@ -20791,6 +20951,7 @@ export const testUser = {
             {
                 "classid": "3582282021",
                 "instanceid": "0",
+                "assetid": "32293874253",
                 "marketHashName": "939400-Dinner",
                 "name": "Dinner",
                 "type": "LoveChoice Trading Card",
@@ -20845,6 +21006,7 @@ export const testUser = {
             {
                 "classid": "3777772127",
                 "instanceid": "246376127",
+                "assetid": "32325397118",
                 "marketHashName": "1151340-Charleston",
                 "name": "Charleston",
                 "type": "Fallout 76 Trading Card",
@@ -20899,6 +21061,7 @@ export const testUser = {
             {
                 "classid": "3777772126",
                 "instanceid": "246376127",
+                "assetid": "32326213571",
                 "marketHashName": "1151340-Taggerdy's Thunder",
                 "name": "Taggerdy's Thunder",
                 "type": "Fallout 76 Trading Card",
@@ -20953,6 +21116,7 @@ export const testUser = {
             {
                 "classid": "149753558",
                 "instanceid": "246376138",
+                "assetid": "32414076979",
                 "marketHashName": "730-Guarded",
                 "name": "Guarded",
                 "type": "Counter-Strike 2 Profile Background",
@@ -21007,6 +21171,7 @@ export const testUser = {
             {
                 "classid": "149793596",
                 "instanceid": "246376138",
+                "assetid": "25761277606",
                 "marketHashName": "730-Holding Pattern",
                 "name": "Holding Pattern",
                 "type": "Counter-Strike 2 Rare Profile Background",
@@ -21061,6 +21226,7 @@ export const testUser = {
             {
                 "classid": "149782491",
                 "instanceid": "246376138",
+                "assetid": "25761296887",
                 "marketHashName": "730-B",
                 "name": "B",
                 "type": "Counter-Strike 2 Profile Background",
@@ -21115,6 +21281,7 @@ export const testUser = {
             {
                 "classid": "173867917",
                 "instanceid": "246376138",
+                "assetid": "25767435225",
                 "marketHashName": "105600-The Corruption",
                 "name": "The Corruption",
                 "type": "Terraria Profile Background",
@@ -21169,6 +21336,7 @@ export const testUser = {
             {
                 "classid": "173868022",
                 "instanceid": "246376138",
+                "assetid": "25766657793",
                 "marketHashName": "105600-Ice Caves",
                 "name": "Ice Caves",
                 "type": "Terraria Uncommon Profile Background",
@@ -21223,6 +21391,7 @@ export const testUser = {
             {
                 "classid": "2362658041",
                 "instanceid": "246376138",
+                "assetid": "25936003845",
                 "marketHashName": "370660-The Kiss",
                 "name": "The Kiss",
                 "type": "Opaline Rare Profile Background",
@@ -21277,6 +21446,7 @@ export const testUser = {
             {
                 "classid": "2362658041",
                 "instanceid": "246376138",
+                "assetid": "25936068716",
                 "marketHashName": "370660-The Kiss",
                 "name": "The Kiss",
                 "type": "Opaline Rare Profile Background",
@@ -21331,6 +21501,7 @@ export const testUser = {
             {
                 "classid": "2283568012",
                 "instanceid": "246376138",
+                "assetid": "25936037276",
                 "marketHashName": "370660-Gallow the Knight",
                 "name": "Gallow the Knight",
                 "type": "Opaline Profile Background",
@@ -21385,6 +21556,7 @@ export const testUser = {
             {
                 "classid": "2283568012",
                 "instanceid": "246376138",
+                "assetid": "25936068584",
                 "marketHashName": "370660-Gallow the Knight",
                 "name": "Gallow the Knight",
                 "type": "Opaline Profile Background",
@@ -21439,6 +21611,7 @@ export const testUser = {
             {
                 "classid": "2283568012",
                 "instanceid": "246376138",
+                "assetid": "25936004071",
                 "marketHashName": "370660-Gallow the Knight",
                 "name": "Gallow the Knight",
                 "type": "Opaline Profile Background",
@@ -21493,6 +21666,7 @@ export const testUser = {
             {
                 "classid": "2717624304",
                 "instanceid": "246376138",
+                "assetid": "32249070368",
                 "marketHashName": "379430-Field of War",
                 "name": "Field of War",
                 "type": "Kingdom Come: Deliverance Profile Background",
@@ -21547,6 +21721,7 @@ export const testUser = {
             {
                 "classid": "2717624304",
                 "instanceid": "246376138",
+                "assetid": "32248983173",
                 "marketHashName": "379430-Field of War",
                 "name": "Field of War",
                 "type": "Kingdom Come: Deliverance Profile Background",
@@ -21601,6 +21776,7 @@ export const testUser = {
             {
                 "classid": "2718766947",
                 "instanceid": "246376138",
+                "assetid": "32249070366",
                 "marketHashName": "379430-Field of Love",
                 "name": "Field of Love",
                 "type": "Kingdom Come: Deliverance Profile Background",
@@ -21655,6 +21831,7 @@ export const testUser = {
             {
                 "classid": "2718748267",
                 "instanceid": "246376138",
+                "assetid": "32249070370",
                 "marketHashName": "379430-Gathering storm",
                 "name": "Gathering storm",
                 "type": "Kingdom Come: Deliverance Uncommon Profile Background",
@@ -21709,6 +21886,7 @@ export const testUser = {
             {
                 "classid": "2718176377",
                 "instanceid": "246376138",
+                "assetid": "32248983171",
                 "marketHashName": "379430-Night in a camp",
                 "name": "Night in a camp",
                 "type": "Kingdom Come: Deliverance Profile Background",
@@ -21763,6 +21941,7 @@ export const testUser = {
             {
                 "classid": "2272023061",
                 "instanceid": "246376138",
+                "assetid": "25766492869",
                 "marketHashName": "424840-Guest Area (Profile Background)",
                 "name": "Guest Area (Profile Background)",
                 "type": "Little Nightmares Profile Background",
@@ -21817,6 +21996,7 @@ export const testUser = {
             {
                 "classid": "2272111550",
                 "instanceid": "246376138",
+                "assetid": "25766492998",
                 "marketHashName": "424840-Clock Room",
                 "name": "Clock Room",
                 "type": "Little Nightmares Uncommon Profile Background",
@@ -21871,6 +22051,7 @@ export const testUser = {
             {
                 "classid": "2271930713",
                 "instanceid": "246376138",
+                "assetid": "25766476636",
                 "marketHashName": "424840-Chefs’ Bedroom",
                 "name": "Chefs’ Bedroom",
                 "type": "Little Nightmares Profile Background",
@@ -21925,6 +22106,7 @@ export const testUser = {
             {
                 "classid": "2272084654",
                 "instanceid": "246376138",
+                "assetid": "25766492938",
                 "marketHashName": "424840-The Butcher’s shop",
                 "name": "The Butcher’s shop",
                 "type": "Little Nightmares Profile Background",
@@ -21979,6 +22161,7 @@ export const testUser = {
             {
                 "classid": "5018105126",
                 "instanceid": "246376138",
+                "assetid": "32248744974",
                 "marketHashName": "739630-Warped Souls",
                 "name": "Warped Souls",
                 "type": "Phasmophobia Rare Profile Background",
@@ -22033,6 +22216,7 @@ export const testUser = {
             {
                 "classid": "5018103947",
                 "instanceid": "246376138",
+                "assetid": "32355828136",
                 "marketHashName": "739630-Campsite",
                 "name": "Campsite",
                 "type": "Phasmophobia Profile Background",
@@ -22087,6 +22271,7 @@ export const testUser = {
             {
                 "classid": "5018103947",
                 "instanceid": "246376138",
+                "assetid": "32248535511",
                 "marketHashName": "739630-Campsite",
                 "name": "Campsite",
                 "type": "Phasmophobia Profile Background",
@@ -22141,6 +22326,7 @@ export const testUser = {
             {
                 "classid": "5018103947",
                 "instanceid": "246376138",
+                "assetid": "32248646991",
                 "marketHashName": "739630-Campsite",
                 "name": "Campsite",
                 "type": "Phasmophobia Profile Background",
@@ -22195,6 +22381,7 @@ export const testUser = {
             {
                 "classid": "5018103947",
                 "instanceid": "246376138",
+                "assetid": "32248585354",
                 "marketHashName": "739630-Campsite",
                 "name": "Campsite",
                 "type": "Phasmophobia Profile Background",
@@ -22249,6 +22436,7 @@ export const testUser = {
             {
                 "classid": "5018103633",
                 "instanceid": "246376138",
+                "assetid": "32248759008",
                 "marketHashName": "739630-Sunny Meadows Mental Institution - UV",
                 "name": "Sunny Meadows Mental Institution - UV",
                 "type": "Phasmophobia Uncommon Profile Background",
@@ -22303,6 +22491,7 @@ export const testUser = {
             {
                 "classid": "3582284395",
                 "instanceid": "246376138",
+                "assetid": "32328714103",
                 "marketHashName": "939400-:LoveChoiceBg1:",
                 "name": ":LoveChoiceBg1:",
                 "type": "LoveChoice Profile Background",
@@ -22357,6 +22546,7 @@ export const testUser = {
             {
                 "classid": "3582284395",
                 "instanceid": "246376138",
+                "assetid": "27528993498",
                 "marketHashName": "939400-:LoveChoiceBg1:",
                 "name": ":LoveChoiceBg1:",
                 "type": "LoveChoice Profile Background",
@@ -22411,6 +22601,7 @@ export const testUser = {
             {
                 "classid": "3582307025",
                 "instanceid": "246376138",
+                "assetid": "27528635077",
                 "marketHashName": "939400-:LoveChoiceBg2:",
                 "name": ":LoveChoiceBg2:",
                 "type": "LoveChoice Uncommon Profile Background",
@@ -22465,6 +22656,7 @@ export const testUser = {
             {
                 "classid": "3582610575",
                 "instanceid": "246376138",
+                "assetid": "27528993467",
                 "marketHashName": "939400-:LoveChoiceBg3:",
                 "name": ":LoveChoiceBg3:",
                 "type": "LoveChoice Rare Profile Background",
@@ -22519,6 +22711,7 @@ export const testUser = {
             {
                 "classid": "3582610575",
                 "instanceid": "246376138",
+                "assetid": "32328714296",
                 "marketHashName": "939400-:LoveChoiceBg3:",
                 "name": ":LoveChoiceBg3:",
                 "type": "LoveChoice Rare Profile Background",
@@ -22573,6 +22766,7 @@ export const testUser = {
             {
                 "classid": "4226021262",
                 "instanceid": "3865004543",
+                "assetid": "25896577019",
                 "marketHashName": "1069740-Seen Nebula Purple",
                 "name": "Seen Nebula Purple",
                 "type": "Seen Profile Background",
@@ -22627,6 +22821,7 @@ export const testUser = {
             {
                 "classid": "5396063406",
                 "instanceid": "246376138",
+                "assetid": "26223009307",
                 "marketHashName": "2459330-Sunburst",
                 "name": "Sunburst",
                 "type": "Summer In The City Profile Background",
@@ -22687,6 +22882,7 @@ export const testUser = {
             {
                 "classid": "5396063449",
                 "instanceid": "246376138",
+                "assetid": "26222874818",
                 "marketHashName": "2459330-Neptune",
                 "name": "Neptune",
                 "type": "Summer In The City Profile Background",
@@ -22747,6 +22943,7 @@ export const testUser = {
             {
                 "classid": "5396063430",
                 "instanceid": "246376138",
+                "assetid": "26046994590",
                 "marketHashName": "2459330-Urchin",
                 "name": "Urchin",
                 "type": "Summer In The City Profile Background",
@@ -22807,6 +23004,7 @@ export const testUser = {
             {
                 "classid": "5514589670",
                 "instanceid": "3865004543",
+                "assetid": "27705521309",
                 "marketHashName": "2598440-Steam 20th Anniversary",
                 "name": "Steam 20th Anniversary",
                 "type": "Steam 20th Anniversary Profile Background",
@@ -22861,6 +23059,7 @@ export const testUser = {
             {
                 "classid": "5659557101",
                 "instanceid": "3865004543",
+                "assetid": "32249324547",
                 "marketHashName": "2640280-Steam Winter Evening 2023 - Background",
                 "name": "Steam Winter Evening 2023 - Background",
                 "type": "Winter Sale 2023 Profile Background",
@@ -22921,6 +23120,7 @@ export const testUser = {
             {
                 "classid": "149838368",
                 "instanceid": "246376138",
+                "assetid": "25760961347",
                 "marketHashName": "730-:csgoa:",
                 "name": ":csgoa:",
                 "type": "Counter-Strike 2 Emoticon",
@@ -22976,6 +23176,7 @@ export const testUser = {
             {
                 "classid": "149790059",
                 "instanceid": "246376138",
+                "assetid": "25761277607",
                 "marketHashName": "730-:csgob:",
                 "name": ":csgob:",
                 "type": "Counter-Strike 2 Emoticon",
@@ -23031,6 +23232,7 @@ export const testUser = {
             {
                 "classid": "149782717",
                 "instanceid": "246376138",
+                "assetid": "32414076980",
                 "marketHashName": "730-:csgohelmet:",
                 "name": ":csgohelmet:",
                 "type": "Counter-Strike 2 Emoticon",
@@ -23086,6 +23288,7 @@ export const testUser = {
             {
                 "classid": "149791071",
                 "instanceid": "246376138",
+                "assetid": "25761277749",
                 "marketHashName": "730-:csgostar:",
                 "name": ":csgostar:",
                 "type": "Counter-Strike 2 Rare Emoticon",
@@ -23141,6 +23344,7 @@ export const testUser = {
             {
                 "classid": "149782492",
                 "instanceid": "246376138",
+                "assetid": "25761179647",
                 "marketHashName": "730-:csgogun:",
                 "name": ":csgogun:",
                 "type": "Counter-Strike 2 Emoticon",
@@ -23196,6 +23400,7 @@ export const testUser = {
             {
                 "classid": "149792131",
                 "instanceid": "246376138",
+                "assetid": "25761296888",
                 "marketHashName": "730-:csgoct:",
                 "name": ":csgoct:",
                 "type": "Counter-Strike 2 Emoticon",
@@ -23251,6 +23456,7 @@ export const testUser = {
             {
                 "classid": "173869522",
                 "instanceid": "246376138",
+                "assetid": "25766562619",
                 "marketHashName": "105600-:terraria:",
                 "name": ":terraria:",
                 "type": "Terraria Emoticon",
@@ -23306,6 +23512,7 @@ export const testUser = {
             {
                 "classid": "173868004",
                 "instanceid": "246376138",
+                "assetid": "25766657794",
                 "marketHashName": "105600-:dirtblock:",
                 "name": ":dirtblock:",
                 "type": "Terraria Rare Emoticon",
@@ -23361,6 +23568,7 @@ export const testUser = {
             {
                 "classid": "173867918",
                 "instanceid": "246376138",
+                "assetid": "25766562715",
                 "marketHashName": "105600-:greenslime:",
                 "name": ":greenslime:",
                 "type": "Terraria Uncommon Emoticon",
@@ -23416,6 +23624,7 @@ export const testUser = {
             {
                 "classid": "173867885",
                 "instanceid": "246376138",
+                "assetid": "25766678953",
                 "marketHashName": "105600-:zombiehead:",
                 "name": ":zombiehead:",
                 "type": "Terraria Emoticon",
@@ -23471,6 +23680,7 @@ export const testUser = {
             {
                 "classid": "2372357976",
                 "instanceid": "246376138",
+                "assetid": "25936003846",
                 "marketHashName": "370660-:opablight:",
                 "name": ":opablight:",
                 "type": "Opaline Rare Emoticon",
@@ -23526,6 +23736,7 @@ export const testUser = {
             {
                 "classid": "2291090881",
                 "instanceid": "246376138",
+                "assetid": "25936068717",
                 "marketHashName": "370660-:opaidea:",
                 "name": ":opaidea:",
                 "type": "Opaline Uncommon Emoticon",
@@ -23581,6 +23792,7 @@ export const testUser = {
             {
                 "classid": "2283568181",
                 "instanceid": "246376138",
+                "assetid": "25936068585",
                 "marketHashName": "370660-:opafire:",
                 "name": ":opafire:",
                 "type": "Opaline Emoticon",
@@ -23636,6 +23848,7 @@ export const testUser = {
             {
                 "classid": "2283568181",
                 "instanceid": "246376138",
+                "assetid": "25936037072",
                 "marketHashName": "370660-:opafire:",
                 "name": ":opafire:",
                 "type": "Opaline Emoticon",
@@ -23691,6 +23904,7 @@ export const testUser = {
             {
                 "classid": "2283568181",
                 "instanceid": "246376138",
+                "assetid": "25936037277",
                 "marketHashName": "370660-:opafire:",
                 "name": ":opafire:",
                 "type": "Opaline Emoticon",
@@ -23746,6 +23960,7 @@ export const testUser = {
             {
                 "classid": "2717623971",
                 "instanceid": "246376138",
+                "assetid": "32248983172",
                 "marketHashName": "379430-:kcdgkw:",
                 "name": ":kcdgkw:",
                 "type": "Kingdom Come: Deliverance Emoticon",
@@ -23801,6 +24016,7 @@ export const testUser = {
             {
                 "classid": "2718556180",
                 "instanceid": "246376138",
+                "assetid": "32249070371",
                 "marketHashName": "379430-:kcdhorse:",
                 "name": ":kcdhorse:",
                 "type": "Kingdom Come: Deliverance Emoticon",
@@ -23856,6 +24072,7 @@ export const testUser = {
             {
                 "classid": "2718768521",
                 "instanceid": "246376138",
+                "assetid": "32248983174",
                 "marketHashName": "379430-:kcdhead:",
                 "name": ":kcdhead:",
                 "type": "Kingdom Come: Deliverance Emoticon",
@@ -23911,6 +24128,7 @@ export const testUser = {
             {
                 "classid": "2718768521",
                 "instanceid": "246376138",
+                "assetid": "32249070367",
                 "marketHashName": "379430-:kcdhead:",
                 "name": ":kcdhead:",
                 "type": "Kingdom Come: Deliverance Emoticon",
@@ -23966,6 +24184,7 @@ export const testUser = {
             {
                 "classid": "2718768521",
                 "instanceid": "246376138",
+                "assetid": "32249070369",
                 "marketHashName": "379430-:kcdhead:",
                 "name": ":kcdhead:",
                 "type": "Kingdom Come: Deliverance Emoticon",
@@ -24021,6 +24240,7 @@ export const testUser = {
             {
                 "classid": "2272129261",
                 "instanceid": "246376138",
+                "assetid": "25766476637",
                 "marketHashName": "424840-:Janitor_Heart:",
                 "name": ":Janitor_Heart:",
                 "type": "Little Nightmares Emoticon",
@@ -24076,6 +24296,7 @@ export const testUser = {
             {
                 "classid": "2271930714",
                 "instanceid": "246376138",
+                "assetid": "25766492999",
                 "marketHashName": "424840-:Wut_Leeches:",
                 "name": ":Wut_Leeches:",
                 "type": "Little Nightmares Emoticon",
@@ -24131,6 +24352,7 @@ export const testUser = {
             {
                 "classid": "2272382641",
                 "instanceid": "246376138",
+                "assetid": "25766476817",
                 "marketHashName": "424840-:Chief_Knife:",
                 "name": ":Chief_Knife:",
                 "type": "Little Nightmares Uncommon Emoticon",
@@ -24186,6 +24408,7 @@ export const testUser = {
             {
                 "classid": "5018104727",
                 "instanceid": "246376138",
+                "assetid": "32248759009",
                 "marketHashName": "739630-:CryingGhost:",
                 "name": ":CryingGhost:",
                 "type": "Phasmophobia Emoticon",
@@ -24241,6 +24464,7 @@ export const testUser = {
             {
                 "classid": "5018104727",
                 "instanceid": "246376138",
+                "assetid": "32248535513",
                 "marketHashName": "739630-:CryingGhost:",
                 "name": ":CryingGhost:",
                 "type": "Phasmophobia Emoticon",
@@ -24296,6 +24520,7 @@ export const testUser = {
             {
                 "classid": "5018104480",
                 "instanceid": "246376138",
+                "assetid": "32248744975",
                 "marketHashName": "739630-:GhostFlowerHappy:",
                 "name": ":GhostFlowerHappy:",
                 "type": "Phasmophobia Emoticon",
@@ -24351,6 +24576,7 @@ export const testUser = {
             {
                 "classid": "5018104480",
                 "instanceid": "246376138",
+                "assetid": "32248585355",
                 "marketHashName": "739630-:GhostFlowerHappy:",
                 "name": ":GhostFlowerHappy:",
                 "type": "Phasmophobia Emoticon",
@@ -24406,6 +24632,7 @@ export const testUser = {
             {
                 "classid": "5018105641",
                 "instanceid": "246376138",
+                "assetid": "32355828137",
                 "marketHashName": "739630-:GhostLoveEyes:",
                 "name": ":GhostLoveEyes:",
                 "type": "Phasmophobia Emoticon",
@@ -24461,6 +24688,7 @@ export const testUser = {
             {
                 "classid": "5018105641",
                 "instanceid": "246376138",
+                "assetid": "32248646993",
                 "marketHashName": "739630-:GhostLoveEyes:",
                 "name": ":GhostLoveEyes:",
                 "type": "Phasmophobia Emoticon",
@@ -24516,6 +24744,7 @@ export const testUser = {
             {
                 "classid": "3582284427",
                 "instanceid": "246376138",
+                "assetid": "32328714297",
                 "marketHashName": "939400-:LoveChoiceAngry:",
                 "name": ":LoveChoiceAngry:",
                 "type": "LoveChoice Emoticon",
@@ -24571,6 +24800,7 @@ export const testUser = {
             {
                 "classid": "3582284427",
                 "instanceid": "246376138",
+                "assetid": "27528635078",
                 "marketHashName": "939400-:LoveChoiceAngry:",
                 "name": ":LoveChoiceAngry:",
                 "type": "LoveChoice Emoticon",
@@ -24626,6 +24856,7 @@ export const testUser = {
             {
                 "classid": "3582291400",
                 "instanceid": "246376138",
+                "assetid": "27528993468",
                 "marketHashName": "939400-:LoveChoiceSweat:",
                 "name": ":LoveChoiceSweat:",
                 "type": "LoveChoice Emoticon",
@@ -24681,6 +24912,7 @@ export const testUser = {
             {
                 "classid": "3582519159",
                 "instanceid": "246376138",
+                "assetid": "32328714104",
                 "marketHashName": "939400-:LoveChoiceLaugh:",
                 "name": ":LoveChoiceLaugh:",
                 "type": "LoveChoice Emoticon",
@@ -24736,6 +24968,7 @@ export const testUser = {
             {
                 "classid": "3582299643",
                 "instanceid": "246376138",
+                "assetid": "27528993499",
                 "marketHashName": "939400-:LoveChoiceBling:",
                 "name": ":LoveChoiceBling:",
                 "type": "LoveChoice Emoticon",
@@ -24791,6 +25024,7 @@ export const testUser = {
             {
                 "classid": "5396063454",
                 "instanceid": "246376138",
+                "assetid": "26223009308",
                 "marketHashName": "2459330-:summercat2023:",
                 "name": ":summercat2023:",
                 "type": "Summer In The City Emoticon",
@@ -24852,6 +25086,7 @@ export const testUser = {
             {
                 "classid": "5396063407",
                 "instanceid": "246376138",
+                "assetid": "26046994591",
                 "marketHashName": "2459330-:summerfish2023:",
                 "name": ":summerfish2023:",
                 "type": "Summer In The City Emoticon",
@@ -24913,6 +25148,7 @@ export const testUser = {
             {
                 "classid": "5514589193",
                 "instanceid": "3865004543",
+                "assetid": "27705521283",
                 "marketHashName": "2598440-Keyboard Headcrab",
                 "name": "Keyboard Headcrab",
                 "type": "Steam 20th Anniversary Sticker",
@@ -24961,6 +25197,7 @@ export const testUser = {
             {
                 "classid": "5514589341",
                 "instanceid": "3865004543",
+                "assetid": "27705521298",
                 "marketHashName": "2598440-Day of Disaster",
                 "name": "Day of Disaster",
                 "type": "Steam 20th Anniversary Sticker",
@@ -25009,6 +25246,7 @@ export const testUser = {
             {
                 "classid": "5514589447",
                 "instanceid": "3865004543",
+                "assetid": "27705521305",
                 "marketHashName": "2598440-Nyan GLaDOS",
                 "name": "Nyan GLaDOS",
                 "type": "Steam 20th Anniversary Sticker",
@@ -25057,6 +25295,7 @@ export const testUser = {
             {
                 "classid": "6452298711",
                 "instanceid": "1449747935",
+                "assetid": "32655442027",
                 "marketHashName": "2861720-Cat Slippers",
                 "name": "Cat Slippers",
                 "type": "Winter Sale 2024 Sticker",
@@ -25111,6 +25350,7 @@ export const testUser = {
             {
                 "classid": "6452298744",
                 "instanceid": "1449747935",
+                "assetid": "32655442039",
                 "marketHashName": "2861720-Hot Cocoa",
                 "name": "Hot Cocoa",
                 "type": "Winter Sale 2024 Sticker",
@@ -25165,6 +25405,7 @@ export const testUser = {
             {
                 "classid": "6452298709",
                 "instanceid": "1449747935",
+                "assetid": "32655457305",
                 "marketHashName": "2861720-Ornament",
                 "name": "Ornament",
                 "type": "Winter Sale 2024 Sticker",
@@ -25219,6 +25460,7 @@ export const testUser = {
             {
                 "classid": "6452298746",
                 "instanceid": "1449747935",
+                "assetid": "32655489314",
                 "marketHashName": "2861720-Snowflake Cookie",
                 "name": "Snowflake Cookie",
                 "type": "Winter Sale 2024 Sticker",
@@ -25273,6 +25515,7 @@ export const testUser = {
             {
                 "classid": "6452298750",
                 "instanceid": "1449747935",
+                "assetid": "32655489306",
                 "marketHashName": "2861720-Snowflakes",
                 "name": "Snowflakes",
                 "type": "Winter Sale 2024 Sticker",
@@ -25327,6 +25570,7 @@ export const testUser = {
             {
                 "classid": "6452298733",
                 "instanceid": "1449747935",
+                "assetid": "32655457301",
                 "marketHashName": "2861720-Stocking",
                 "name": "Stocking",
                 "type": "Winter Sale 2024 Sticker",
@@ -25381,6 +25625,7 @@ export const testUser = {
             {
                 "classid": "6452298734",
                 "instanceid": "1449747935",
+                "assetid": "32655489309",
                 "marketHashName": "2861720-String Lights",
                 "name": "String Lights",
                 "type": "Winter Sale 2024 Sticker",
@@ -25435,6 +25680,7 @@ export const testUser = {
             {
                 "classid": "6452298732",
                 "instanceid": "1449747935",
+                "assetid": "32655457312",
                 "marketHashName": "2861720-Stuffed Bunny",
                 "name": "Stuffed Bunny",
                 "type": "Winter Sale 2024 Sticker",
@@ -25489,6 +25735,7 @@ export const testUser = {
             {
                 "classid": "6452298708",
                 "instanceid": "1449747935",
+                "assetid": "32655442033",
                 "marketHashName": "2861720-Wreath",
                 "name": "Wreath",
                 "type": "Winter Sale 2024 Sticker",
@@ -25543,6 +25790,7 @@ export const testUser = {
             {
                 "classid": "6452300486",
                 "instanceid": "260242877",
+                "assetid": "32655341517",
                 "marketHashName": "3334340-Best Game You Suck At 2024",
                 "name": "Best Game You Suck At 2024",
                 "type": "The Steam Awards - 2024 Sticker",
@@ -25591,6 +25839,7 @@ export const testUser = {
             {
                 "classid": "6452300254",
                 "instanceid": "260242877",
+                "assetid": "32655313281",
                 "marketHashName": "3334340-Best Game on Deck 2024",
                 "name": "Best Game on Deck 2024",
                 "type": "The Steam Awards - 2024 Sticker",
@@ -25639,6 +25888,7 @@ export const testUser = {
             {
                 "classid": "6452300816",
                 "instanceid": "260242877",
+                "assetid": "32655341573",
                 "marketHashName": "3334340-Best Soundtrack 2024",
                 "name": "Best Soundtrack 2024",
                 "type": "The Steam Awards - 2024 Sticker",
@@ -25687,6 +25937,7 @@ export const testUser = {
             {
                 "classid": "6452300255",
                 "instanceid": "260242877",
+                "assetid": "32655313330",
                 "marketHashName": "3334340-Better With Friends 2024",
                 "name": "Better With Friends 2024",
                 "type": "The Steam Awards - 2024 Sticker",
@@ -25735,6 +25986,7 @@ export const testUser = {
             {
                 "classid": "6452299689",
                 "instanceid": "260242877",
+                "assetid": "32655294154",
                 "marketHashName": "3334340-Game of the Year 2024",
                 "name": "Game of the Year 2024",
                 "type": "The Steam Awards - 2024 Sticker",
@@ -25783,6 +26035,7 @@ export const testUser = {
             {
                 "classid": "6452300031",
                 "instanceid": "260242877",
+                "assetid": "32655313192",
                 "marketHashName": "3334340-Labor of Love 2024",
                 "name": "Labor of Love 2024",
                 "type": "The Steam Awards - 2024 Sticker",
@@ -25831,6 +26084,7 @@ export const testUser = {
             {
                 "classid": "6452300485",
                 "instanceid": "260242877",
+                "assetid": "32655341405",
                 "marketHashName": "3334340-Most Innovative Gameplay 2024",
                 "name": "Most Innovative Gameplay 2024",
                 "type": "The Steam Awards - 2024 Sticker",
@@ -25879,6 +26133,7 @@ export const testUser = {
             {
                 "classid": "6452300819",
                 "instanceid": "260242877",
+                "assetid": "32655361392",
                 "marketHashName": "3334340-Outstanding Story-Rich Game 2024",
                 "name": "Outstanding Story-Rich Game 2024",
                 "type": "The Steam Awards - 2024 Sticker",
@@ -25927,6 +26182,7 @@ export const testUser = {
             {
                 "classid": "6452300484",
                 "instanceid": "260242877",
+                "assetid": "32655326593",
                 "marketHashName": "3334340-Outstanding Visual Style 2024",
                 "name": "Outstanding Visual Style 2024",
                 "type": "The Steam Awards - 2024 Sticker",
@@ -25975,6 +26231,7 @@ export const testUser = {
             {
                 "classid": "6452301066",
                 "instanceid": "260242877",
+                "assetid": "32655361478",
                 "marketHashName": "3334340-Sit Back and Relax 2024",
                 "name": "Sit Back and Relax 2024",
                 "type": "The Steam Awards - 2024 Sticker",
@@ -26023,6 +26280,7 @@ export const testUser = {
             {
                 "classid": "6452300030",
                 "instanceid": "260242877",
+                "assetid": "32655294308",
                 "marketHashName": "3334340-VR Game of the Year 2024",
                 "name": "VR Game of the Year 2024",
                 "type": "The Steam Awards - 2024 Sticker",
@@ -26071,6 +26329,7 @@ export const testUser = {
             {
                 "classid": "5392591965",
                 "instanceid": "3873489151",
+                "assetid": "35562038587",
                 "marketHashName": "1876560-Energy Mini",
                 "name": "Energy Mini",
                 "type": "Save the Reactor Mini Profile Background",
@@ -26120,6 +26379,7 @@ export const testUser = {
             {
                 "classid": "5084980047",
                 "instanceid": "3873495864",
+                "assetid": "25383601380",
                 "marketHashName": "2165610-Group Selfie Mini",
                 "name": "Group Selfie Mini",
                 "type": "Mosaique Neko Waifus 5 Mini Profile Background",
@@ -26168,6 +26428,7 @@ export const testUser = {
             {
                 "classid": "5659557103",
                 "instanceid": "3873495864",
+                "assetid": "32249324546",
                 "marketHashName": "2640280-Steam Winter Evening 2023 - Mini Profile",
                 "name": "Steam Winter Evening 2023 - Mini Profile",
                 "type": "Winter Sale 2023 Mini Profile Background",
@@ -26222,6 +26483,7 @@ export const testUser = {
             {
                 "classid": "5659557104",
                 "instanceid": "3873495864",
+                "assetid": "32249324545",
                 "marketHashName": "2640280-Steam Winter Evening 2023 - Avatar Frame",
                 "name": "Steam Winter Evening 2023 - Avatar Frame",
                 "type": "Winter Sale 2023 Avatar Profile Frame",
@@ -26276,6 +26538,7 @@ export const testUser = {
             {
                 "classid": "5659557105",
                 "instanceid": "3873495864",
+                "assetid": "32249324544",
                 "marketHashName": "2640280-Steam Winter Evening 2023 - Avatar",
                 "name": "Steam Winter Evening 2023 - Avatar",
                 "type": "Winter Sale 2023 Animated Avatar",
@@ -26332,6 +26595,7 @@ export const testUser = {
             {
                 "classid": "2769171850",
                 "instanceid": "0",
+                "assetid": "648060649374305509",
                 "marketHashName": "Desert Digital - Kar98k",
                 "name": "Desert Digital - Kar98k",
                 "type": "",
@@ -26354,6 +26618,7 @@ export const testUser = {
             {
                 "classid": "2793011381",
                 "instanceid": "0",
+                "assetid": "648060649374305695",
                 "marketHashName": "Desert Digital - P92",
                 "name": "Desert Digital - P92",
                 "type": "",
@@ -26376,6 +26641,7 @@ export const testUser = {
             {
                 "classid": "4302446757",
                 "instanceid": "0",
+                "assetid": "4753057381794757379",
                 "marketHashName": "Queen's Guard Dadao",
                 "name": "Queen's Guard Dadao",
                 "type": "",
@@ -26402,6 +26668,7 @@ export const testUser = {
             {
                 "classid": "4948496403",
                 "instanceid": "0",
+                "assetid": "4753057381803619514",
                 "marketHashName": "Two-Tone - P92",
                 "name": "Two-Tone - P92",
                 "type": "",
@@ -26422,6 +26689,7 @@ export const testUser = {
             {
                 "classid": "3424887132",
                 "instanceid": "0",
+                "assetid": "5228204894132251796",
                 "marketHashName": "Pinstripe Short Sleeve Shirt (Gray-Gold)",
                 "name": "Pinstripe Short Sleeve Shirt (Gray/Gold)",
                 "type": "",
@@ -26442,6 +26710,7 @@ export const testUser = {
             {
                 "classid": "3535876663",
                 "instanceid": "0",
+                "assetid": "5694279343332682431",
                 "marketHashName": "CHEESY GOODNESS",
                 "name": "CHEESY GOODNESS",
                 "type": "",
@@ -26462,6 +26731,7 @@ export const testUser = {
             {
                 "classid": "3535897230",
                 "instanceid": "0",
+                "assetid": "5694279343333844687",
                 "marketHashName": "HUNTED",
                 "name": "HUNTED",
                 "type": "",
@@ -26482,6 +26752,7 @@ export const testUser = {
             {
                 "classid": "3538124175",
                 "instanceid": "0",
+                "assetid": "6736894373942484748",
                 "marketHashName": "BOBO",
                 "name": "BOBO",
                 "type": "",
@@ -26502,6 +26773,7 @@ export const testUser = {
             {
                 "classid": "5103034236",
                 "instanceid": "0",
+                "assetid": "6736894373942488145",
                 "marketHashName": "Snow Flake - MP5K",
                 "name": "Snow Flake - MP5K",
                 "type": "",
@@ -26522,6 +26794,7 @@ export const testUser = {
             {
                 "classid": "5760701566",
                 "instanceid": "0",
+                "assetid": "6736894373942334149",
                 "marketHashName": "Happy 7th Anniversary Boots",
                 "name": "Happy 7th Anniversary Boots",
                 "type": "",
@@ -26542,6 +26815,7 @@ export const testUser = {
             {
                 "classid": "5503728240",
                 "instanceid": "0",
+                "assetid": "6605172472005263717",
                 "marketHashName": "Human Billboard",
                 "name": "Human Billboard",
                 "type": "",
@@ -26562,6 +26836,7 @@ export const testUser = {
             {
                 "classid": "3535952508",
                 "instanceid": "0",
+                "assetid": "5694279343337690386",
                 "marketHashName": "STALKER",
                 "name": "STALKER",
                 "type": "",
@@ -26582,6 +26857,7 @@ export const testUser = {
             {
                 "classid": "3535945376",
                 "instanceid": "0",
+                "assetid": "5694279343336991717",
                 "marketHashName": "CAST IRON",
                 "name": "CAST IRON",
                 "type": "",
@@ -26602,6 +26878,7 @@ export const testUser = {
             {
                 "classid": "3601951722",
                 "instanceid": "0",
+                "assetid": "5694279343333683493",
                 "marketHashName": "Gold Plate - Vector",
                 "name": "Gold Plate - Vector",
                 "type": "",
@@ -26624,6 +26901,7 @@ export const testUser = {
             {
                 "classid": "4707187881",
                 "instanceid": "0",
+                "assetid": "5694279343333672848",
                 "marketHashName": "Ready to Rumble Mask",
                 "name": "Ready to Rumble Mask",
                 "type": "",
@@ -26644,6 +26922,7 @@ export const testUser = {
             {
                 "classid": "3535863903",
                 "instanceid": "0",
+                "assetid": "5694279343331906195",
                 "marketHashName": "BENGAL",
                 "name": "BENGAL",
                 "type": "",
@@ -26664,6 +26943,7 @@ export const testUser = {
             {
                 "classid": "3535850797",
                 "instanceid": "0",
+                "assetid": "5694279343329675257",
                 "marketHashName": "ARROWHEAD",
                 "name": "ARROWHEAD",
                 "type": "",
@@ -26684,6 +26964,7 @@ export const testUser = {
             {
                 "classid": "4706118921",
                 "instanceid": "0",
+                "assetid": "5694279343329578390",
                 "marketHashName": "Ready to Rumble Pants",
                 "name": "Ready to Rumble Pants",
                 "type": "",
@@ -26704,6 +26985,7 @@ export const testUser = {
             {
                 "classid": "4706118922",
                 "instanceid": "0",
+                "assetid": "5694279343329530836",
                 "marketHashName": "Ready to Rumble Jacket",
                 "name": "Ready to Rumble Jacket",
                 "type": "",
@@ -26724,6 +27006,7 @@ export const testUser = {
             {
                 "classid": "2225518130",
                 "instanceid": "0",
+                "assetid": "5694279343329419021",
                 "marketHashName": "Hi-top Trainers",
                 "name": "Hi-top Trainers",
                 "type": "",
@@ -26750,6 +27033,7 @@ export const testUser = {
             {
                 "classid": "2225518129",
                 "instanceid": "0",
+                "assetid": "5694279343329419020",
                 "marketHashName": "Combat Pants (Brown)",
                 "name": "Combat Pants (Brown)",
                 "type": "",
@@ -26776,6 +27060,7 @@ export const testUser = {
             {
                 "classid": "2225518128",
                 "instanceid": "0",
+                "assetid": "5694279343329419019",
                 "marketHashName": "Combat Pants (Khaki)",
                 "name": "Combat Pants (Khaki)",
                 "type": "",
@@ -26802,6 +27087,7 @@ export const testUser = {
             {
                 "classid": "2225518127",
                 "instanceid": "0",
+                "assetid": "5694279343329419018",
                 "marketHashName": "T-shirt (Gray)",
                 "name": "T-shirt (Gray)",
                 "type": "",
@@ -26828,6 +27114,7 @@ export const testUser = {
             {
                 "classid": "2225518126",
                 "instanceid": "0",
+                "assetid": "5694279343329419017",
                 "marketHashName": "T-shirt (White)",
                 "name": "T-shirt (White)",
                 "type": "",
@@ -26854,6 +27141,7 @@ export const testUser = {
             {
                 "classid": "3541723082",
                 "instanceid": "0",
+                "assetid": "5341922686994889398",
                 "marketHashName": "ABYSS",
                 "name": "ABYSS",
                 "type": "",
@@ -26874,6 +27162,7 @@ export const testUser = {
             {
                 "classid": "3540659653",
                 "instanceid": "0",
+                "assetid": "5341922686980173771",
                 "marketHashName": "MASQUERADE",
                 "name": "MASQUERADE",
                 "type": "",
@@ -26894,6 +27183,7 @@ export const testUser = {
             {
                 "classid": "4749345174",
                 "instanceid": "0",
+                "assetid": "5341922686979984355",
                 "marketHashName": "Jungle Prowler - P92",
                 "name": "Jungle Prowler - P92",
                 "type": "",
@@ -26914,6 +27204,7 @@ export const testUser = {
             {
                 "classid": "6146673803",
                 "instanceid": "0",
+                "assetid": "5341922686979983701",
                 "marketHashName": "Purple Rain - Crossbow",
                 "name": "Purple Rain - Crossbow",
                 "type": "",
@@ -26934,6 +27225,7 @@ export const testUser = {
             {
                 "classid": "6146866531",
                 "instanceid": "0",
+                "assetid": "5341922686979982614",
                 "marketHashName": "Victory Dance 136",
                 "name": "Victory Dance 136",
                 "type": "",
@@ -26954,6 +27246,7 @@ export const testUser = {
             {
                 "classid": "3756818167",
                 "instanceid": "0",
+                "assetid": "5341922686975418334",
                 "marketHashName": "Pearl Dynasty - Deagle",
                 "name": "Pearl Dynasty - Deagle",
                 "type": "",
@@ -26974,6 +27267,7 @@ export const testUser = {
             {
                 "classid": "3676743253",
                 "instanceid": "0",
+                "assetid": "5341922686975418333",
                 "marketHashName": "Pathwalker Blinder Glasses",
                 "name": "Pathwalker Blinder Glasses",
                 "type": "",
@@ -26994,6 +27288,7 @@ export const testUser = {
             {
                 "classid": "3676743248",
                 "instanceid": "0",
+                "assetid": "5341922686975418332",
                 "marketHashName": "Old Blue Eyes Fedora",
                 "name": "Old Blue Eyes Fedora",
                 "type": "",
@@ -27014,6 +27309,7 @@ export const testUser = {
             {
                 "classid": "4781215106",
                 "instanceid": "0",
+                "assetid": "5341922686972242080",
                 "marketHashName": "Flower Power - Vector",
                 "name": "Flower Power - Vector",
                 "type": "",
@@ -27034,6 +27330,7 @@ export const testUser = {
             {
                 "classid": "4749345173",
                 "instanceid": "0",
+                "assetid": "5341922686968825193",
                 "marketHashName": "Feral Flower - Crossbow",
                 "name": "Feral Flower - Crossbow",
                 "type": "",
@@ -27054,6 +27351,7 @@ export const testUser = {
             {
                 "classid": "3540659652",
                 "instanceid": "0",
+                "assetid": "5341922686962610678",
                 "marketHashName": "RAVAGE",
                 "name": "RAVAGE",
                 "type": "",
@@ -27074,6 +27372,7 @@ export const testUser = {
             {
                 "classid": "4974958498",
                 "instanceid": "0",
+                "assetid": "5341922686962335429",
                 "marketHashName": "Bunny Academy Hazard Mask",
                 "name": "Bunny Academy Hazard Mask",
                 "type": "",
@@ -27094,6 +27393,7 @@ export const testUser = {
             {
                 "classid": "4715347814",
                 "instanceid": "0",
+                "assetid": "5341922686962093686",
                 "marketHashName": "Wild Cat Shoes",
                 "name": "Wild Cat Shoes",
                 "type": "",
@@ -27114,6 +27414,7 @@ export const testUser = {
             {
                 "classid": "4723525495",
                 "instanceid": "0",
+                "assetid": "5341922686962093685",
                 "marketHashName": "Wild Cat Pants",
                 "name": "Wild Cat Pants",
                 "type": "",
@@ -27134,6 +27435,7 @@ export const testUser = {
             {
                 "classid": "4723525494",
                 "instanceid": "0",
+                "assetid": "5341922686962093684",
                 "marketHashName": "Wild Cat Hoodie",
                 "name": "Wild Cat Hoodie",
                 "type": "",
@@ -27154,6 +27456,7 @@ export const testUser = {
             {
                 "classid": "4496220153",
                 "instanceid": "0",
+                "assetid": "5341922686962089617",
                 "marketHashName": "Large Brim Sun Hat",
                 "name": "Large Brim Sun Hat",
                 "type": "",
@@ -27174,6 +27477,7 @@ export const testUser = {
             {
                 "classid": "5641826111",
                 "instanceid": "0",
+                "assetid": "5328410620369931838",
                 "marketHashName": "Forbidden Flare Dress",
                 "name": "Forbidden Flare Dress",
                 "type": "",
@@ -27194,6 +27498,7 @@ export const testUser = {
             {
                 "classid": "5641826109",
                 "instanceid": "0",
+                "assetid": "5328410620369931837",
                 "marketHashName": "Forbidden Flare Jacket",
                 "name": "Forbidden Flare Jacket",
                 "type": "",
@@ -27214,6 +27519,7 @@ export const testUser = {
             {
                 "classid": "5641826108",
                 "instanceid": "0",
+                "assetid": "5328410620369931836",
                 "marketHashName": "Hairstyle 55",
                 "name": "Hairstyle 55",
                 "type": "",
@@ -27234,6 +27540,7 @@ export const testUser = {
             {
                 "classid": "3539717781",
                 "instanceid": "0",
+                "assetid": "5328410620362127684",
                 "marketHashName": "REBIRTH",
                 "name": "REBIRTH",
                 "type": "",
@@ -27254,6 +27561,7 @@ export const testUser = {
             {
                 "classid": "4530662407",
                 "instanceid": "0",
+                "assetid": "5328410620348353314",
                 "marketHashName": "Desert Sun - PP-19 Bizon",
                 "name": "Desert Sun - PP-19 Bizon",
                 "type": "",
@@ -27274,6 +27582,7 @@ export const testUser = {
             {
                 "classid": "4749345176",
                 "instanceid": "0",
+                "assetid": "5328410620348352518",
                 "marketHashName": "Slithershot - M249",
                 "name": "Slithershot - M249",
                 "type": "",
@@ -27294,6 +27603,7 @@ export const testUser = {
             {
                 "classid": "4781215106",
                 "instanceid": "0",
+                "assetid": "5328410620348351926",
                 "marketHashName": "Flower Power - Vector",
                 "name": "Flower Power - Vector",
                 "type": "",
@@ -27314,6 +27624,7 @@ export const testUser = {
             {
                 "classid": "5934744681",
                 "instanceid": "0",
+                "assetid": "5328410620348347489",
                 "marketHashName": "Desert Oracle",
                 "name": "Desert Oracle",
                 "type": "",
@@ -27334,6 +27645,7 @@ export const testUser = {
             {
                 "classid": "6147012264",
                 "instanceid": "0",
+                "assetid": "5328410620348335794",
                 "marketHashName": "ZERO-G Heavy Grade Boots",
                 "name": "ZERO-G Heavy Grade Boots",
                 "type": "",
@@ -27354,6 +27666,7 @@ export const testUser = {
             {
                 "classid": "6147012263",
                 "instanceid": "0",
+                "assetid": "5328410620348335793",
                 "marketHashName": "ZERO-G Heavy Grade Gloves",
                 "name": "ZERO-G Heavy Grade Gloves",
                 "type": "",
@@ -27374,6 +27687,7 @@ export const testUser = {
             {
                 "classid": "6147012262",
                 "instanceid": "0",
+                "assetid": "5328410620348335792",
                 "marketHashName": "ZERO-G Heavy Grade Pants",
                 "name": "ZERO-G Heavy Grade Pants",
                 "type": "",
@@ -27394,6 +27708,7 @@ export const testUser = {
             {
                 "classid": "6147012261",
                 "instanceid": "0",
+                "assetid": "5328410620348335791",
                 "marketHashName": "ZERO-G Heavy Grade Jacket",
                 "name": "ZERO-G Heavy Grade Jacket",
                 "type": "",
@@ -27414,6 +27729,7 @@ export const testUser = {
             {
                 "classid": "6147012260",
                 "instanceid": "0",
+                "assetid": "5328410620348335790",
                 "marketHashName": "ZERO-G Heavy Grade Specs",
                 "name": "ZERO-G Heavy Grade Specs",
                 "type": "",
@@ -27434,6 +27750,7 @@ export const testUser = {
             {
                 "classid": "3539717780",
                 "instanceid": "0",
+                "assetid": "5328410620343440954",
                 "marketHashName": "BIOHAZARD",
                 "name": "BIOHAZARD",
                 "type": "",
@@ -27454,6 +27771,7 @@ export const testUser = {
             {
                 "classid": "5282602062",
                 "instanceid": "0",
+                "assetid": "5326159454063286550",
                 "marketHashName": "Guilty as Charged Boots",
                 "name": "Guilty as Charged Boots",
                 "type": "",
@@ -27474,6 +27792,7 @@ export const testUser = {
             {
                 "classid": "6055493125",
                 "instanceid": "0",
+                "assetid": "5326159454060194563",
                 "marketHashName": "Barbed Wire",
                 "name": "Barbed Wire",
                 "type": "",
@@ -27494,6 +27813,7 @@ export const testUser = {
             {
                 "classid": "5103036208",
                 "instanceid": "0",
+                "assetid": "5326159454047065883",
                 "marketHashName": "Santa's Slay - SKS",
                 "name": "Santa's Slay - SKS",
                 "type": "",
@@ -27514,6 +27834,7 @@ export const testUser = {
             {
                 "classid": "5103243651",
                 "instanceid": "0",
+                "assetid": "5326159454047065882",
                 "marketHashName": "Snow Pants (White)",
                 "name": "Snow Pants (White)",
                 "type": "",
@@ -27534,6 +27855,7 @@ export const testUser = {
             {
                 "classid": "5103036209",
                 "instanceid": "0",
+                "assetid": "5326159454047065881",
                 "marketHashName": "Flannel Bear Backpack (Level 3)",
                 "name": "Flannel Bear Backpack (Level 3)",
                 "type": "",
@@ -27554,6 +27876,7 @@ export const testUser = {
             {
                 "classid": "5103622384",
                 "instanceid": "0",
+                "assetid": "5326159454047065880",
                 "marketHashName": "Rustic Red Vest (Level 3)",
                 "name": "Rustic Red Vest (Level 3)",
                 "type": "",
@@ -27574,6 +27897,7 @@ export const testUser = {
             {
                 "classid": "5103039930",
                 "instanceid": "0",
+                "assetid": "5326159454047065879",
                 "marketHashName": "Stylin' Santa - Helmet (Level 3)",
                 "name": "Stylin' Santa - Helmet (Level 3)",
                 "type": "",
@@ -27594,6 +27918,7 @@ export const testUser = {
             {
                 "classid": "4870703597",
                 "instanceid": "0",
+                "assetid": "5326159454047057900",
                 "marketHashName": "PNC 2022 Dance - Champion's Struggle",
                 "name": "PNC 2022 Dance - Champion's Struggle",
                 "type": "",
@@ -27614,6 +27939,7 @@ export const testUser = {
             {
                 "classid": "4456596891",
                 "instanceid": "0",
+                "assetid": "5326159454047047171",
                 "marketHashName": "Urban Hunter - Crossbow",
                 "name": "Urban Hunter - Crossbow",
                 "type": "",
@@ -27634,6 +27960,7 @@ export const testUser = {
             {
                 "classid": "5282604661",
                 "instanceid": "0",
+                "assetid": "5326159454046723657",
                 "marketHashName": "Sky Captain Boots",
                 "name": "Sky Captain Boots",
                 "type": "",
@@ -27654,6 +27981,7 @@ export const testUser = {
             {
                 "classid": "5335594983",
                 "instanceid": "0",
+                "assetid": "5326159454046722408",
                 "marketHashName": "Cuddle Punk Bow",
                 "name": "Cuddle Punk Bow",
                 "type": "",
@@ -27674,6 +28002,7 @@ export const testUser = {
             {
                 "classid": "4948481374",
                 "instanceid": "0",
+                "assetid": "5326159454046410397",
                 "marketHashName": "Survivor Base",
                 "name": "Survivor Base",
                 "type": "",
@@ -27694,6 +28023,7 @@ export const testUser = {
             {
                 "classid": "4706448690",
                 "instanceid": "0",
+                "assetid": "5326159454046410365",
                 "marketHashName": "Captain's Camo Mask",
                 "name": "Captain's Camo Mask",
                 "type": "",
@@ -27714,6 +28044,7 @@ export const testUser = {
             {
                 "classid": "4706448689",
                 "instanceid": "0",
+                "assetid": "5326159454046410364",
                 "marketHashName": "Captain's Camo Hat",
                 "name": "Captain's Camo Hat",
                 "type": "",
@@ -27734,6 +28065,7 @@ export const testUser = {
             {
                 "classid": "4706448687",
                 "instanceid": "0",
+                "assetid": "5326159454046410363",
                 "marketHashName": "Captain's Camo Gloves",
                 "name": "Captain's Camo Gloves",
                 "type": "",
@@ -27754,6 +28086,7 @@ export const testUser = {
             {
                 "classid": "4270729278",
                 "instanceid": "0",
+                "assetid": "5326159454045514940",
                 "marketHashName": "Hazardous Pants",
                 "name": "Hazardous Pants",
                 "type": "",
@@ -27774,6 +28107,7 @@ export const testUser = {
             {
                 "classid": "3539717784",
                 "instanceid": "0",
+                "assetid": "5326159454045511595",
                 "marketHashName": "DEAD MAN'S HAND",
                 "name": "DEAD MAN'S HAND",
                 "type": "",
@@ -27794,6 +28128,7 @@ export const testUser = {
             {
                 "classid": "4456596884",
                 "instanceid": "0",
+                "assetid": "5326159454035316826",
                 "marketHashName": "Chain Gang - DP-28",
                 "name": "Chain Gang - DP-28",
                 "type": "",
@@ -27814,6 +28149,7 @@ export const testUser = {
             {
                 "classid": "4749345171",
                 "instanceid": "0",
+                "assetid": "5326159454028248163",
                 "marketHashName": "Jungle Prowler - Sawed-Off",
                 "name": "Jungle Prowler - Sawed-Off",
                 "type": "",
@@ -27834,6 +28170,7 @@ export const testUser = {
             {
                 "classid": "2769172205",
                 "instanceid": "0",
+                "assetid": "5312649924330839867",
                 "marketHashName": "Rugged (Orange) - SCAR-L",
                 "name": "Rugged (Orange) - SCAR-L",
                 "type": "",
@@ -27856,6 +28193,7 @@ export const testUser = {
             {
                 "classid": "4345852815",
                 "instanceid": "0",
+                "assetid": "5312649924322761896",
                 "marketHashName": "Spiked Sweetness Pants",
                 "name": "Spiked Sweetness Pants",
                 "type": "",
@@ -27876,6 +28214,7 @@ export const testUser = {
             {
                 "classid": "3541723083",
                 "instanceid": "0",
+                "assetid": "5312649924320876378",
                 "marketHashName": "DIE HAPPY",
                 "name": "DIE HAPPY",
                 "type": "",
@@ -27896,6 +28235,7 @@ export const testUser = {
             {
                 "classid": "4456596888",
                 "instanceid": "0",
+                "assetid": "5312649924319994877",
                 "marketHashName": "Chain Gang - M16A4",
                 "name": "Chain Gang - M16A4",
                 "type": "",
@@ -27916,6 +28256,7 @@ export const testUser = {
             {
                 "classid": "5994275369",
                 "instanceid": "0",
+                "assetid": "5228204894141209508",
                 "marketHashName": "[PROGRESSIVE] Rest in Pink - Dragunov",
                 "name": "[PROGRESSIVE] Rest in Pink - Dragunov",
                 "type": "",
@@ -27942,6 +28283,7 @@ export const testUser = {
             {
                 "classid": "2769170551",
                 "instanceid": "0",
+                "assetid": "5228204894141206192",
                 "marketHashName": "Rugged (Orange) - Kar98k",
                 "name": "Rugged (Orange) - Kar98k",
                 "type": "",
@@ -27964,6 +28306,7 @@ export const testUser = {
             {
                 "classid": "6146866529",
                 "instanceid": "0",
+                "assetid": "5228204894141203514",
                 "marketHashName": "Aurora Friends Hoodie",
                 "name": "Aurora Friends Hoodie",
                 "type": "",
@@ -27984,6 +28327,7 @@ export const testUser = {
             {
                 "classid": "5601290088",
                 "instanceid": "0",
+                "assetid": "5228204894138378513",
                 "marketHashName": "PGC 2023 Royal Landing Parachute",
                 "name": "PGC 2023 Royal Landing Parachute",
                 "type": "",
@@ -28004,6 +28348,7 @@ export const testUser = {
             {
                 "classid": "4530662023",
                 "instanceid": "0",
+                "assetid": "5228204894136724050",
                 "marketHashName": "Grayson - DBS",
                 "name": "Grayson - DBS",
                 "type": "",
@@ -28024,6 +28369,7 @@ export const testUser = {
             {
                 "classid": "4530662407",
                 "instanceid": "0",
+                "assetid": "5228204894136723273",
                 "marketHashName": "Desert Sun - PP-19 Bizon",
                 "name": "Desert Sun - PP-19 Bizon",
                 "type": "",
@@ -28044,6 +28390,7 @@ export const testUser = {
             {
                 "classid": "6146866530",
                 "instanceid": "0",
+                "assetid": "5228204894136721467",
                 "marketHashName": "Aurora Friends Shorts",
                 "name": "Aurora Friends Shorts",
                 "type": "",
@@ -28064,6 +28411,7 @@ export const testUser = {
             {
                 "classid": "3227729717",
                 "instanceid": "0",
+                "assetid": "5228204894130883601",
                 "marketHashName": "Bomber Jacket (Gray)",
                 "name": "Bomber Jacket (Gray)",
                 "type": "",
@@ -28084,6 +28432,7 @@ export const testUser = {
             {
                 "classid": "6089346189",
                 "instanceid": "0",
+                "assetid": "5228204894130873137",
                 "marketHashName": "[PROGRESSIVE] No Signal - M416",
                 "name": "[PROGRESSIVE] No Signal - M416",
                 "type": "",
@@ -28110,6 +28459,7 @@ export const testUser = {
             {
                 "classid": "3539468507",
                 "instanceid": "0",
+                "assetid": "5228204894126759473",
                 "marketHashName": "FRACTURE",
                 "name": "FRACTURE",
                 "type": "",
@@ -28130,6 +28480,7 @@ export const testUser = {
             {
                 "classid": "6146882400",
                 "instanceid": "0",
+                "assetid": "5228204894124890997",
                 "marketHashName": "Chemical Warfare",
                 "name": "Chemical Warfare",
                 "type": "",
@@ -28150,6 +28501,7 @@ export const testUser = {
             {
                 "classid": "4530663301",
                 "instanceid": "0",
+                "assetid": "5219197061310304802",
                 "marketHashName": "Grayson - MP5K",
                 "name": "Grayson - MP5K",
                 "type": "",
@@ -28170,6 +28522,7 @@ export const testUser = {
             {
                 "classid": "6146830392",
                 "instanceid": "0",
+                "assetid": "5219197061298649063",
                 "marketHashName": "ZERO-G Spaceship",
                 "name": "ZERO-G Spaceship",
                 "type": "",
@@ -28190,6 +28543,7 @@ export const testUser = {
             {
                 "classid": "4888427358",
                 "instanceid": "0",
+                "assetid": "5219197061293574455",
                 "marketHashName": "Deputy's Corset",
                 "name": "Deputy's Corset",
                 "type": "",
@@ -28210,6 +28564,7 @@ export const testUser = {
             {
                 "classid": "2769172205",
                 "instanceid": "0",
+                "assetid": "5171913704008574986",
                 "marketHashName": "Rugged (Orange) - SCAR-L",
                 "name": "Rugged (Orange) - SCAR-L",
                 "type": "",
@@ -28232,6 +28587,7 @@ export const testUser = {
             {
                 "classid": "2769177105",
                 "instanceid": "0",
+                "assetid": "5171913069263637742",
                 "marketHashName": "Gold Plate - SKS",
                 "name": "Gold Plate - SKS",
                 "type": "",
@@ -28254,6 +28610,7 @@ export const testUser = {
             {
                 "classid": "4824840218",
                 "instanceid": "0",
+                "assetid": "4982755544550631060",
                 "marketHashName": "Bunny Express Warehouse Hoodie",
                 "name": "Bunny Express Warehouse Hoodie",
                 "type": "",
@@ -28274,6 +28631,7 @@ export const testUser = {
             {
                 "classid": "3539216178",
                 "instanceid": "0",
+                "assetid": "4982755544550595082",
                 "marketHashName": "ROYALE",
                 "name": "ROYALE",
                 "type": "",
@@ -28294,6 +28652,7 @@ export const testUser = {
             {
                 "classid": "2769171682",
                 "instanceid": "0",
+                "assetid": "4982755544550500304",
                 "marketHashName": "Silver Plate - SCAR-L",
                 "name": "Silver Plate - SCAR-L",
                 "type": "",
@@ -28316,6 +28675,7 @@ export const testUser = {
             {
                 "classid": "6089772267",
                 "instanceid": "0",
+                "assetid": "4982755544539318423",
                 "marketHashName": "Contemplating Cat",
                 "name": "Contemplating Cat",
                 "type": "",
@@ -28336,6 +28696,7 @@ export const testUser = {
             {
                 "classid": "6089772268",
                 "instanceid": "0",
+                "assetid": "4891558920116379010",
                 "marketHashName": "Good Luck",
                 "name": "Good Luck",
                 "type": "",
@@ -28356,6 +28717,7 @@ export const testUser = {
             {
                 "classid": "6092063808",
                 "instanceid": "0",
+                "assetid": "4891558920105785852",
                 "marketHashName": "Horse King's Tiger Shorts",
                 "name": "Horse King's Tiger Shorts",
                 "type": "",
@@ -28376,6 +28738,7 @@ export const testUser = {
             {
                 "classid": "6092063807",
                 "instanceid": "0",
+                "assetid": "4891558920105785682",
                 "marketHashName": "Horse King's Tiger T-shirt",
                 "name": "Horse King's Tiger T-shirt",
                 "type": "",
@@ -28396,6 +28759,7 @@ export const testUser = {
             {
                 "classid": "3570605490",
                 "instanceid": "0",
+                "assetid": "4891558920105689358",
                 "marketHashName": "Smoke Stalker Jacket",
                 "name": "Smoke Stalker Jacket",
                 "type": "",
@@ -28416,6 +28780,7 @@ export const testUser = {
             {
                 "classid": "4173194530",
                 "instanceid": "0",
+                "assetid": "4869035847891084917",
                 "marketHashName": "Flannel Backpack (Level 1)",
                 "name": "Flannel Backpack (Level 1)",
                 "type": "",
@@ -28436,6 +28801,7 @@ export const testUser = {
             {
                 "classid": "3676628230",
                 "instanceid": "0",
+                "assetid": "4826239605749712148",
                 "marketHashName": "\"Cat Scratch\" Motorbike",
                 "name": "\"Cat Scratch\" Motorbike",
                 "type": "",
@@ -28456,6 +28822,7 @@ export const testUser = {
             {
                 "classid": "3944199369",
                 "instanceid": "0",
+                "assetid": "4826239605747061369",
                 "marketHashName": "Corgi Crew Backpack (Level 3)",
                 "name": "Corgi Crew Backpack (Level 3)",
                 "type": "",
@@ -28476,6 +28843,7 @@ export const testUser = {
             {
                 "classid": "4781217562",
                 "instanceid": "0",
+                "assetid": "4805985074847458724",
                 "marketHashName": "Bad to the Bone Pants",
                 "name": "Bad to the Bone Pants",
                 "type": "",
@@ -28496,6 +28864,7 @@ export const testUser = {
             {
                 "classid": "5994177902",
                 "instanceid": "0",
+                "assetid": "4805985074836686542",
                 "marketHashName": "Lock and Load",
                 "name": "Lock and Load",
                 "type": "",
@@ -28516,6 +28885,7 @@ export const testUser = {
             {
                 "classid": "2769170692",
                 "instanceid": "0",
+                "assetid": "4805985066994659230",
                 "marketHashName": "Rugged (Orange) - M416",
                 "name": "Rugged (Orange) - M416",
                 "type": "",
@@ -28538,6 +28908,7 @@ export const testUser = {
             {
                 "classid": "3538874850",
                 "instanceid": "0",
+                "assetid": "4805985066994293225",
                 "marketHashName": "SNAKESKIN",
                 "name": "SNAKESKIN",
                 "type": "",
@@ -28558,6 +28929,7 @@ export const testUser = {
             {
                 "classid": "5994177901",
                 "instanceid": "0",
+                "assetid": "4805984818902965024",
                 "marketHashName": "Count Your Blessings",
                 "name": "Count Your Blessings",
                 "type": "",
@@ -28578,6 +28950,7 @@ export const testUser = {
             {
                 "classid": "5001674847",
                 "instanceid": "0",
+                "assetid": "4805984818899133760",
                 "marketHashName": "Burning Chicken Festival Backpack (Level 3)",
                 "name": "Burning Chicken Festival Backpack (Level 3)",
                 "type": "",
@@ -28598,6 +28971,7 @@ export const testUser = {
             {
                 "classid": "3424887170",
                 "instanceid": "0",
+                "assetid": "4805984818899132869",
                 "marketHashName": "Good to Go",
                 "name": "Good to Go",
                 "type": "",
@@ -28618,6 +28992,7 @@ export const testUser = {
             {
                 "classid": "5994177904",
                 "instanceid": "0",
+                "assetid": "4805984818897382325",
                 "marketHashName": "Cool Lemon",
                 "name": "Cool Lemon",
                 "type": "",
@@ -28638,6 +29013,7 @@ export const testUser = {
             {
                 "classid": "3926628577",
                 "instanceid": "0",
+                "assetid": "4805984818890596133",
                 "marketHashName": "VTR Activist Backpack (Level 2)",
                 "name": "VTR Activist Backpack (Level 2)",
                 "type": "",
@@ -28658,6 +29034,7 @@ export const testUser = {
             {
                 "classid": "5994390591",
                 "instanceid": "0",
+                "assetid": "4805984818890588977",
                 "marketHashName": "PUBG x NewJeans Logo - Helmet (Level 2)",
                 "name": "PUBG x NewJeans Logo - Helmet (Level 2)",
                 "type": "",
@@ -28678,6 +29055,7 @@ export const testUser = {
             {
                 "classid": "5103034148",
                 "instanceid": "0",
+                "assetid": "4796970010288507820",
                 "marketHashName": "Pastel Power - Sickle",
                 "name": "Pastel Power - Sickle",
                 "type": "",
@@ -28698,6 +29076,7 @@ export const testUser = {
             {
                 "classid": "5760376730",
                 "instanceid": "0",
+                "assetid": "4796970010283647874",
                 "marketHashName": "Happy 7th Anniversary - Pan",
                 "name": "Happy 7th Anniversary - Pan",
                 "type": "",
@@ -28718,6 +29097,7 @@ export const testUser = {
             {
                 "classid": "5375639781",
                 "instanceid": "0",
+                "assetid": "4794718843886497484",
                 "marketHashName": "Ghostly Grip - DBS",
                 "name": "Ghostly Grip - DBS",
                 "type": "",
@@ -28738,6 +29118,7 @@ export const testUser = {
             {
                 "classid": "5854094245",
                 "instanceid": "0",
+                "assetid": "4791346218079333165",
                 "marketHashName": "Galactic Guardian - SCAR-L",
                 "name": "Galactic Guardian - SCAR-L",
                 "type": "",
@@ -28758,6 +29139,7 @@ export const testUser = {
             {
                 "classid": "5932277639",
                 "instanceid": "0",
+                "assetid": "4791346218061136934",
                 "marketHashName": "Top Secret",
                 "name": "Top Secret",
                 "type": "",
@@ -28778,6 +29160,7 @@ export const testUser = {
             {
                 "classid": "4948672911",
                 "instanceid": "0",
+                "assetid": "4791346218061087031",
                 "marketHashName": "Two-Tone - Crossbow",
                 "name": "Two-Tone - Crossbow",
                 "type": "",
@@ -28804,6 +29187,7 @@ export const testUser = {
             {
                 "classid": "4410944282",
                 "instanceid": "0",
+                "assetid": "4791346218061002747",
                 "marketHashName": "Sleepover Backpack (Level 3)",
                 "name": "Sleepover Backpack (Level 3)",
                 "type": "",
@@ -28824,6 +29208,7 @@ export const testUser = {
             {
                 "classid": "5558650784",
                 "instanceid": "0",
+                "assetid": "4791346218060965076",
                 "marketHashName": "Candy Bowl - ACE32",
                 "name": "Candy Bowl - ACE32",
                 "type": "",
@@ -28844,6 +29229,7 @@ export const testUser = {
             {
                 "classid": "5710760079",
                 "instanceid": "0",
+                "assetid": "4789085542912477545",
                 "marketHashName": "Year of the Dragon Camo Pants",
                 "name": "Year of the Dragon Camo Pants",
                 "type": "",
@@ -28864,6 +29250,7 @@ export const testUser = {
             {
                 "classid": "3570798537",
                 "instanceid": "0",
+                "assetid": "4789085542907956579",
                 "marketHashName": "PGC 2019 Braces and Smartwatch",
                 "name": "PGC 2019 Braces and Smartwatch",
                 "type": "",
@@ -28886,6 +29273,7 @@ export const testUser = {
             {
                 "classid": "3570798536",
                 "instanceid": "0",
+                "assetid": "4789085542907956578",
                 "marketHashName": "PGC 2019 Sneakers",
                 "name": "PGC 2019 Sneakers",
                 "type": "",
@@ -28908,6 +29296,7 @@ export const testUser = {
             {
                 "classid": "3570798535",
                 "instanceid": "0",
+                "assetid": "4789085542907956577",
                 "marketHashName": "PGC 2019 Combat Pants",
                 "name": "PGC 2019 Combat Pants",
                 "type": "",
@@ -28930,6 +29319,7 @@ export const testUser = {
             {
                 "classid": "3570798534",
                 "instanceid": "0",
+                "assetid": "4789085542907956576",
                 "marketHashName": "PGC 2019 Tactical Hoodie",
                 "name": "PGC 2019 Tactical Hoodie",
                 "type": "",
@@ -28952,6 +29342,7 @@ export const testUser = {
             {
                 "classid": "3570798529",
                 "instanceid": "0",
+                "assetid": "4789085542907956575",
                 "marketHashName": "PGC 2019 Parachute",
                 "name": "PGC 2019 Parachute",
                 "type": "",
@@ -28974,6 +29365,7 @@ export const testUser = {
             {
                 "classid": "3570798533",
                 "instanceid": "0",
+                "assetid": "4789085542907956574",
                 "marketHashName": "PGC 2019 Goggles",
                 "name": "PGC 2019 Goggles",
                 "type": "",
@@ -28996,6 +29388,7 @@ export const testUser = {
             {
                 "classid": "3570798532",
                 "instanceid": "0",
+                "assetid": "4789085542907956573",
                 "marketHashName": "PGC 2019 Headgear",
                 "name": "PGC 2019 Headgear",
                 "type": "",
@@ -29018,6 +29411,7 @@ export const testUser = {
             {
                 "classid": "5710276895",
                 "instanceid": "0",
+                "assetid": "4789085542901060268",
                 "marketHashName": "Sha Wujing - P90",
                 "name": "Sha Wujing - P90",
                 "type": "",
@@ -29038,6 +29432,7 @@ export const testUser = {
             {
                 "classid": "3537017213",
                 "instanceid": "0",
+                "assetid": "4789085542897844753",
                 "marketHashName": "FIREBIRD",
                 "name": "FIREBIRD",
                 "type": "",
@@ -29058,6 +29453,7 @@ export const testUser = {
             {
                 "classid": "5103034149",
                 "instanceid": "0",
+                "assetid": "4789085542897591177",
                 "marketHashName": "Pastel Power - S686",
                 "name": "Pastel Power - S686",
                 "type": "",
@@ -29078,6 +29474,7 @@ export const testUser = {
             {
                 "classid": "5710424394",
                 "instanceid": "0",
+                "assetid": "4789085542884161322",
                 "marketHashName": "Niu Mowang",
                 "name": "Niu Mowang",
                 "type": "",
@@ -29098,6 +29495,7 @@ export const testUser = {
             {
                 "classid": "5103034150",
                 "instanceid": "0",
+                "assetid": "4789085542884160337",
                 "marketHashName": "Pastel Power - R1895",
                 "name": "Pastel Power - R1895",
                 "type": "",
@@ -29118,6 +29516,7 @@ export const testUser = {
             {
                 "classid": "4810426285",
                 "instanceid": "0",
+                "assetid": "4787969785977847479",
                 "marketHashName": "Two-Tone - PP-19 Bizon",
                 "name": "Two-Tone - PP-19 Bizon",
                 "type": "",
@@ -29138,6 +29537,7 @@ export const testUser = {
             {
                 "classid": "4984472588",
                 "instanceid": "0",
+                "assetid": "4775584252876517935",
                 "marketHashName": "Serpent's Garden - QBU",
                 "name": "Serpent's Garden - QBU",
                 "type": "",
@@ -29158,6 +29558,7 @@ export const testUser = {
             {
                 "classid": "4948495513",
                 "instanceid": "0",
+                "assetid": "4775584252872135366",
                 "marketHashName": "Checkered Chrome - Mk47 Mutant",
                 "name": "Checkered Chrome - Mk47 Mutant",
                 "type": "",
@@ -29178,6 +29579,7 @@ export const testUser = {
             {
                 "classid": "4218073248",
                 "instanceid": "0",
+                "assetid": "4775584252867669033",
                 "marketHashName": "Cow Print Backpack (Level 1)",
                 "name": "Cow Print Backpack (Level 1)",
                 "type": "",
@@ -29198,6 +29600,7 @@ export const testUser = {
             {
                 "classid": "4948495517",
                 "instanceid": "0",
+                "assetid": "4775584252864106108",
                 "marketHashName": "Tri-Stripe - DP-28",
                 "name": "Tri-Stripe - DP-28",
                 "type": "",
@@ -29218,6 +29621,7 @@ export const testUser = {
             {
                 "classid": "4781218739",
                 "instanceid": "0",
+                "assetid": "4775584252863531417",
                 "marketHashName": "Victory Dance 82",
                 "name": "Victory Dance 82",
                 "type": "",
@@ -29238,6 +29642,7 @@ export const testUser = {
             {
                 "classid": "4948495517",
                 "instanceid": "0",
+                "assetid": "4775584252863414622",
                 "marketHashName": "Tri-Stripe - DP-28",
                 "name": "Tri-Stripe - DP-28",
                 "type": "",
@@ -29258,6 +29663,7 @@ export const testUser = {
             {
                 "classid": "4410929291",
                 "instanceid": "0",
+                "assetid": "4753057381819296697",
                 "marketHashName": "Sheepover Pajama Shorts",
                 "name": "Sheepover Pajama Shorts",
                 "type": "",
@@ -29278,6 +29684,7 @@ export const testUser = {
             {
                 "classid": "2792938285",
                 "instanceid": "0",
+                "assetid": "4753057381819292837",
                 "marketHashName": "Desert Digital - Win94",
                 "name": "Desert Digital - Win94",
                 "type": "",
@@ -29300,6 +29707,7 @@ export const testUser = {
             {
                 "classid": "5710162830",
                 "instanceid": "0",
+                "assetid": "4753057381819286389",
                 "marketHashName": "[BATTLESTAT] Sun Wukong - AKM",
                 "name": "[BATTLESTAT] Sun Wukong - AKM",
                 "type": "",
@@ -29320,6 +29728,7 @@ export const testUser = {
             {
                 "classid": "3537820702",
                 "instanceid": "0",
+                "assetid": "4753057381814601489",
                 "marketHashName": "RISEN",
                 "name": "RISEN",
                 "type": "",
@@ -29340,6 +29749,7 @@ export const testUser = {
             {
                 "classid": "5416286528",
                 "instanceid": "0",
+                "assetid": "4753057381814474592",
                 "marketHashName": "Royal Fleet - M16A4",
                 "name": "Royal Fleet - M16A4",
                 "type": "",
@@ -29360,6 +29770,7 @@ export const testUser = {
             {
                 "classid": "5682111010",
                 "instanceid": "0",
+                "assetid": "4753057381814473509",
                 "marketHashName": "Dragon Rider Pants",
                 "name": "Dragon Rider Pants",
                 "type": "",
@@ -29380,6 +29791,7 @@ export const testUser = {
             {
                 "classid": "5375726558",
                 "instanceid": "0",
+                "assetid": "4753057381810555737",
                 "marketHashName": "Ghostly Grip - M24",
                 "name": "Ghostly Grip - M24",
                 "type": "",
@@ -29400,6 +29812,7 @@ export const testUser = {
             {
                 "classid": "5710162829",
                 "instanceid": "0",
+                "assetid": "4753057381801377636",
                 "marketHashName": "Tang Sanzang - FAMAS",
                 "name": "Tang Sanzang - FAMAS",
                 "type": "",
@@ -29420,6 +29833,7 @@ export const testUser = {
             {
                 "classid": "5682111009",
                 "instanceid": "0",
+                "assetid": "4753057381794761776",
                 "marketHashName": "Dragon Rider Shirt",
                 "name": "Dragon Rider Shirt",
                 "type": "",
@@ -29440,6 +29854,7 @@ export const testUser = {
             {
                 "classid": "4707176596",
                 "instanceid": "0",
+                "assetid": "4753057381794761358",
                 "marketHashName": "Cute Kitty Mask",
                 "name": "Cute Kitty Mask",
                 "type": "",
@@ -29460,6 +29875,7 @@ export const testUser = {
             {
                 "classid": "4302446755",
                 "instanceid": "0",
+                "assetid": "4753057381794760852",
                 "marketHashName": "Queen's Guard Hat",
                 "name": "Queen's Guard Hat",
                 "type": "",
@@ -29480,6 +29896,7 @@ export const testUser = {
             {
                 "classid": "4302446756",
                 "instanceid": "0",
+                "assetid": "4753057381794759444",
                 "marketHashName": "Queen's Guard Outfit",
                 "name": "Queen's Guard Outfit",
                 "type": "",
@@ -29500,6 +29917,7 @@ export const testUser = {
             {
                 "classid": "4502432034",
                 "instanceid": "0",
+                "assetid": "4753057381794756983",
                 "marketHashName": "Victory Dance 60",
                 "name": "Victory Dance 60",
                 "type": "",
@@ -29520,6 +29938,7 @@ export const testUser = {
             {
                 "classid": "5375639636",
                 "instanceid": "0",
+                "assetid": "4731666616198602023",
                 "marketHashName": "Ghostly Grip - Mk12",
                 "name": "Ghostly Grip - Mk12",
                 "type": "",
@@ -29540,6 +29959,7 @@ export const testUser = {
             {
                 "classid": "5103034237",
                 "instanceid": "0",
+                "assetid": "4731666616198601406",
                 "marketHashName": "Snow Flake - DP-28",
                 "name": "Snow Flake - DP-28",
                 "type": "",
@@ -29560,6 +29980,7 @@ export const testUser = {
             {
                 "classid": "5760534906",
                 "instanceid": "0",
+                "assetid": "4731666616198440808",
                 "marketHashName": "Spooktacular Shades",
                 "name": "Spooktacular Shades",
                 "type": "",
@@ -29580,6 +30001,7 @@ export const testUser = {
             {
                 "classid": "5760534905",
                 "instanceid": "0",
+                "assetid": "4731666616198440806",
                 "marketHashName": "Happy 7th Anniversary Backpack (Level 3)",
                 "name": "Happy 7th Anniversary Backpack (Level 3)",
                 "type": "",
@@ -29600,6 +30022,7 @@ export const testUser = {
             {
                 "classid": "5760534904",
                 "instanceid": "0",
+                "assetid": "4731666616198440805",
                 "marketHashName": "Happy 7th Anniversary Unicone Hat",
                 "name": "Happy 7th Anniversary Unicone Hat",
                 "type": "",
@@ -29620,6 +30043,7 @@ export const testUser = {
             {
                 "classid": "5760353200",
                 "instanceid": "0",
+                "assetid": "4731666549870909569",
                 "marketHashName": "Happy 7th Anniversary (Gold)",
                 "name": "Happy 7th Anniversary (Gold)",
                 "type": "",
@@ -29640,6 +30064,7 @@ export const testUser = {
             {
                 "classid": "5760246878",
                 "instanceid": "0",
+                "assetid": "4731666549870776914",
                 "marketHashName": "Happy 7th Anniversary Jacket",
                 "name": "Happy 7th Anniversary Jacket",
                 "type": "",
@@ -29660,6 +30085,7 @@ export const testUser = {
             {
                 "classid": "5028181468",
                 "instanceid": "0",
+                "assetid": "4728288216395274291",
                 "marketHashName": "Standard Slayer - G36C",
                 "name": "Standard Slayer - G36C",
                 "type": "",
@@ -29680,6 +30106,7 @@ export const testUser = {
             {
                 "classid": "5067786301",
                 "instanceid": "0",
+                "assetid": "4728288216395273829",
                 "marketHashName": "Marble Stock - AKM",
                 "name": "Marble Stock - AKM",
                 "type": "",
@@ -29700,6 +30127,7 @@ export const testUser = {
             {
                 "classid": "4496215837",
                 "instanceid": "0",
+                "assetid": "4728288216375805276",
                 "marketHashName": "Taego - Kar98k",
                 "name": "Taego - Kar98k",
                 "type": "",
@@ -29720,6 +30148,7 @@ export const testUser = {
             {
                 "classid": "4496219926",
                 "instanceid": "0",
+                "assetid": "4728288216375805275",
                 "marketHashName": "Camo Duffel Backpack (Level 3)",
                 "name": "Camo Duffel Backpack (Level 3)",
                 "type": "",
@@ -29740,6 +30169,7 @@ export const testUser = {
             {
                 "classid": "4749345178",
                 "instanceid": "0",
+                "assetid": "4728288216375687755",
                 "marketHashName": "Safari Stripe - DP-28",
                 "name": "Safari Stripe - DP-28",
                 "type": "",
@@ -29760,6 +30190,7 @@ export const testUser = {
             {
                 "classid": "4603311800",
                 "instanceid": "0",
+                "assetid": "4644969087482724474",
                 "marketHashName": "Night Hunter Mask",
                 "name": "Night Hunter Mask",
                 "type": "",
@@ -29780,6 +30211,7 @@ export const testUser = {
             {
                 "classid": "4603311799",
                 "instanceid": "0",
+                "assetid": "4644969087482724473",
                 "marketHashName": "Night Hunter Gloves",
                 "name": "Night Hunter Gloves",
                 "type": "",
@@ -29800,6 +30232,7 @@ export const testUser = {
             {
                 "classid": "4603311798",
                 "instanceid": "0",
+                "assetid": "4644969087482724472",
                 "marketHashName": "Night Hunter Boots",
                 "name": "Night Hunter Boots",
                 "type": "",
@@ -29820,6 +30253,7 @@ export const testUser = {
             {
                 "classid": "4603311795",
                 "instanceid": "0",
+                "assetid": "4644969087482724471",
                 "marketHashName": "Night Hunter Costume",
                 "name": "Night Hunter Costume",
                 "type": "",
@@ -29840,6 +30274,7 @@ export const testUser = {
             {
                 "classid": "4603311794",
                 "instanceid": "0",
+                "assetid": "4644969087482724470",
                 "marketHashName": "Night Hunter Hat",
                 "name": "Night Hunter Hat",
                 "type": "",
@@ -29860,6 +30295,7 @@ export const testUser = {
             {
                 "classid": "3536759124",
                 "instanceid": "0",
+                "assetid": "4644969087480553001",
                 "marketHashName": "BLACK WIDOW",
                 "name": "BLACK WIDOW",
                 "type": "",
@@ -29880,6 +30316,7 @@ export const testUser = {
             {
                 "classid": "4654889636",
                 "instanceid": "0",
+                "assetid": "4644969087480462121",
                 "marketHashName": "Lethal Labyrinth - Mk47 Mutant",
                 "name": "Lethal Labyrinth - Mk47 Mutant",
                 "type": "",
@@ -29900,6 +30337,7 @@ export const testUser = {
             {
                 "classid": "4870705420",
                 "instanceid": "0",
+                "assetid": "4644969087480275385",
                 "marketHashName": "Seafoam Swirl - S12K",
                 "name": "Seafoam Swirl - S12K",
                 "type": "",
@@ -29920,6 +30358,7 @@ export const testUser = {
             {
                 "classid": "4654891116",
                 "instanceid": "0",
+                "assetid": "4644969087480274770",
                 "marketHashName": "Lethal Labyrinth - Groza",
                 "name": "Lethal Labyrinth - Groza",
                 "type": "",
@@ -29940,6 +30379,7 @@ export const testUser = {
             {
                 "classid": "5710364395",
                 "instanceid": "0",
+                "assetid": "4644969087475334072",
                 "marketHashName": "An Awakened Journey",
                 "name": "An Awakened Journey",
                 "type": "",
@@ -29960,6 +30400,7 @@ export const testUser = {
             {
                 "classid": "5710311750",
                 "instanceid": "0",
+                "assetid": "4644969087475329238",
                 "marketHashName": "Year of the Dragon",
                 "name": "Year of the Dragon",
                 "type": "",
@@ -29980,6 +30421,7 @@ export const testUser = {
             {
                 "classid": "3536759122",
                 "instanceid": "0",
+                "assetid": "4284657648337529223",
                 "marketHashName": "TRACK DOWN",
                 "name": "TRACK DOWN",
                 "type": "",
@@ -30000,6 +30442,7 @@ export const testUser = {
             {
                 "classid": "5282602055",
                 "instanceid": "0",
+                "assetid": "4284657648325281730",
                 "marketHashName": "Show Me the Money",
                 "name": "Show Me the Money",
                 "type": "",
@@ -30020,6 +30463,7 @@ export const testUser = {
             {
                 "classid": "5282602054",
                 "instanceid": "0",
+                "assetid": "4284657648325281485",
                 "marketHashName": "Coin Toss",
                 "name": "Coin Toss",
                 "type": "",
@@ -30040,6 +30484,7 @@ export const testUser = {
             {
                 "classid": "3926623775",
                 "instanceid": "0",
+                "assetid": "4284657648325197036",
                 "marketHashName": "Lunchmeat's Handwraps",
                 "name": "Lunchmeat's Handwraps",
                 "type": "",
@@ -30060,6 +30505,7 @@ export const testUser = {
             {
                 "classid": "5335596258",
                 "instanceid": "0",
+                "assetid": "4284657648323529168",
                 "marketHashName": "Confetti Cake - Mosin Nagant",
                 "name": "Confetti Cake - Mosin Nagant",
                 "type": "",
@@ -30080,6 +30526,7 @@ export const testUser = {
             {
                 "classid": "2793008929",
                 "instanceid": "0",
+                "assetid": "4274522646549167722",
                 "marketHashName": "Silver Plate - Tommy Gun",
                 "name": "Silver Plate - Tommy Gun",
                 "type": "",
@@ -30102,6 +30549,7 @@ export const testUser = {
             {
                 "classid": "3536696820",
                 "instanceid": "0",
+                "assetid": "4274522646529728026",
                 "marketHashName": "SWORDMASTER",
                 "name": "SWORDMASTER",
                 "type": "",
@@ -30122,6 +30570,7 @@ export const testUser = {
             {
                 "classid": "2792938287",
                 "instanceid": "0",
+                "assetid": "4274522013750221748",
                 "marketHashName": "Desert Digital - Micro UZI",
                 "name": "Desert Digital - Micro UZI",
                 "type": "",
@@ -30144,6 +30593,7 @@ export const testUser = {
             {
                 "classid": "4045427221",
                 "instanceid": "0",
+                "assetid": "4274522013744337391",
                 "marketHashName": "Victory Dance 30",
                 "name": "Victory Dance 30",
                 "type": "",
@@ -30164,6 +30614,7 @@ export const testUser = {
             {
                 "classid": "4313935875",
                 "instanceid": "0",
+                "assetid": "4274522013740739283",
                 "marketHashName": "Red's Hood",
                 "name": "Red's Hood",
                 "type": "",
@@ -30184,6 +30635,7 @@ export const testUser = {
             {
                 "classid": "4313935874",
                 "instanceid": "0",
+                "assetid": "4274522013740739282",
                 "marketHashName": "Red's Scar",
                 "name": "Red's Scar",
                 "type": "",
@@ -30204,6 +30656,7 @@ export const testUser = {
             {
                 "classid": "3601951640",
                 "instanceid": "0",
+                "assetid": "4274522013740635029",
                 "marketHashName": "Gold Plate - UMP",
                 "name": "Gold Plate - UMP",
                 "type": "",
@@ -30226,6 +30679,7 @@ export const testUser = {
             {
                 "classid": "5282602053",
                 "instanceid": "0",
+                "assetid": "4274522013733406021",
                 "marketHashName": "Guilty as Charged Balaclava",
                 "name": "Guilty as Charged Balaclava",
                 "type": "",
@@ -30246,6 +30700,7 @@ export const testUser = {
             {
                 "classid": "5283030543",
                 "instanceid": "0",
+                "assetid": "4273395725419718524",
                 "marketHashName": "Pro-Tect Uniform",
                 "name": "Pro-Tect Uniform",
                 "type": "",
@@ -30266,6 +30721,7 @@ export const testUser = {
             {
                 "classid": "3536466632",
                 "instanceid": "0",
+                "assetid": "4273395725412013382",
                 "marketHashName": "WEIRD FLEX",
                 "name": "WEIRD FLEX",
                 "type": "",
@@ -30286,6 +30742,7 @@ export const testUser = {
             {
                 "classid": "3424887158",
                 "instanceid": "0",
+                "assetid": "4273395570979757907",
                 "marketHashName": "Pop Art - Helmet (Level 3)",
                 "name": "Pop Art - Helmet (Level 3)",
                 "type": "",
@@ -30306,6 +30763,7 @@ export const testUser = {
             {
                 "classid": "3425233073",
                 "instanceid": "0",
+                "assetid": "4273395570979757906",
                 "marketHashName": "Inquisitor Leggings & Boots",
                 "name": "Inquisitor Leggings & Boots",
                 "type": "",
@@ -30326,6 +30784,7 @@ export const testUser = {
             {
                 "classid": "3425054197",
                 "instanceid": "0",
+                "assetid": "4273395570979757905",
                 "marketHashName": "Aftermath Tactical Combat Pants",
                 "name": "Aftermath Tactical Combat Pants",
                 "type": "",
@@ -30346,6 +30805,7 @@ export const testUser = {
             {
                 "classid": "5282755181",
                 "instanceid": "0",
+                "assetid": "4273395570979657170",
                 "marketHashName": "Pro-Tect Vest (Level 2)",
                 "name": "Pro-Tect Vest (Level 2)",
                 "type": "",
@@ -30366,6 +30826,7 @@ export const testUser = {
             {
                 "classid": "5335432340",
                 "instanceid": "0",
+                "assetid": "4272272191988182061",
                 "marketHashName": "Love Plus",
                 "name": "Love Plus",
                 "type": "",
@@ -30386,6 +30847,7 @@ export const testUser = {
             {
                 "classid": "5282602052",
                 "instanceid": "0",
+                "assetid": "4258758146896226245",
                 "marketHashName": "Primate - S1897",
                 "name": "Primate - S1897",
                 "type": "",
@@ -30406,6 +30868,7 @@ export const testUser = {
             {
                 "classid": "3089065533",
                 "instanceid": "0",
+                "assetid": "4258757512690840450",
                 "marketHashName": "Air Guitar",
                 "name": "Air Guitar",
                 "type": "",
@@ -30426,6 +30889,7 @@ export const testUser = {
             {
                 "classid": "3253793511",
                 "instanceid": "0",
+                "assetid": "4258757512682058141",
                 "marketHashName": "METAL HEAD",
                 "name": "METAL HEAD",
                 "type": "",
@@ -30452,6 +30916,7 @@ export const testUser = {
             {
                 "classid": "3536143308",
                 "instanceid": "0",
+                "assetid": "4258757512681624024",
                 "marketHashName": "BLUESHIFT",
                 "name": "BLUESHIFT",
                 "type": "",
@@ -30472,6 +30937,7 @@ export const testUser = {
             {
                 "classid": "5236605301",
                 "instanceid": "0",
+                "assetid": "4258757512672309446",
                 "marketHashName": "Galactic Arms - MP9",
                 "name": "Galactic Arms - MP9",
                 "type": "",
@@ -30498,6 +30964,7 @@ export const testUser = {
             {
                 "classid": "2769171752",
                 "instanceid": "0",
+                "assetid": "4258757512669770483",
                 "marketHashName": "Gold Plate  - Sawed-Off",
                 "name": "Gold Plate  - Sawed-Off",
                 "type": "",
@@ -30520,6 +30987,7 @@ export const testUser = {
             {
                 "classid": "4728320271",
                 "instanceid": "0",
+                "assetid": "4258757512669766701",
                 "marketHashName": "PUBG Creed Pipe",
                 "name": "PUBG Creed Pipe",
                 "type": "",
@@ -30546,6 +31014,7 @@ export const testUser = {
             {
                 "classid": "4410934653",
                 "instanceid": "0",
+                "assetid": "4245252419485579302",
                 "marketHashName": "Bark at the Moon",
                 "name": "Bark at the Moon",
                 "type": "",
@@ -30566,6 +31035,7 @@ export const testUser = {
             {
                 "classid": "3601952369",
                 "instanceid": "0",
+                "assetid": "676205624624771926",
                 "marketHashName": "Silver Plate - VSS",
                 "name": "Silver Plate - VSS",
                 "type": "",
@@ -30588,6 +31058,7 @@ export const testUser = {
             {
                 "classid": "3601952550",
                 "instanceid": "0",
+                "assetid": "648060649374297558",
                 "marketHashName": "Lucky Knight - SKS",
                 "name": "Lucky Knight - SKS",
                 "type": "",
@@ -30610,6 +31081,7 @@ export const testUser = {
             {
                 "classid": "2769172784",
                 "instanceid": "0",
+                "assetid": "630047431667310555",
                 "marketHashName": "Desert Digital - M416",
                 "name": "Desert Digital - M416",
                 "type": "",
@@ -30632,6 +31104,7 @@ export const testUser = {
             {
                 "classid": "3601952614",
                 "instanceid": "0",
+                "assetid": "630047431664279488",
                 "marketHashName": "Lucky Knight - M24",
                 "name": "Lucky Knight - M24",
                 "type": "",
@@ -30654,6 +31127,7 @@ export const testUser = {
             {
                 "classid": "2769168742",
                 "instanceid": "0",
+                "assetid": "630046978933942046",
                 "marketHashName": "Jungle Digital - P18C",
                 "name": "Jungle Digital - P18C",
                 "type": "",
@@ -30676,6 +31150,7 @@ export const testUser = {
             {
                 "classid": "2769170692",
                 "instanceid": "0",
+                "assetid": "623290132964274216",
                 "marketHashName": "Rugged (Orange) - M416",
                 "name": "Rugged (Orange) - M416",
                 "type": "",
@@ -30698,6 +31173,7 @@ export const testUser = {
             {
                 "classid": "2793012047",
                 "instanceid": "0",
+                "assetid": "7192853465477562299",
                 "marketHashName": "Silver Plate - S12K",
                 "name": "Silver Plate - S12K",
                 "type": "",
@@ -30720,6 +31196,7 @@ export const testUser = {
             {
                 "classid": "3536326171",
                 "instanceid": "0",
+                "assetid": "7192853465472499769",
                 "marketHashName": "ASSAULT",
                 "name": "ASSAULT",
                 "type": "",
@@ -30740,6 +31217,7 @@ export const testUser = {
             {
                 "classid": "3538775120",
                 "instanceid": "0",
+                "assetid": "7120834881278314106",
                 "marketHashName": "BANDITO",
                 "name": "BANDITO",
                 "type": "",
@@ -30760,6 +31238,7 @@ export const testUser = {
             {
                 "classid": "3661455364",
                 "instanceid": "0",
+                "assetid": "7120834881278082488",
                 "marketHashName": "Hexadeathimal - Helmet (Level 2)",
                 "name": "Hexadeathimal - Helmet (Level 2)",
                 "type": "",
@@ -30780,6 +31259,7 @@ export const testUser = {
             {
                 "classid": "5994177900",
                 "instanceid": "0",
+                "assetid": "7120834743603791908",
                 "marketHashName": "Friendly Fire",
                 "name": "Friendly Fire",
                 "type": "",
@@ -30800,6 +31280,7 @@ export const testUser = {
             {
                 "classid": "5994160518",
                 "instanceid": "0",
+                "assetid": "6993607969661274484",
                 "marketHashName": "Handle with Care",
                 "name": "Handle with Care",
                 "type": "",
@@ -30820,6 +31301,7 @@ export const testUser = {
             {
                 "classid": "5375738898",
                 "instanceid": "0",
+                "assetid": "6993607943824184395",
                 "marketHashName": "Splash Landing Parachute",
                 "name": "Splash Landing Parachute",
                 "type": "",
@@ -30840,6 +31322,7 @@ export const testUser = {
             {
                 "classid": "5375738896",
                 "instanceid": "0",
+                "assetid": "6993607943824184394",
                 "marketHashName": "Orange Crush Bottom",
                 "name": "Orange Crush Bottom",
                 "type": "",
@@ -30860,6 +31343,7 @@ export const testUser = {
             {
                 "classid": "5375738895",
                 "instanceid": "0",
+                "assetid": "6993607943824184393",
                 "marketHashName": "Orange Crush Top",
                 "name": "Orange Crush Top",
                 "type": "",
@@ -30880,6 +31364,7 @@ export const testUser = {
             {
                 "classid": "5375729447",
                 "instanceid": "0",
+                "assetid": "6993607943824184392",
                 "marketHashName": "Purple Prism Backpack (Level 3)",
                 "name": "Purple Prism Backpack (Level 3)",
                 "type": "",
@@ -30900,6 +31385,7 @@ export const testUser = {
             {
                 "classid": "5375729450",
                 "instanceid": "0",
+                "assetid": "6993607943824184391",
                 "marketHashName": "Coastal Commando Vest (Level 3)",
                 "name": "Coastal Commando Vest (Level 3)",
                 "type": "",
@@ -30920,6 +31406,7 @@ export const testUser = {
             {
                 "classid": "5375729451",
                 "instanceid": "0",
+                "assetid": "6993607943824184390",
                 "marketHashName": "Beach Trooper Bucket",
                 "name": "Beach Trooper Bucket",
                 "type": "",
@@ -30940,6 +31427,7 @@ export const testUser = {
             {
                 "classid": "3601952338",
                 "instanceid": "0",
+                "assetid": "6947435297352941968",
                 "marketHashName": "Tick Tock - QBZ",
                 "name": "Tick Tock - QBZ",
                 "type": "",
@@ -30962,6 +31450,7 @@ export const testUser = {
             {
                 "classid": "2792938285",
                 "instanceid": "0",
+                "assetid": "6947435297343830933",
                 "marketHashName": "Desert Digital - Win94",
                 "name": "Desert Digital - Win94",
                 "type": "",
@@ -30984,6 +31473,7 @@ export const testUser = {
             {
                 "classid": "5103034234",
                 "instanceid": "0",
+                "assetid": "6947435297343830407",
                 "marketHashName": "Pastel Power - Tommy Gun",
                 "name": "Pastel Power - Tommy Gun",
                 "type": "",
@@ -31004,6 +31494,7 @@ export const testUser = {
             {
                 "classid": "4870706381",
                 "instanceid": "0",
+                "assetid": "6947435297340866894",
                 "marketHashName": "Deckhand - P18C",
                 "name": "Deckhand - P18C",
                 "type": "",
@@ -31024,6 +31515,7 @@ export const testUser = {
             {
                 "classid": "4870699777",
                 "instanceid": "0",
+                "assetid": "6947435128117531752",
                 "marketHashName": "Deckhand - SLR",
                 "name": "Deckhand - SLR",
                 "type": "",
@@ -31044,6 +31536,7 @@ export const testUser = {
             {
                 "classid": "3537017212",
                 "instanceid": "0",
+                "assetid": "6947435128117505290",
                 "marketHashName": "IMPOUND",
                 "name": "IMPOUND",
                 "type": "",
@@ -31064,6 +31557,7 @@ export const testUser = {
             {
                 "classid": "5710760078",
                 "instanceid": "0",
+                "assetid": "6947435128115271990",
                 "marketHashName": "Year of the Dragon Top",
                 "name": "Year of the Dragon Top",
                 "type": "",
@@ -31084,6 +31578,7 @@ export const testUser = {
             {
                 "classid": "5760701565",
                 "instanceid": "0",
+                "assetid": "6736894373937288536",
                 "marketHashName": "Happy 7th Anniversary Skirt",
                 "name": "Happy 7th Anniversary Skirt",
                 "type": "",
@@ -31104,6 +31599,7 @@ export const testUser = {
             {
                 "classid": "4727074360",
                 "instanceid": "0",
+                "assetid": "5694279343342013292",
                 "marketHashName": "PUBG Creed - Helmet (Level 2)",
                 "name": "PUBG Creed - Helmet (Level 2)",
                 "type": "",
@@ -31124,6 +31620,7 @@ export const testUser = {
             {
                 "classid": "4706780975",
                 "instanceid": "0",
+                "assetid": "5694279343335781992",
                 "marketHashName": "Highside Slick Backpack (Level 1)",
                 "name": "Highside Slick Backpack (Level 1)",
                 "type": "",
@@ -31144,6 +31641,7 @@ export const testUser = {
             {
                 "classid": "4718630276",
                 "instanceid": "0",
+                "assetid": "5694279343335781798",
                 "marketHashName": "PUBG Creed Vest",
                 "name": "PUBG Creed Vest",
                 "type": "",
@@ -31164,6 +31662,7 @@ export const testUser = {
             {
                 "classid": "4707191310",
                 "instanceid": "0",
+                "assetid": "5694279343333996553",
                 "marketHashName": "Ready to Rumble Hat",
                 "name": "Ready to Rumble Hat",
                 "type": "",
@@ -31184,6 +31683,7 @@ export const testUser = {
             {
                 "classid": "2769171409",
                 "instanceid": "0",
+                "assetid": "5694279343333685427",
                 "marketHashName": "Rugged (Orange) - AKM",
                 "name": "Rugged (Orange) - AKM",
                 "type": "",
@@ -31206,6 +31706,7 @@ export const testUser = {
             {
                 "classid": "5993995008",
                 "instanceid": "0",
+                "assetid": "4805984818889243972",
                 "marketHashName": "Heartstopper - MP9",
                 "name": "Heartstopper - MP9",
                 "type": "",
@@ -31226,6 +31727,7 @@ export const testUser = {
             {
                 "classid": "3538124176",
                 "instanceid": "0",
+                "assetid": "4775584252873717213",
                 "marketHashName": "Lobby Pose 2",
                 "name": "Lobby Pose 2",
                 "type": "",
@@ -31246,6 +31748,7 @@ export const testUser = {
             {
                 "classid": "4948492202",
                 "instanceid": "0",
+                "assetid": "4753057381806111483",
                 "marketHashName": "Two-Tone - Crossbow",
                 "name": "Two-Tone - Crossbow",
                 "type": "",
@@ -31266,6 +31769,7 @@ export const testUser = {
             {
                 "classid": "5710577226",
                 "instanceid": "0",
+                "assetid": "4644969087477402373",
                 "marketHashName": "Year of the Dragon Hoodie",
                 "name": "Year of the Dragon Hoodie",
                 "type": "",
@@ -31286,6 +31790,7 @@ export const testUser = {
             {
                 "classid": "3601952369",
                 "instanceid": "0",
+                "assetid": "4258757512678240779",
                 "marketHashName": "Silver Plate - VSS",
                 "name": "Silver Plate - VSS",
                 "type": "",
@@ -31308,6 +31813,7 @@ export const testUser = {
             {
                 "classid": "5236388621",
                 "instanceid": "0",
+                "assetid": "4258757512678240312",
                 "marketHashName": "Zero Hour - PP-19 Bizon",
                 "name": "Zero Hour - PP-19 Bizon",
                 "type": "",
@@ -31328,6 +31834,7 @@ export const testUser = {
             {
                 "classid": "5236389987",
                 "instanceid": "0",
+                "assetid": "4258757512678228753",
                 "marketHashName": "Fractal Splash - Mk47 Mutant",
                 "name": "Fractal Splash - Mk47 Mutant",
                 "type": "",
@@ -31348,6 +31855,7 @@ export const testUser = {
             {
                 "classid": "2792938285",
                 "instanceid": "0",
+                "assetid": "4258757512678228193",
                 "marketHashName": "Desert Digital - Win94",
                 "name": "Desert Digital - Win94",
                 "type": "",
@@ -31370,6 +31878,7 @@ export const testUser = {
             {
                 "classid": "3536049239",
                 "instanceid": "0",
+                "assetid": "4258757512673537392",
                 "marketHashName": "GRIZZLY",
                 "name": "GRIZZLY",
                 "type": "",
@@ -31390,6 +31899,7 @@ export const testUser = {
             {
                 "classid": "4749345174",
                 "instanceid": "0",
+                "assetid": "5228204894137356878",
                 "marketHashName": "Jungle Prowler - P92",
                 "name": "Jungle Prowler - P92",
                 "type": "",
@@ -31410,6 +31920,7 @@ export const testUser = {
             {
                 "classid": "4654892037",
                 "instanceid": "0",
+                "assetid": "6947435128117531213",
                 "marketHashName": "Clay-cracked Crowbar",
                 "name": "Clay-cracked Crowbar",
                 "type": "",
@@ -31436,6 +31947,7 @@ export const testUser = {
             {
                 "classid": "6146830402",
                 "instanceid": "0",
+                "assetid": "5328410620348327834",
                 "marketHashName": "What Have I Done",
                 "name": "What Have I Done",
                 "type": "",
@@ -31456,6 +31968,7 @@ export const testUser = {
             {
                 "classid": "2769171665",
                 "instanceid": "0",
+                "assetid": "4258757512678231898",
                 "marketHashName": "Gold Plate - Win94",
                 "name": "Gold Plate - Win94",
                 "type": "",
@@ -31478,6 +31991,7 @@ export const testUser = {
             {
                 "classid": "4931850451",
                 "instanceid": "0",
+                "assetid": "5694279343333675474",
                 "marketHashName": "Summer Surf - Mini14",
                 "name": "Summer Surf - Mini14",
                 "type": "",
@@ -31498,6 +32012,7 @@ export const testUser = {
             {
                 "classid": "5103091974",
                 "instanceid": "0",
+                "assetid": "5694279343333675473",
                 "marketHashName": "Peculiar Greeting",
                 "name": "Peculiar Greeting",
                 "type": "",
@@ -31518,6 +32033,7 @@ export const testUser = {
             {
                 "classid": "4818805914",
                 "instanceid": "0",
+                "assetid": "5694279343333675472",
                 "marketHashName": "Survivor-in-Training Hoodie",
                 "name": "Survivor-in-Training Hoodie",
                 "type": "",
@@ -31538,6 +32054,7 @@ export const testUser = {
             {
                 "classid": "4986495770",
                 "instanceid": "0",
+                "assetid": "5326159454055563968",
                 "marketHashName": "PCS7 Combat Vest (Level 3)",
                 "name": "PCS7 Combat Vest (Level 3)",
                 "type": "",
