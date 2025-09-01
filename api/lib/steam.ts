@@ -111,9 +111,9 @@ export async function fetchSteamUserData(steamid: string) {
 
     const allAchievements: Record<number, Achievement[]> = {};
 
+    const gamesIds = new Set([620, 730, 578080]);
     for (const game of POPULAR_GAMES) {
-        const gamesIds = new Set([620, 730, 578080]);
-        if (gamesIds.has(game.appid)) continue;
+        if (!gamesIds.has(game.appid)) continue;
 
         try {
             const achievementsRes = await fetch(
