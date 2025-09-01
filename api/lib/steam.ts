@@ -113,20 +113,20 @@ export async function fetchSteamUserData(steamid: string) {
 
     for (const game of POPULAR_GAMES) {
         const gamesIds = new Set([620, 730, 578080]);
-        if (gamesIds.has(game.appid)!) continue;
+        if (gamesIds.has(game.appid)) continue;
 
         try {
             const achievementsRes = await fetch(
                 `https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v1/?key=${STEAM_API_KEY}&steamid=${steamid}&appid=${game.appid}`
             );
             const achievementsData = await achievementsRes.json();
-            const playerAchievements = achievementsData.playerstats?.achievements || [];
+            const playerAchievements = (achievementsData.playerstats?.achievements || []).slice(0, 50); // ограничиваем 50
 
             const schemaRes = await fetch(
                 `https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=${STEAM_API_KEY}&appid=${game.appid}`
             );
             const schemaData = await schemaRes.json();
-            const achievementSchema = schemaData.game?.availableGameStats?.achievements || [];
+            const achievementSchema = (schemaData.game?.availableGameStats?.achievements || []).slice(0, 50); // тоже 50
 
             allAchievements[game.appid] = playerAchievements.map((a: any) => {
                 const meta = achievementSchema.find((s: any) => s.name === a.apiname);
