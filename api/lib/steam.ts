@@ -128,7 +128,7 @@ export async function fetchSteamUserData(steamid: string) {
             const schemaData = await schemaRes.json();
             const achievementSchema = schemaData.game?.availableGameStats?.achievements || [];
 
-            allAchievements[game.appid] = playerAchievements.slice(0, 50).map((a: any) => {
+            allAchievements[game.appid] = playerAchievements.map((a: any) => {
                 const meta = achievementSchema.find((s: any) => s.name === a.apiname);
                 return {
                     apiname: a.apiname,
