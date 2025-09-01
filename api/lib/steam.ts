@@ -120,15 +120,15 @@ export async function fetchSteamUserData(steamid: string) {
                 `https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v1/?key=${STEAM_API_KEY}&steamid=${steamid}&appid=${game.appid}`
             );
             const achievementsData = await achievementsRes.json();
-            const playerAchievements = (achievementsData.playerstats?.achievements || []).slice(0, 50); // ограничиваем 50
+            const playerAchievements = achievementsData.playerstats?.achievements || [];
 
             const schemaRes = await fetch(
                 `https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=${STEAM_API_KEY}&appid=${game.appid}`
             );
             const schemaData = await schemaRes.json();
-            const achievementSchema = (schemaData.game?.availableGameStats?.achievements || []).slice(0, 50); // тоже 50
+            const achievementSchema = schemaData.game?.availableGameStats?.achievements || [];
 
-            allAchievements[game.appid] = playerAchievements.map((a: any) => {
+            allAchievements[game.appid] = playerAchievements.slice(0, 50).map((a: any) => {
                 const meta = achievementSchema.find((s: any) => s.name === a.apiname);
                 return {
                     apiname: a.apiname,
