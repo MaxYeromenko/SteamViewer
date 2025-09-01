@@ -3,7 +3,7 @@ import { Achievement, type Item } from "../../src/ts/types";
 
 const STEAM_API_KEY = process.env.STEAM_API_KEY!;
 
-const GAMES_WITH_INVENTORY = [
+const POPULAR_GAMES = [
     { appid: 730, name: "CS:GO", contextid: 2 },
     { appid: 570, name: "Dota 2", contextid: 2 },
     { appid: 440, name: "Team Fortress 2", contextid: 2 },
@@ -70,7 +70,7 @@ export async function fetchSteamUserData(steamid: string) {
 
     const inventories: Record<number, Item[]> = {};
 
-    for (const game of GAMES_WITH_INVENTORY) {
+    for (const game of POPULAR_GAMES) {
         try {
             const res = await fetch(
                 `https://steamcommunity.com/inventory/${steamid}/${game.appid}/${game.contextid}`
@@ -109,24 +109,23 @@ export async function fetchSteamUserData(steamid: string) {
         }
     }
 
-    const appids: number[] = games.map((g: { appid: number }) => g.appid);
     const allAchievements: Record<number, Achievement[]> = {};
 
-    for (const appid of appids) {
+    for (const game of POPULAR_GAMES) {
         try {
             const achievementsRes = await fetch(
-                `https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v1/?key=${STEAM_API_KEY}&steamid=${steamid}&appid=${appid}`
+                `https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v1/?key=${STEAM_API_KEY}&steamid=${steamid}&appid=${game.appid}`
             );
             const achievementsData = await achievementsRes.json();
             const playerAchievements = achievementsData.playerstats?.achievements || [];
 
             const schemaRes = await fetch(
-                `https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=${STEAM_API_KEY}&appid=${appid}`
+                `https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=${STEAM_API_KEY}&appid=${game.appid}`
             );
             const schemaData = await schemaRes.json();
             const achievementSchema = schemaData.game?.availableGameStats?.achievements || [];
 
-            allAchievements[appid] = playerAchievements.map((a: any) => {
+            allAchievements[game.appid] = playerAchievements.map((a: any) => {
                 const meta = achievementSchema.find((s: any) => s.name === a.apiname);
                 return {
                     apiname: a.apiname,
@@ -139,8 +138,8 @@ export async function fetchSteamUserData(steamid: string) {
                 };
             });
         } catch (err) {
-            console.error(`Ошибка при загрузке ачивок для appid=${appid}`, err);
-            allAchievements[appid] = [];
+            console.error(`Ошибка при загрузке ачивок для ${game.name} (${game.appid})`, err);
+            allAchievements[game.appid] = [];
         }
     }
 
